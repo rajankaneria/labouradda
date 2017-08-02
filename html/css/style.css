@@ -1,1 +1,39 @@
 /* global style sheet */
+.brand-logo img {
+    width: 100%;
+    max-width: 170px;
+    margin-top: 5px;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 100;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    
+}
+.transparent-nav{
+	background: transparent !important;
+	box-shadow: none;
+}
+nav.nav-bar ul a{
+	color:#404040;
+}
+nav.transparent-nav ul a{
+	color:#fff !important;
+}
+nav.transparent-nav ul a:hover{
+	color:#fff !important;
+	background: transparent !important;
+}
+nav.nav-bar {
+    background: #fff;
+}
+nav.nav-bar ul a:hover {
+    color: #232323;
+    background: #dedede;
+}
