@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="msapplication-tap-highlight" content="no">
-    <title>CodeIgniter - <?php echo $pageTitle; ?></title>
+    <title>Labouradda - <?php echo $pageTitle; ?></title>
     <!-- CSS-->
 
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
 
     <link href="<?php echo base_url(); ?>html/css/style.css" rel="stylesheet">
+    <link href="<?php echo base_url(); ?>html/css/mobile-fix.css" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -23,9 +24,10 @@
     <?php foreach($stylesheet as $fileName){ ?>
     <link href="<?php echo base_url(); ?>html/css/<?php echo $fileName; ?>" rel="stylesheet">
     <?php } ?>
+    <script src="https://use.fontawesome.com/4c9f41dc36.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
-<body>
+<body class="grey lighten-2">
 
 <nav class="transparent-nav nav-bar" role="navigation">
     <div class="nav-wrapper container">
@@ -47,7 +49,15 @@
           <li><a href="#!">Sign up</a></li>
         </ul>
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Offering</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">How it works</a></li>
+        <li><a href="#">Partner</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Sign in</a></li>
+        <li><a href="#">Sign up</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>

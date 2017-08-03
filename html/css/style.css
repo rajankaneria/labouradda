@@ -24,10 +24,10 @@ nav.nav-bar ul a{
 	color:#404040;
 }
 nav.transparent-nav ul a{
-	color:#fff !important;
+	color:#fff;
 }
 nav.transparent-nav ul a:hover{
-	color:#fff !important;
+	color:#fff;
 	background: transparent !important;
 }
 nav.nav-bar {
@@ -36,4 +36,157 @@ nav.nav-bar {
 nav.nav-bar ul a:hover {
     color: #232323;
     background: #dedede;
+}
+footer.page-footer {
+    background: #fff;
+}
+a.footer-link-right.right {
+    font-size: 13px;
+    margin: 0px 10px;
+    color: #a0a0a0;
+    /* text-transform: uppercase; */
+}
+
+a.footer-link-right:hover {
+    color: #fff;
+}
+a.copyright-site-link {
+    color: #fff;
+}
+
+.footer-copyright .container span {
+    color: #ababab;
+}
+
+.footer-title {
+    text-transform: uppercase;
+}
+
+i.social-connect {
+    font-size: 35px !important;
+    margin: 0px 10px;
+    color: #7d7d7d;
+}
+
+i.social-connect.connect-facebook:hover {
+    color: #3b5998;
+}
+
+i.social-connect.connect-linkedin:hover {
+    color: #283e4a;
+}
+
+.partner-logo .card-panel {
+    max-width: 200px;
+    height: 200px;
+    padding: 10px !important;
+}
+
+.partner-logo .card-panel img {
+    width: 100%;
+}
+
+.section-title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+.parallax-container{
+    height: auto;
+    background: rgba(0,0,0,0.7);
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+.card-panel.right {
+    margin-right: 20px;
+}
+
+.card-panel.left {
+    margin-left: 20px;
+}
+.col-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #757575;
+}
+
+.card-panel.black {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 54px;
+    text-transform: uppercase;
+    color: #ccc;
+     -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.card-panel.black:hover .card-title{
+    color: #feec00;
+}
+
+.card-content {
+    text-align: center;
+    font-size: 14px;
+    color: #ccc;
+}
+
+.card-panel.black {
+    height: 180px;
+}
+
+
+.background-image {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.background-image img {
+    height: 180px;
+    /* border-radius: 0px; */
+}
+
+.card-panel.black {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-panel.black {
+    background: rgba(0,0,0,0.9) !important;
+     -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.card-panel.black:hover {
+    background: rgba(0,0,0,0.8) !important;
+    cursor: pointer;
+}
+img.full-width {
+    width: 100%;
+    height: auto !important;
+}
+ul#nav-mobile {
+    z-index: 100;
+}
+#sidenav-overlay{
+    z-index: 99 !important;
+}
+
+ul#nav-mobile li a {
+    color: #000;
+    border-bottom: 1px solid #dcdcdc;
 }

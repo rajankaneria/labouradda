@@ -1,0 +1,54 @@
+@media screen and (max-width: 1024px) {
+
+	nav a.button-collapse {
+	    color: #000;
+	}
+	nav.transparent-nav a.button-collapse {
+	    color: #fff;
+	}
+	.brand-logo img{
+		max-width: 140px;
+	}
+
+	.footer-address {
+	    margin-top: 10px;
+	    border-top: 1px solid #ccc;
+	}
+
+	.footer-address {
+	    margin-top: 10px;
+	    border-top: 1px solid #ccc;
+	}
+
+	.footer-address .footer-title {
+	    text-align: center;
+	}
+
+	.footer-address .footer-sub-title {
+	    text-align: center;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	}
+
+	.footer-address .footer-text {
+	    text-align: center;
+	}
+
+	.footer-address {
+	    margin-top: 30px;
+	    border-top: 1px solid #ccc;
+	    padding-top: 25px !important;
+	    margin-bottom: 20px;
+	}
+	.card-panel.right {
+	    margin-right: 0px;
+	}
+	.card-panel.left {
+	    margin-left: 0px;
+	}
+	.card-content {
+	    line-height: 16px;
+	    font-size: 13px;
+	}
+
+}
