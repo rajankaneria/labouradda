@@ -102,6 +102,31 @@ nav.nav-bar ul a:hover {
     border-radius: 2px;
     background-color: transparent;
 }
+
+
+/**==========================
+        Team page Start
+============================*/
+.team-content-box p{text-align: justify;}
+/*.team-content-box{
+    padding: 10px !important;
+    border: 1px solid #ddd;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.team-content-box:hover{
+box-shadow: inset 0px 1px 20px #ddd;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+*/
+.img-box{
+    max-width: 300px !important;
+}
 /**=============================
         Footer Start
 ===============================*/
