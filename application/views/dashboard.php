@@ -50,15 +50,25 @@
     <div class="parallax"><img src="<?php echo base_url(); ?>html/images/paralax.jpg"></div>
     <div class="section-title">Our Honorable Partner</div>
     <div class="row">
-    	<div class="col s6 partner-logo">
+    	<div class="col s4 partner-logo">
     		<div class="card-panel right">
     			<img src="<?php echo base_url(); ?>html/images/icreate logo.png">
     		</div>
     	</div>
-    	<div class="col s6 partner-logo">
-    		<div class="card-panel left">
+    	<div class="col s4 partner-logo">
+    		<div class="card-panel center">
     			<img style="margin-top:14px;" src="<?php echo base_url(); ?>html/images/knowlarity logo.png">
     		</div>
     	</div>
+      <div class="col s4 partner-logo">
+        <div class="card-panel right">
+          <img src="<?php echo base_url(); ?>html/images/icreate logo.png">
+        </div>
+      </div>
+      <div class="col s4 partner-logo">
+        <div class="card-panel left">
+          <img style="margin-top:14px;" src="<?php echo base_url(); ?>html/images/knowlarity logo.png">
+        </div>
+      </div>
     </div>
 </div>

@@ -190,3 +190,14 @@ ul#nav-mobile li a {
     color: #000;
     border-bottom: 1px solid #dcdcdc;
 }
+
+nav.transparent-nav ul a:hover {
+    color: #feec00;
+}
+
+
+.dropdown-content li a {
+    background: #dedede !important;
+    color: #5a5a5a !important;
+    border-bottom: 1px solid #ccc;
+}
