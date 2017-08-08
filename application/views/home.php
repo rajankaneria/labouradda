@@ -1,3 +1,22 @@
+<script type="text/javascript">
+  $(function(){
+  //scroll fire for nav
+    $(window).scroll(function (event) {
+        var scroll = $(window).scrollTop();
+        if(scroll >= 100)
+        {
+            $(".nav-bar").removeClass("transparent-nav");
+            //$(".nav-bar").addClass("deep-orange darken-3");
+        }
+        else
+        {
+            //$(".nav-bar").removeClass("deep-orange darken-3");
+            $(".nav-bar").addClass("transparent-nav");
+        }
+    });
+
+});
+</script>
 <div class="carousel carousel-slider center" data-indicators="true">
     <div class="carousel-item" href="#one!">
       <img src="<?php echo base_url(); ?>html/images/slider1.jpg" />
@@ -43,32 +62,5 @@
     			<div class="card-content">Relax & Enjoy our services</div>
     		</div>
       	</div>
-    </div>
-</div>
-
-<div class="parallax-container">
-    <div class="parallax"><img src="<?php echo base_url(); ?>html/images/paralax.jpg"></div>
-    <div class="section-title">Our Honorable Partner</div>
-    <div class="row">
-    	<div class="col s4 partner-logo">
-    		<div class="card-panel right">
-    			<img src="<?php echo base_url(); ?>html/images/icreate logo.png">
-    		</div>
-    	</div>
-    	<div class="col s4 partner-logo">
-    		<div class="card-panel center">
-    			<img style="margin-top:14px;" src="<?php echo base_url(); ?>html/images/knowlarity logo.png">
-    		</div>
-    	</div>
-      <div class="col s4 partner-logo">
-        <div class="card-panel right">
-          <img src="<?php echo base_url(); ?>html/images/icreate logo.png">
-        </div>
-      </div>
-      <div class="col s4 partner-logo">
-        <div class="card-panel left">
-          <img style="margin-top:14px;" src="<?php echo base_url(); ?>html/images/knowlarity logo.png">
-        </div>
-      </div>
     </div>
 </div>

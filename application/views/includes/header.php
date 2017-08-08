@@ -13,7 +13,7 @@
 
     <link href="<?php echo base_url(); ?>html/css/style.css" rel="stylesheet">
     <link href="<?php echo base_url(); ?>html/css/mobile-fix.css" rel="stylesheet">
-    <link href="http://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Inconsolata|Raleway" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
 
@@ -28,15 +28,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body class="grey lighten-2">
-
-<nav class="transparent-nav nav-bar" role="navigation">
+<style type="text/css">
+    .me{background: red;}
+</style>
+<nav class="<?php if(strtolower($this->uri->segment(1)) == 'home'){ ?>transparent-nav<?php }?> nav-bar" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo"><img src="<?php echo base_url(); ?>html/images/logo.png" /></a>
       <ul class="desktop-nav-link right hide-on-med-and-down">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Offering</a></li>
-        <li><a href="#">Team</a></li>
+        <li><a href="home">Home</a></li>
+        <li><a href="about">About</a></li>
+        <li><a href="offer">Offering</a></li>
+        <li><a href="team" >Team</a></li>
         <li><a href="#">How it works</a></li>
         <li><a href="#">Partner</a></li>
         <li><a href="#">Contact us</a></li>

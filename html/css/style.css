@@ -1,10 +1,11 @@
 /* global style sheet */
+
 .brand-logo img {
     width: 100%;
     max-width: 170px;
     margin-top: 5px;
 }
-
+.nav-top{margin-top: 100px;}
 nav {
     position: fixed;
     top: 0px;
@@ -37,6 +38,74 @@ nav.nav-bar ul a:hover {
     color: #232323;
     background: #dedede;
 }
+
+/**========================
+    Content Title
+==========================*/
+
+.c-title{
+    text-align: center;
+    font-size: 26px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 25px;
+    line-height: 3rem;
+    font-family: 'Raleway', sans-serif;
+}
+.c-paragraph{
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+}
+
+.abt-box{
+    padding: 25px;
+    text-align: center;
+}
+.abt-box h4{
+    font-size: 22px;
+    padding: 10px 0px;
+}
+
+/**============================
+        Padding Property
+=============================*/
+.pad-20{
+    padding: 20px 0px;
+}
+
+
+/**=============================
+        Offer Page
+===============================*/
+.offering-image{
+    width: 120px;
+    background-color: #000;
+    border-radius: 100%;
+}
+
+.offer-box{
+    padding: 25px 0px;
+    text-align: center;
+}
+
+.offer-box h4{
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+.offer-card-panel{
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    border-radius: 2px;
+    background-color: transparent;
+}
+/**=============================
+        Footer Start
+===============================*/
+
 footer.page-footer {
     background: #fff;
 }

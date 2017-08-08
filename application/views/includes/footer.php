@@ -1,3 +1,30 @@
+<script type="text/javascript">
+  $('.parallax').parallax();
+</script>
+<div class="parallax-container">
+    <div class="parallax"><img src="<?php echo base_url(); ?>html/images/paralax.jpg"></div>
+    <div class="section-title">Our Honorable Partner</div>
+    <div class="container">
+    <div class="row">
+      <div class="col m4 partner-logo">
+        <div class="center">
+          <img style="margin-top:14px;max-width: 70% !important;" src="<?php echo base_url(); ?>html/images/icreate logo.png">
+        </div>
+      </div>
+      <div class="col m4 partner-logo">
+        <div class="center">
+          <center><img style="margin-top:14px;max-width: 70% !important;" src="<?php echo base_url(); ?>html/images/knowlarity logo.png"></center>
+        </div>
+      </div>
+      <div class="col m4 partner-logo">
+        <div class="center">
+          <center><img style="margin-top:14px;max-width: 70% !important;" src="<?php echo base_url(); ?>html/images/Magnum.png"></center>
+        </div>
+      </div>
+    </div>
+    </div>
+</div>
+
 	 	<footer class="page-footer">
           <div class="container">
             <div class="row">
@@ -35,12 +62,6 @@
             </div>
           </div>
         </footer>
-
-
-
-
-
-
 
 	 	<input type="hidden" id="site_url" value="<?php echo site_url(); ?>" />
 	  	<input type="hidden" id="base_url" value="<?php echo base_url(); ?>" />
