@@ -26,6 +26,16 @@
     <?php } ?>
     <script src="https://use.fontawesome.com/4c9f41dc36.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <script>
+        $(document).ready(function (){
+            $(".click").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#our_partner").offset().top
+                }, 2000);
+            });
+        });
+    </script>
+
 </head>
 <body class="grey lighten-2">
 <style type="text/css">
@@ -39,9 +49,8 @@
         <li><a href="about">About</a></li>
         <li><a href="offer">Offering</a></li>
         <li><a href="team" >Team</a></li>
-        <li><a href="#">How it works</a></li>
-        <li><a href="#">Partner</a></li>
-        <li><a href="#">Contact us</a></li>
+        <li><a href="#" class="click">Partner</a></li>
+        <li><a href="contact">Contact us</a></li>
         <li><a href="#"><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons">person</i></a></li>
       </ul>
         <!-- Dropdown Structure -->
@@ -51,13 +60,12 @@
           <li><a href="#!">Sign up</a></li>
         </ul>
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Offering</a></li>
-        <li><a href="#">Team</a></li>
-        <li><a href="#">How it works</a></li>
-        <li><a href="#">Partner</a></li>
-        <li><a href="#">Contact us</a></li>
+        <li><a href="home">Home</a></li>
+        <li><a href="about">About</a></li>
+        <li><a href="offer">Offering</a></li>
+        <li><a href="team" >Team</a></li>
+        <li><a href="#" class="click">Partner</a></li>
+        <li><a href="contact">Contact us</a></li>
         <li><a href="#">Sign in</a></li>
         <li><a href="#">Sign up</a></li>
       </ul>

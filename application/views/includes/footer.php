@@ -1,7 +1,7 @@
 <script type="text/javascript">
   $('.parallax').parallax();
 </script>
-<div class="parallax-container">
+<div class="parallax-container" id="our_partner">
     <div class="parallax"><img src="<?php echo base_url(); ?>html/images/paralax.jpg"></div>
     <div class="section-title">Our Honorable Partner</div>
     <div class="container">
