@@ -125,7 +125,8 @@ transition: all 0.3s ease-in-out;
 }
 */
 .img-box{
-    max-width: 300px !important;
+        padding: 40px !important;
+        padding-bottom: 15px !important;
 }
 /**=============================
         Footer Start
@@ -160,6 +161,7 @@ i.social-connect {
     font-size: 35px !important;
     margin: 0px 10px;
     color: #7d7d7d;
+    cursor: pointer;
 }
 
 i.social-connect.connect-facebook:hover {
@@ -249,8 +251,9 @@ i.social-connect.connect-linkedin:hover {
 }
 
 .background-image img {
-    height: 180px;
+    /*height: 180px;*/
     /* border-radius: 0px; */
+    width: 100%;
 }
 
 .card-panel.black {
@@ -294,4 +297,35 @@ nav.transparent-nav ul a:hover {
     background: #dedede !important;
     color: #5a5a5a !important;
     border-bottom: 1px solid #ccc;
+}
+
+
+.team-name {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+span.team-lastname {
+    font-weight: bold;
+}
+
+.team-name span {
+    padding-right: 5px;
+}
+
+.team-content-box {
+    padding: 20px !important;
+}
+
+.team-position {
+    color: #777;
+}
+
+.row.team-member {
+    margin-bottom: 20px;
+}
+
+.offer-box h4 {
+    font-size: 13px;
+    font-weight: bold;
 }

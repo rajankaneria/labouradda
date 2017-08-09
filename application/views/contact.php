@@ -2,7 +2,7 @@
 <div class="container">
 	<div class="c-title">Contact Us</div>
 	<div>
-         <div class="row">
+         <div class="row card-panel" style="padding: 50px 150px;">
     <form class="col s12">
       <div class="row">
         <div class="input-field col s6">

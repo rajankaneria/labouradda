@@ -50,6 +50,12 @@
 	    line-height: 16px;
 	    font-size: 13px;
 	}
+	.team-name{
+		text-align: center;
+	}
+	.team-position{
+		text-align: center;
+	}
 
 }
 @media (max-width: 768px){
