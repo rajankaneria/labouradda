@@ -56,6 +56,9 @@
 	.team-position{
 		text-align: center;
 	}
+	.contact-us-form{
+	    padding: 10px 30px;
+	}
 
 }
 @media (max-width: 768px){
@@ -64,5 +67,14 @@
 	}
 	.team-content-box{
 		margin-top: 25px !important;
+	}
+		.team-name{
+		text-align: center;
+	}
+	.team-position{
+		text-align: center;
+	}
+	.contact-us-form{
+	    padding: 10px 30px;
 	}
 }

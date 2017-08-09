@@ -2,7 +2,7 @@
 <div class="container">
 	<div class="c-title">Contact Us</div>
 	<div>
-         <div class="row card-panel" style="padding: 50px 150px;">
+         <div class="row card-panel contact-us-form" style="">
     <form class="col s12">
       <div class="row">
         <div class="input-field col s6">
@@ -34,7 +34,7 @@
           </div>
      
       <div class="row">
-        <div class="col s12">
+        <div class="col s12 center-align">
          <input type="submit" name="submit" value="Submit" class="waves-effect waves-light btn black">
         </div>
       </div>
