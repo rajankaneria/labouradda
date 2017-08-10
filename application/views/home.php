@@ -19,12 +19,12 @@
 });
 </script>
 <div class="carousel carousel-slider center" data-indicators="true">
-    <div class="carousel-item" href="#one!">
+    <!--<div class="carousel-item" href="#one!">
       <img src="<?php echo base_url(); ?>html/images/Main-Banner.jpg" />
     </div>
     <div class="carousel-item amber white-text" href="#two!">
       <img src="<?php echo base_url(); ?>html/images/slider2.jpg" />
-    </div>
+    </div> -->
     <div class="carousel-item amber white-text" href="#three!">
       <img src="<?php echo base_url(); ?>html/images/Main-Banner.png" />
     </div>
