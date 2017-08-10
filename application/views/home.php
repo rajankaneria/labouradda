@@ -1,6 +1,7 @@
 <script type="text/javascript">
   $(function(){
   //scroll fire for nav
+  /*
     $(window).scroll(function (event) {
         var scroll = $(window).scrollTop();
         if(scroll >= 100)
@@ -14,7 +15,7 @@
             $(".nav-bar").addClass("transparent-nav");
         }
     });
-
+  */
 });
 </script>
 <div class="carousel carousel-slider center" data-indicators="true">

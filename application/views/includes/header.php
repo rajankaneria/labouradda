@@ -41,7 +41,7 @@
 <style type="text/css">
     .me{background: red;}
 </style>
-<nav class="<?php if(strtolower($this->uri->segment(1)) == 'home'){ ?>transparent-nav<?php }?> nav-bar" role="navigation">
+<nav class="<?php /* if(strtolower($this->uri->segment(1)) == 'home'){ ?>transparent-nav<?php  }*/ ?> nav-bar" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo"><img src="<?php echo base_url(); ?>html/images/logo.png" /></a>
       <ul class="desktop-nav-link right hide-on-med-and-down">
