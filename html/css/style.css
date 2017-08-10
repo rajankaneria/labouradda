@@ -339,3 +339,6 @@ span.team-lastname {
     margin-right: -0.75rem !important;
     padding: 51px 51px !important;
 }
+.card-panel.hoverable.white.abt-box {
+    min-height: 325px;
+}
