@@ -342,3 +342,8 @@ span.team-lastname {
 .card-panel.hoverable.white.abt-box {
     min-height: 325px;
 }
+
+#our_partner .section-title {
+    color: #6f6f6f;
+    margin-bottom: 0px;
+}
