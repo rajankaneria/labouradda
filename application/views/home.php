@@ -18,7 +18,7 @@
   */
 });
 </script>
-<div class="carousel carousel-slider center" data-indicators="true">
+<div class="carousel carousel-slider center z-depth-1" data-indicators="true">
     <!--<div class="carousel-item" href="#one!">
       <img src="<?php echo base_url(); ?>html/images/Main-Banner.jpg" />
     </div>
