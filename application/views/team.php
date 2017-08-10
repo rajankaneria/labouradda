@@ -10,8 +10,8 @@
                 <img src="<?php echo base_url(); ?>html/images/sid.jpeg" class="circle hoverable responsive-img" height="300"/>
             </div>
             <p class="grey-text text-darken-4 center-align">
-                <i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i>
-                <i class="social-connect connect-linkedin fa fa-linkedin-square" aria-hidden="true"></i>
+                <a href="http://www.facebook.com/siddharth.asthana.336/" target="_blank"><i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/siddharth-asthana-451055132/" target="_blank"><i class="social-connect connect-linkedin fa fa-linkedin-square" aria-hidden="true"></i></a>
             </p>
         </div><div style="padding: 10px;"></div>
         <div class="col m8 s12 team-content-box card-panel">
@@ -21,7 +21,7 @@
                 <img src="<?php echo base_url(); ?>html/images/sid.jpeg" class="circle hoverable responsive-img" height="300"/>
             </div>
             <p class="grey-text text-darken-4 center-align" style="text-align: center;">
-                <a href="http://www.facebook.com/siddharth.asthana.336" target="_blank"><i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="http://www.facebook.com/siddharth.asthana.336/" target="_blank"><i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i></a>
                 <a href="https://www.linkedin.com/in/siddharth-asthana-451055132/" target="_blank"><i class="social-connect connect-linkedin fa fa-linkedin-square" aria-hidden="true"></i></a>
             </p>
         </div>
