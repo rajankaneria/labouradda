@@ -58,7 +58,7 @@
             <div class="container">
               <span>Copyright © <a class="copyright-site-link" href="#!">Labouradda</a> 2017</span>
               <a class="footer-link-right right" href="#!">Privacy Policy</a>
-              <a class="footer-link-right right" href="#!">Terms of Use</a>
+              <a class="footer-link-right right" href="<?php echo base_url(); ?>html/images/Disclaimer of Use.docx" target="_blank">Disclaimer of Use</a>
             </div>
           </div>
         </footer>
