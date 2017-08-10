@@ -38,8 +38,8 @@
               <div class="col l4 s4">
                   <h5 class="footer-title grey-text text-darken-4 center-align">Connect</h5>
                   <p class="grey-text text-darken-4 center-align">
-                    <i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i>
-                    <i class="social-connect connect-linkedin fa fa-linkedin-square" aria-hidden="true"></i>
+                    <a href="https://www.facebook.com/labouradda" target="_blank"><i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="https://in.linkedin.com/in/labouradda-140994135" target="_blank"><i class="social-connect connect-linkedin fa fa-linkedin-square" aria-hidden="true"></i></a>
                   </p>
               </div>
 
