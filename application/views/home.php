@@ -28,6 +28,9 @@
     <div class="carousel-item amber white-text" href="#three!">
       <img src="<?php echo base_url(); ?>html/images/Main-Banner.png" />
     </div>
+    <div class="carousel-item amber white-text" href="#two!">
+      <img src="<?php echo base_url(); ?>html/images/Main-Banner-2.png" />
+    </div>
 
 </div>
 

@@ -8,10 +8,10 @@ class Offer extends CI_Controller {
 	{		
 		$headerData = array(
 			"pageTitle" => "offer",
-			"stylesheet" => array("dashboard.css")
+			"stylesheet" => array("offer.css")
 		);
 		$footerData = array(
-			"jsFiles" => array("dashboard.js")
+			"jsFiles" => array("dashboard.js","offer.js")
 		);
 		$viewData = array(
 			"viewName" => "Offer",
