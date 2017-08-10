@@ -112,7 +112,7 @@ nav.nav-bar ul a:hover {
     padding: 10px !important;
     border: 1px solid #ddd;
     -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
+135    -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -133,7 +133,7 @@ transition: all 0.3s ease-in-out;
 ===============================*/
 
 footer.page-footer {
-    background: #fff;
+    background:#e0e0e0 !important;
 }
 a.footer-link-right.right {
     font-size: 13px;
@@ -193,7 +193,7 @@ i.social-connect.connect-linkedin:hover {
 }
 .parallax-container{
     height: auto;
-    background: rgba(0,0,0,0.7);
+    background:rgb(255, 255, 255);
     padding-bottom: 50px;
     margin-top: 50px;
 }
@@ -238,7 +238,7 @@ i.social-connect.connect-linkedin:hover {
 }
 
 .card-panel.black {
-    height: 180px;
+    height: 240px;
 }
 
 
