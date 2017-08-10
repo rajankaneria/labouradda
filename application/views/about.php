@@ -7,7 +7,7 @@ We are headquartered in Ahmedabad in Gujarat and we will extend our operations a
 </p>
 	<div class="row">
 	<div class="col m4">
-			<div class="card-panel hoverable white abt-box">
+			<div class="card-panel hoverable white abt-box" style="min-height: auto !important;">
                 <span class="fa-stack fa-2x about-us-icons">
                       <i class="fa fa-circle fa-stack-2x"></i>
                       <i class="fa fa-phone fa-stack-1x" style="color: yellow;"></i>
@@ -20,7 +20,7 @@ We are headquartered in Ahmedabad in Gujarat and we will extend our operations a
 		</div>
 
 		<div class="col m4">
-			<div class="card-panel hoverable white abt-box">
+			<div class="card-panel hoverable white abt-box" style="min-height: auto !important;">
                 <div class="welcome-section text-center">
                     <span class="fa-stack fa-2x about-us-icons">
                       <i class="fa fa-certificate fa-stack-2x"></i>
@@ -35,7 +35,7 @@ We are headquartered in Ahmedabad in Gujarat and we will extend our operations a
 		</div>
 
 		<div class="col m4">
-			<div class="card-panel hoverable white abt-box">
+			<div class="card-panel hoverable white abt-box" style="min-height: auto !important;">
                     <span class="fa-stack fa-2x about-us-icons">
                       <i class="fa fa-circle fa-stack-2x"></i>
                       <i class="fa fa-check fa-stack-1x inner-icon" style="color: yellow;"></i>
@@ -50,10 +50,23 @@ We are headquartered in Ahmedabad in Gujarat and we will extend our operations a
 	</div>
   </div>
 
+
+
+
+<div class="parallax-container z-depth-1" style="padding-bottom: 0px; margin-bottom: 50px;">
+    <div class="parallax"><img src="<?php echo base_url(); ?>html/images/paralax.jpg"></div>
+    <div class="section-title black-text">Vision</div>
+    <div class="container">
+    <div class="row">
+      <p class="c-paragraph">To empower people to do more, to be more.</p>
+    </div>
+    </div>
+</div>
+
+
+
   <!---CORE VALUES------------>
   <div class="container">
-      <div class="c-title">Vision</div>
-      <p class="c-paragraph">To empower people to do more, to be more.</p>
 
 
 
