@@ -6,7 +6,7 @@
       <div class="c-title">Contact Us</div>
   <div>
   <div class="row card-panel contact-us-form contact" style="">
-    <form class="col s12">
+    <form class="col s12" method="post" action="<?php echo base_url(); ?>contact/partnerSubmit">
       <div class="row">
         <div class="input-field col s6">
           <input id="last_name" type="text" name="first_name" class="validate">
