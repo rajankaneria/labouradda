@@ -45,8 +45,8 @@
               <img src="<?php echo base_url(); ?>html/images/indu.jpeg" class="circle hoverable responsive-img" height="300"/>
             </div>
             <p class="grey-text text-darken-4 center-align" style="text-align: center;">
-                <i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i>
-                <i class="social-connect connect-linkedin fa fa-linkedin-square" aria-hidden="true"></i>
+                <a href="https://www.facebook.com/public/Indu-Bhushan-Asthana" target="_blank"><i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i></a>
+                <a href="https://in.linkedin.com/in/indu-bhushan-asthana-b9852757"><i class="social-connect connect-linkedin fa fa-linkedin-square" aria-hidden="true"></i></a>
             </p>
         </div>
 
@@ -60,8 +60,8 @@
               <img src="<?php echo base_url(); ?>html/images/indu.jpeg" class="circle hoverable responsive-img" height="300"/>
             </div>
             <p class="grey-text text-darken-4 center-align">
-                <i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i>
-                <i class="social-connect connect-linkedin fa fa-linkedin-square" aria-hidden="true"></i>
+                <a href="https://www.facebook.com/public/Indu-Bhushan-Asthana" target="_blank"><i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i></a>
+               <a href="https://in.linkedin.com/in/indu-bhushan-asthana-b9852757" target="_blank"><i class="social-connect connect-linkedin fa fa-linkedin-square" aria-hidden="true"></i></a>
             </p>
         </div>
         </div>
