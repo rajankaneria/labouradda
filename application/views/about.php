@@ -48,13 +48,16 @@ We are headquartered in Ahmedabad in Gujarat and we will extend our operations a
 		</div>
 		
 	</div>
+  </div>
 
   <!---CORE VALUES------------>
-  <div class="c-title">Vision</div>
-  <p class="c-paragraph">To empower people to do more, to be more.</p>
+  <div class="container">
+      <div class="c-title">Vision</div>
+      <p class="c-paragraph">To empower people to do more, to be more.</p>
+
+
 
 <div class="c-title">CORE VALUES</div>
-
 <div class="row">
   <div class="col m4">
       <div class="card-panel hoverable white abt-box">              
@@ -89,7 +92,6 @@ That's why, at Shramik Indo Duty Phones we believe in evolving with changing tim
 	
 </div>	
 </div>
-
 
     
 
