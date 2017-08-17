@@ -70,7 +70,7 @@
 
     <div class="row card-panel">
 <div class="container">
-    <div class="col m3 s12 img-box">
+    <div class="col m3 s12 img-box1">
             <div>
               <img src="<?php echo base_url(); ?>html/images/350x350.png" class="circle hoverable responsive-img" height="200"/>
               <p class="nm">Team Menmber <strong>Name</strong></p>
@@ -81,7 +81,7 @@
                <a href="#" target="_blank"><i class="social-connect connect-linkedin fa fa-linkedin-square" aria-hidden="true"></i></a>
             </p>
         </div>
-    <div class="col m3 s12 img-box ">
+    <div class="col m3 s12 img-box1">
             <div>
               <img src="<?php echo base_url(); ?>html/images/350x350.png" class="circle hoverable responsive-img" height="200"/>
               <p class="nm">Team Menmber <strong>Name</strong></p>
@@ -93,7 +93,7 @@
             </p>
         </div>
 
-    <div class="col m3 s12 img-box">
+    <div class="col m3 s12 img-box1">
             <div>
               <img src="<?php echo base_url(); ?>html/images/350x350.png" class="circle hoverable responsive-img" height="200"/>
               <p class="nm">Team Menmber <strong>Name</strong></p>
@@ -105,7 +105,7 @@
             </p>
         </div>
         
-    <div class="col m3 s12 img-box">
+    <div class="col m3 s12 img-box1">
             <div>
               <img src="<?php echo base_url(); ?>html/images/350x350.png" class="circle hoverable responsive-img" height="200"/>
               <p class="nm">Team Menmber <strong>Name</strong></p>
@@ -117,7 +117,7 @@
             </p>
         </div>
         
-    <div class="col m3 s12 img-box">
+    <div class="col m3 s12 img-box1">
             <div>
               <img src="<?php echo base_url(); ?>html/images/350x350.png" class="circle hoverable responsive-img" height="200"/>
               <p class="nm">Team Menmber <strong>Name</strong></p>
