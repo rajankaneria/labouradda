@@ -39,18 +39,30 @@
 </head>
 <body class="grey lighten-2">
 <style type="text/css">
-    .me{background: red;}
+    .me{background: #dedede;}
 </style>
 <nav class="<?php /* if(strtolower($this->uri->segment(1)) == 'home'){ ?>transparent-nav<?php  }*/ ?> nav-bar" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo"><img src="<?php echo base_url(); ?>html/images/logo.png" /></a>
+      <a id="logo-container" href="<?php echo base_url(); ?>home" class="brand-logo"><img src="<?php echo base_url(); ?>html/images/logo.png" /></a>
       <ul class="desktop-nav-link right hide-on-med-and-down">
-        <li><a href="home">Home</a></li>
-        <li><a href="about">About</a></li>
-        <li><a href="offer">Offering</a></li>
-        <li><a href="team" >Team</a></li>
-        <li><a href="#" class="click">Partner</a></li>
-        <li><a href="contact">Contact us</a></li>
+        <li class="<?php if(strtolower($this->uri->segment(1)) == 'home'){ ?>me<?php  } ?>">
+            <a href="<?php echo base_url(); ?>home">Home</a>
+        </li>
+        <li class="<?php if(strtolower($this->uri->segment(1)) == 'about'){ ?>me<?php  } ?>">
+            <a href="<?php echo base_url(); ?>about">About</a>
+        </li>
+        <li class="<?php if(strtolower($this->uri->segment(1)) == 'services'){ ?>me<?php  } ?>">
+            <a href="<?php echo base_url(); ?>services">Services</a>
+        </li>
+        <li class="<?php if(strtolower($this->uri->segment(1)) == 'team'){ ?>me<?php  } ?>">
+            <a href="<?php echo base_url(); ?>team" >Team</a>
+        </li>
+        <li class="<?php if(strtolower($this->uri->segment(1)) == 'partners_with_us'){ ?>me<?php  } ?>">
+            <a href="<?php echo base_url(); ?>partners_with_us" class="click">Partners with us</a>
+        </li>
+        <li class="<?php if(strtolower($this->uri->segment(1)) == 'contact'){ ?>me<?php  } ?>">
+            <a href="<?php echo base_url(); ?>contact">Contact us</a>
+        </li>
         <li><a href="#"><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons">person</i></a></li>
       </ul>
         <!-- Dropdown Structure -->
@@ -60,14 +72,24 @@
           <li><a href="#!">Sign up</a></li>
         </ul>
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="home">Home</a></li>
-        <li><a href="about">About</a></li>
-        <li><a href="offer">Offering</a></li>
-        <li><a href="team" >Team</a></li>
-        <li><a href="#" class="click">Partner</a></li>
-        <li><a href="contact">Contact us</a></li>
-        <li><a href="#">Sign in</a></li>
-        <li><a href="#">Sign up</a></li>
+        <li class="<?php if(strtolower($this->uri->segment(1)) == 'home'){ ?>me<?php  } ?>">
+            <a href="<?php echo base_url(); ?>home">Home</a>
+        </li>
+        <li class="<?php if(strtolower($this->uri->segment(1)) == 'about'){ ?>me<?php  } ?>">
+            <a href="<?php echo base_url(); ?>about">About</a>
+        </li>
+        <li class="<?php if(strtolower($this->uri->segment(1)) == 'services'){ ?>me<?php  } ?>">
+            <a href="<?php echo base_url(); ?>services">Services</a>
+        </li>
+        <li class="<?php if(strtolower($this->uri->segment(1)) == 'team'){ ?>me<?php  } ?>">
+            <a href="<?php echo base_url(); ?>team" >Team</a>
+        </li>
+        <li class="<?php if(strtolower($this->uri->segment(1)) == 'partners_with_us'){ ?>me<?php  } ?>">
+            <a href="<?php echo base_url(); ?>partners_with_us">Partners with us</a>
+        </li>
+        <li class="<?php if(strtolower($this->uri->segment(1)) == 'contact'){ ?>me<?php  } ?>">
+            <a href="<?php echo base_url(); ?>contact">Contact us</a>
+        </li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>

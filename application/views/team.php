@@ -67,3 +67,67 @@
         </div>
     </div>
 </div>
+
+    <div class="row card-panel">
+<div class="container">
+    <div class="col m3 s12 img-box">
+            <div>
+              <img src="<?php echo base_url(); ?>html/images/350x350.png" class="circle hoverable responsive-img" height="200"/>
+              <p class="nm">Team Menmber <strong>Name</strong></p>
+              <p class="deg">Designation</p>
+            </div>
+            <p class="grey-text text-darken-4 center-align">
+                <a href="#" target="_blank"><i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i></a>
+               <a href="#" target="_blank"><i class="social-connect connect-linkedin fa fa-linkedin-square" aria-hidden="true"></i></a>
+            </p>
+        </div>
+    <div class="col m3 s12 img-box ">
+            <div>
+              <img src="<?php echo base_url(); ?>html/images/350x350.png" class="circle hoverable responsive-img" height="200"/>
+              <p class="nm">Team Menmber <strong>Name</strong></p>
+              <p class="deg">Designation</p>
+            </div>
+            <p class="grey-text text-darken-4 center-align">
+                <a href="#" target="_blank"><i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i></a>
+               <a href="#" target="_blank"><i class="social-connect connect-linkedin fa fa-linkedin-square" aria-hidden="true"></i></a>
+            </p>
+        </div>
+
+    <div class="col m3 s12 img-box">
+            <div>
+              <img src="<?php echo base_url(); ?>html/images/350x350.png" class="circle hoverable responsive-img" height="200"/>
+              <p class="nm">Team Menmber <strong>Name</strong></p>
+              <p class="deg">Designation</p>
+            </div>
+            <p class="grey-text text-darken-4 center-align">
+                <a href="#" target="_blank"><i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i></a>
+               <a href="#" target="_blank"><i class="social-connect connect-linkedin fa fa-linkedin-square" aria-hidden="true"></i></a>
+            </p>
+        </div>
+        
+    <div class="col m3 s12 img-box">
+            <div>
+              <img src="<?php echo base_url(); ?>html/images/350x350.png" class="circle hoverable responsive-img" height="200"/>
+              <p class="nm">Team Menmber <strong>Name</strong></p>
+              <p class="deg">Designation</p>
+            </div>
+            <p class="grey-text text-darken-4 center-align">
+                <a href="#" target="_blank"><i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i></a>
+               <a href="#" target="_blank"><i class="social-connect connect-linkedin fa fa-linkedin-square" aria-hidden="true"></i></a>
+            </p>
+        </div>
+        
+    <div class="col m3 s12 img-box">
+            <div>
+              <img src="<?php echo base_url(); ?>html/images/350x350.png" class="circle hoverable responsive-img" height="200"/>
+              <p class="nm">Team Menmber <strong>Name</strong></p>
+              <p class="deg">Designation</p>
+            </div>
+            <p class="grey-text text-darken-4 center-align">
+                <a href="#" target="_blank"><i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i></a>
+               <a href="#" target="_blank"><i class="social-connect connect-linkedin fa fa-linkedin-square" aria-hidden="true"></i></a>
+            </p>
+        </div>            
+</div>
+    </div>    
+</div>

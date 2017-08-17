@@ -132,6 +132,21 @@ transition: all 0.3s ease-in-out;
         Footer Start
 ===============================*/
 
+.footer-text.grey-text.text-darken-3 a{
+    color: #424242 !important;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+.footer-text.grey-text.text-darken-3 a:hover,.footer-text.grey-text.text-darken-3 a:focus{
+    color: #000000 !important;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+
 footer.page-footer {
     background:#e0e0e0 !important;
 }
@@ -147,6 +162,21 @@ a.footer-link-right:hover {
 }
 a.copyright-site-link {
     color: #fff;
+}
+
+.footer-copyright{
+     overflow: hidden;
+    min-height: 50px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px 0px;
+    color: rgba(255,255,255,0.8);
 }
 
 .footer-copyright .container span {
@@ -346,4 +376,56 @@ span.team-lastname {
 #our_partner .section-title {
     color: #6f6f6f;
     margin-bottom: 0px;
+}
+
+
+/**=======================
+    Partners page
+===========================*/
+.partner{
+    min-height: 300px;
+}
+
+.partner p{
+    color: #696969;
+}
+
+
+.partner h3{
+    color: #292929;
+}
+
+
+/**=====================
+    Forn validation
+======================*/
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
+    border-bottom: 1px solid #292929;
+    -webkit-box-shadow: 0 1px 0 0 #292929;
+    box-shadow: 0 1px 0 0 #292929;
+}
+input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label{
+    color: #292929 !important;
+}
+.dropdown-content li>a, .dropdown-content li>span{
+    color: #292929 !important;
+}
+.select-wrapper+label{
+    top: -30px !important;
+    font-size: -0.2rem !important;
+}
+
+
+
+/**==========================
+    team page
+==============================*/
+.nm{
+    font-weight: 300;
+    text-align: center;
+    line-height: 0px;
+}
+.deg{
+    text-align: center;
+    line-height: 10px;
 }

@@ -1,24 +1,24 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Offer extends CI_Controller {
-
+class Partners_with_us extends CI_Controller {
 	
 	public function index()
 	{		
 		$headerData = array(
-			"pageTitle" => "offer",
-			"stylesheet" => array("offer.css")
+			"pageTitle" => "Partners_with_us",
+			"stylesheet" => array("contact.css")
 		);
 		$footerData = array(
-			"jsFiles" => array("dashboard.js","offer.js")
+			"jsFiles" => array("dashboard.js")
 		);
 		$viewData = array(
-			"viewName" => "Offer",
+			"viewName" => "partners_with_us",
             "viewData" => array(),
 			"headerData" => $headerData,
 			"footerData" => $footerData	
 		);
 		$this->load->view('template',$viewData);
 	}
+
 }

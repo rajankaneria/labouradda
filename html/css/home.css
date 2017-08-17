@@ -1,3 +1,66 @@
+/**==========================
+    Slider Home
+============================*/
+i.fa.fa-angle-right.fa-2x.nxt1
+{
+    background: ghostwhite;
+    padding: 20px;
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+    z-index: 1000;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+i.fa.fa-angle-right.fa-2x.nxt1:hover,i.fa.fa-angle-right.fa-2x.nxt1:focus{
+    background: #ddd !important;
+    right: 10px !important;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+
+i.fa.fa-angle-left.fa-2x.pre1 {
+    position: absolute;
+    background: #fff;
+    padding: 20px;
+    left: 0px;
+    bottom:10px;
+    z-index: 1000;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+
+i.fa.fa-angle-left.fa-2x.pre1:hover,i.fa.fa-angle-left.fa-2x.pre1:focus{
+    background: #ddd !important;
+    left: 10px !important;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+
+@media(max-width: 768px){
+    i.fa.fa-angle-left.fa-2x.pre1{
+        padding: 10px !important;
+    }
+    i.fa.fa-angle-right.fa-2x.nxt1{
+        padding: 10px !important;
+    }
+}
+
+.carousel.carousel-slider .carousel-item
+{
+    top: 55px !important;
+}
+
+/*============= Overe Slider =========*/
+
 .how-it-works-container {
     width: 18%;
     float: left;

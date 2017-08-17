@@ -1,5 +1,5 @@
 $(function(){
-	$(".offering-container").on("click",function(){
+	$(".offering-container").on("mouseover",function(){
 		$(".offering-container").removeClass("active");
 		$(this).addClass("active");
 

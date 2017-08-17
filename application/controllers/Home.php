@@ -8,7 +8,7 @@ class Home extends CI_Controller {
 	{		
 		$headerData = array(
 			"pageTitle" => "Home",
-			"stylesheet" => array("home.css")
+			"stylesheet" => array("home.css","offer.css")
 		);
 		$footerData = array(
 			"jsFiles" => array("dashboard.js","home.js")

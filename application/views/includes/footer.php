@@ -1,38 +1,13 @@
-<script type="text/javascript">
-  $('.parallax').parallax();
-</script>
-<div class="parallax-container z-depth-1" id="our_partner">
-    <div class="parallax"><img src="<?php echo base_url(); ?>html/images/paralax.jpg"></div>
-    <div class="section-title">Our Honorable Partner</div>
-    <div class="container">
-    <div class="row">
-      <div class="col m4 partner-logo">
-        <div class="center">
-          <img style="margin-top:14px;max-width: 70% !important;" src="<?php echo base_url(); ?>html/images/icreate logo.png">
-        </div>
-      </div>
-      <div class="col m4 partner-logo">
-        <div class="center">
-          <center><img style="margin-top:14px;max-width: 70% !important;" src="<?php echo base_url(); ?>html/images/knowlarity logo.png"></center>
-        </div>
-      </div>
-      <div class="col m4 partner-logo">
-        <div class="center">
-          <center><img style="margin-top:14px;max-width: 70% !important;" src="<?php echo base_url(); ?>html/images/Magnum.png"></center>
-        </div>
-      </div>
-    </div>
-    </div>
-</div>
-
-	 	<footer class="page-footer">
+	 	<footer class="page-foote gray" style="margin-top: 30px;">
           <div class="container">
             <div class="row">
               <div class="col l4 s8">
                 <h5 class="footer-title grey-text text-darken-4">Contact</h5>
-                <div class="footer-text grey-text text-darken-3">E-mail : support@labouradda.net</div>
-                <div class="footer-text grey-text text-darken-3">Mobile : 07948006541</div>
-                <div class="footer-text grey-text text-darken-3">Web : http://labouradda.net</div>
+                <div class="footer-text grey-text text-darken-3">
+                  <i class="fa fa-envelope" aria-hidden="true"></i> : <a href="maileto:support@labouradda.net"> support@labouradda.net</a></div>
+                <div class="footer-text grey-text text-darken-3">
+                  <i class="fa fa-phone" aria-hidden="true"></i> &nbsp;: 079 4800 6541</div>
+                <div class="footer-text grey-text text-darken-3"><i class="fa fa-globe" aria-hidden="true"></i> &nbsp;: <a href="http://labouradda.net" target="_page"> http://labouradda.net</a></div>
               </div>
 
               <div class="col l4 s4">
@@ -54,7 +29,8 @@
 
             </div>
           </div>
-          <div class="footer-copyright black">
+
+          <div class="footer-copyright black f">
             <div class="container">
               <span>Copyright © <a class="copyright-site-link" href="#!">Labouradda</a> 2017</span>
               <a class="footer-link-right right" href="#!">Privacy Policy</a>
