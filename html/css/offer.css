@@ -78,8 +78,11 @@ div#descriptionContainer {
 div#descriptionContainer {
     display: none;
     position: absolute;
-    top: 245px;
+    top: -20px;
     margin: 0px !important;
+    position: relative;
+    min-width: 100%;
+
 }
 
 div#descriptionTitle {

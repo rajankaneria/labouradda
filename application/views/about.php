@@ -1,57 +1,18 @@
 <div class="nav-top"></div>
 <div class="container">
 	<div class="c-title">About Labouradda</div>
-	<p class="c-paragraph">Labouradda is an Innovation and not just a start up of Otaf Overseas Private Limited. It is first of its kind in the market today.Committed to Government of India’s “Digital India” and ‘Skill India’ initiative, we are steering the GPS based mobile phone design roadmap in India as a unique concept that will help us in generating and connecting leads of employment of Unskilled, Semi-Skilled and Skilled workers of India. Our ‘Digital India’ initiative will kick-start in the form of our first of its Kind “Mobile Optimized APP” that will connect a “Consumer” to a “Worker” of the nearest location in the catchment area. Currently we are working towards establishing the very first “Design Center” for this unique service that will be the first to connect a Consumer to an unskilled casual labours in India.
+	<p class="c-paragraph">A typical labour mandi functions with two key players- the demand/consumer (employers seeking man-power) and the supply (man-power seeking deployment) and depends on each other to fulfill their respective requirements. However, lack of any proper communication channel between consumers and labourers is a major setback to the mandi dynamics. It is unfortunate that this highly potent sector is significantly ‘unorganized’ and remains marred with such a momentous issue and is scarcely surviving with a 2% annual growth.</p>
 
-We are headquartered in Ahmedabad in Gujarat and we will extend our operations across India, Nepal &UAE, Bangladesh – We are the proud recipient for the necessary incubation support from www.Icreate.org.in.
-</p>
-	<div class="row">
-	<div class="col m4">
-			<div class="card-panel hoverable white abt-box" style="min-height: auto !important;">
-                <span class="fa-stack fa-2x about-us-icons">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-phone fa-stack-1x" style="color: yellow;"></i>
-                    </span>
-                    <!-- <img src="images/about-02.jpg" class="img-responsive" alt=".."> -->
-                    <h4>Speak directly to the labourer</h4>
-                    <div class="border"></div>
-                    <!-- <p>Duis aute irure dolor in reprehen derit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Lorem reprehenderit</p> -->
-                </div>
-		</div>
+  <p class="c-paragraph"><strong>LabourAdda</strong> , an innovation powered by Otaf Overseas Private Limited, tried to get a more comprehensive understanding of this dynamics and devised a unique digital formula steering the GPS based mobile phone design roadmap with an aim of helping generate and abridge leads of employment for the unskilled, semi-skilled and skilled workers in India. </p>
 
-		<div class="col m4">
-			<div class="card-panel hoverable white abt-box" style="min-height: auto !important;">
-                <div class="welcome-section text-center">
-                    <span class="fa-stack fa-2x about-us-icons">
-                      <i class="fa fa-certificate fa-stack-2x"></i>
-                      <i class="fa fa-check fa-stack-1x inner-icon" style="color: yellow;"></i>
-                    </span>
-                    <!-- <img src="images/about-01.jpg" class="img-responsive" alt=".."> -->
-                    <h4>Verified &amp; Trusted Helpers</h4>
-                    <div class="border"></div>
-                    <!-- <p>Duis aute irure dolor in reprehen derit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Lorem reprehenderit</p> -->
-                </div>
-            </div>
-		</div>
+  <p class="c-paragraph">We are sincerely committed to the ‘Digital India’ and ‘Skill India’ initiatives by the Indian Government.  Inspirited by these fundamental initiatives, LabourAdda has launched a novel Mobile Optimized APP,  that will enable direct communication between the consumer and the daily wage labourer, round the clock, i.e. free of the limitations of time and location. </p>
 
-		<div class="col m4">
-			<div class="card-panel hoverable white abt-box" style="min-height: auto !important;">
-                    <span class="fa-stack fa-2x about-us-icons">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-check fa-stack-1x inner-icon" style="color: yellow;"></i>
-                    </span>
-                                        <!-- <img src="images/about-03.jpg" class="img-responsive" alt=".."> -->
-                    <h4>Aadhar card holding labourers</h4>
-                    <div class="border"></div>
-                    <!-- <p>Duis aute irure dolor in reprehen derit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Lorem reprehenderit</p> -->
-                </div>
-		</div>
-		
-	</div>
-  </div>
+  <p class="c-paragraph">We aim at resolving issues like communication-gap, unavailability and unreliability for the consumers while at the same time- increasing demand, hours, days and value of employability for the daily wage earners. We believe that technology will help make this unorganized sector reach its bona fide efficiency.</p>
 
+  <p class="c-paragraph">LabourAdda is a proud recipient of the necessary incubation support from icreate, an independent centre that works towards facilitating ‘Next Generation Entrepreneurship’  and engages with the government to help evolve enabling policies.</p>
 
-
+  <p class="c-paragraph">Currently, we are headquartered in Ahmedabad, Gujarat and working towards expanding our operations across India, Nepal, Africa, UAE and Bangladesh. </p>
+</div>
 
 <div class="parallax-container z-depth-1" style="padding-bottom: 0px; margin-bottom: 50px;">
     <div class="parallax"><img src="<?php echo base_url(); ?>html/images/paralax.jpg"></div>
@@ -75,19 +36,19 @@ We are headquartered in Ahmedabad in Gujarat and we will extend our operations a
   <div class="col m4">
       <div class="card-panel hoverable white abt-box">              
                     <!-- <img src="images/about-02.jpg" class="img-responsive" alt=".."> -->
-                    <h4>Integrity</h4>
-                    <div class="border"></div>
-                 <p class="c-paragraph">At Shramik Indo duty Phones, we firmly believe in high moral and professional ethics. 
-                  We lay the basis of our foundation on truth, loyalty and honesty.</p> 
-                </div>
+        <h4>Reliability </h4>
+          <div class="border"></div>
+             <p class="c-paragraph">At LabourAdda, we abide by ascetic professional ethics. Our foundation is cemented with honesty towards our consumers, timeliness and commitment towards our work. 
+             </p> 
+          </div>
     </div>
 
     <div class="col m4">
       <div class="card-panel hoverable white abt-box">
                 <div class="welcome-section text-center">                   
-                    <h4>Passion for Excellence</h4>
+                    <h4>Excellence</h4>
                     <div class="border"></div>
-                  <p class="c-paragraph">Each step taken is a leap towards excellence for us. And we make sure that every step of ours is aimed towards achieving nothing but the best.</p> 
+                  <p class="c-paragraph">We are constantly striving for excellence and are always looking for ways to improve. And we make sure that every step forward is aimed at achieving nothing but the best.</p> 
             </div>
     </div>    
   </div>
@@ -95,10 +56,10 @@ We are headquartered in Ahmedabad in Gujarat and we will extend our operations a
   <div class="col m4">
       <div class="card-panel hoverable white abt-box">
                 <div class="welcome-section text-center">                   
-                    <h4>Adaptability</h4>
+                    <h4>Value for Money</h4>
                     <div class="border"></div>
-                  <p class="c-paragraph">Change is the only constant thing. 
-That's why, at Shramik Indo Duty Phones we believe in evolving with changing times and rapidly changing technology trends, to develop the best solutions at all times.</p> 
+                  <p class="c-paragraph">We understand the value of our consumer’s hard earned money and have designed our services and policies in accordance with this constitutional understanding. 
+                  </p> 
             </div>
     </div>    
   </div>  

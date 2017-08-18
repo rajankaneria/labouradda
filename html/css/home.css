@@ -61,12 +61,24 @@ i.fa.fa-angle-left.fa-2x.pre1:hover,i.fa.fa-angle-left.fa-2x.pre1:focus{
 
 /*============= Overe Slider =========*/
 
+.how_it_WORK_box{
+    min-height: 600px !important;
+}
+
 .how-it-works-container {
-    width: 18%;
+/*    width: 30%;
     float: left;
     margin: 1%;
     background: #e0e0e0;
     box-shadow: none;
+    padding: 30px;*/
+
+    width: 30% !important;
+    float: left;
+    margin: 15px !important;
+    background: #e0e0e0;
+    box-shadow: none;
+    padding: 30px !important;   
 }
 
 .work-icon {
@@ -136,4 +148,7 @@ div#descriptionText {
     margin-top: 12px;
     color: #6b6a6a;
 }
+
+
+
 

@@ -55,7 +55,7 @@ nav.nav-bar ul a:hover {
 }
 .c-paragraph{
     text-align: center;
-    padding: 0px 0px 30px 0px;
+    padding: 0px 0px 10px 0px;
 }
 
 .abt-box{
@@ -63,8 +63,10 @@ nav.nav-bar ul a:hover {
     text-align: center;
 }
 .abt-box h4{
-    font-size: 22px;
+    font-size: 14px;
     padding: 10px 0px;
+    text-align: center;
+    font-weight: 500;
 }
 
 /**============================
@@ -326,9 +328,17 @@ nav.transparent-nav ul a:hover {
     color: #feec00;
 }
 
+.dropdown-content{
+    margin-top: 65px;
+}
 
 .dropdown-content li a {
-    background: #dedede !important;
+    background: #fff !important;
+    color: #5a5a5a !important;
+    border-bottom: 1px solid #ccc;
+}
+.dropdown-content li a:hover,.dropdown-content li a:focus {
+    background: #DEDEDE !important;
     color: #5a5a5a !important;
     border-bottom: 1px solid #ccc;
 }

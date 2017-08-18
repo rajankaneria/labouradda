@@ -75,7 +75,7 @@
 </div>
 */?>
 
-<div class="card-panel">
+<div class="row">
 <div class="container">
   <div class="c-title">Our Services</div>
   <p class="c-paragraph">Labouradda is a unique platform that helps in connecting a Consumer to a labourer for Domestic or Commercial use. Just give a missed call at 088 088 088 88 and get a call back for cost and estimation. Explain your requirement to the labourer, then sit back and relax!</p>
@@ -133,45 +133,52 @@
   </div>
 </div>
 
+<div class="card-panel how_it_WORK_box">
 <div class="container" style="margin-bottom: 100px;">
   <div class="row">
     <div class="section-title grey-text text-darken-4">HOW IT WORKS?</div>
 
-    <div class="how-it-works-container card-panel">
+    <div class="how-it-works-container card-panel col m4">
       <div class="work-icon"><i class="fa fa-clipboard" aria-hidden="true"></i></div>
       <div class="work-title"><span>Plan</span> karo</div>
-      <div class="work-description">Labouradda offers you a choice of booking a labour for any date and time in advance. You may plan
-and decide a date and time and connect with labour adda to get a confirmation vide a SMS a day in advance with
-details of labour shortlisted for you.</div>
+      <div class="work-description"><p>Book a labour for the service of your choice in advance.</p></div>
     </div>
 
-    <div class="how-it-works-container card-panel">
+    <div class="how-it-works-container card-panel col m4">
       <div class="work-icon"><i class="fa fa-handshake-o" aria-hidden="true"></i></div>
       <div class="work-title"><span>Connect</span> karo</div>
-      <div class="work-description">There are four ways to connect – (1) Download the Labouradda App, (2) Register a consumer through our website. (3)  Labour adda provides you a choice to register by directly calling up a Labouradda Call center (4) you can also connecting t a Labouradda by giving a miss-call if one is not that tech savvy. For every booking consumer and labourer will have a choice of speaking to each other through our call center using your booking ID. </div>
+      <div class="work-description">
+        <li>Download the Labouradda App. </li>
+        <li>Register yourself as a consumer. </li>
+        <li>Select the Service you want.</li>
+        <li>Book the labour for the date and time of your choice (Consumer and labourer will have a choice of speaking to each other through our call center using their booking ID).</li>
+
+      </div>
     </div>
 
 
-    <div class="how-it-works-container card-panel">
+   <!-- <div class="how-it-works-container card-panel">
       <div class="work-icon"><i class="fa fa-hand-pointer-o" aria-hidden="true"></i></div>
       <div class="work-title"><span>Select</span> karo</div>
       <div class="work-description">Step 1 - Select the Work of Labour – (1) Cleaning & Maintenance (2) Domestic Helpers (3) Repair & Maintenance (4) Loaders & Unloaders (5) More than One Labour for more than one day (6) Tatkaal Labour </div>
-    </div>
+    </div> -->
 
 
-
+    <!--
     <div class="how-it-works-container card-panel">
       <div class="work-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
       <div class="work-title"><span>Book</span> karo</div>
       <div class="work-description">Raise a request and mention the Pin code with address & Landmark of the location where you need the labour, Provide an alternate number for  a reversion of confirmation. You will receive an instant message acknowledging receipt of your requirement and confirmation message of labour shortlisted for from the location nearest to you. Relax and enjoy the services of an adhaar card holding & a hard working labour. </div>
-    </div>
+    </div> -->
 
 
 
-    <div class="how-it-works-container card-panel">
+    <div class="how-it-works-container card-panel col m4">
       <div class="work-icon"><i class="fa fa-mobile" aria-hidden="true"></i></div>
-      <div class="work-title"><span>SMS</span> receive karo</div>
-      <div class="work-description">Every lead received by Labouradda is send a SMS acknowledgment on the number provided with a booking ID, followed by another SMS with details that will show a Labour Unique ID allocated to your booking ID along with last four digit of Labour adhaar card for your records and reference.</div>
+      <div class="work-title"><span>Receive </span>karo</div>
+      <div class="work-description"><p>
+        Post booking, you will receive an acknowledgment SMS enlisting your booking ID followed by a confirmation SMS containing the Labour Unique ID allocated to your booking ID.  LabourAdda will also share the last four digits of the allocated labour's adhaar number for your record and reference.
+      </p></div>
     </div>
 
     <div id="descriptionContainer">
@@ -181,6 +188,53 @@ details of labour shortlisted for you.</div>
 
   </div>
 </div>
+</div>
+
+<div class="row"><div class="pad-20"></div>
+  <div class="container">
+    <div class="col m4">
+      <div class="abt-box" style="min-height: auto !important;">
+                <span class="fa-stack fa-2x about-us-icons">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-phone fa-stack-1x" style="color: #E0E0E0;"></i>
+                    </span>
+                    <!-- <img src="images/about-02.jpg" class="img-responsive" alt=".."> -->
+                    <h4>Speak Directly to the Labourers </h4>
+                    <div class="border"></div>
+                    <!-- <p>Duis aute irure dolor in reprehen derit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Lorem reprehenderit</p> -->
+                </div>
+    </div>
+
+    <div class="col m4">
+      <div class="abt-box" style="min-height: auto !important;">
+                <div class="welcome-section text-center">
+                    <span class="fa-stack fa-2x about-us-icons">
+                      <i class="fa fa-certificate fa-stack-2x"></i>
+                      <i class="fa fa-check fa-stack-1x inner-icon" style="color: #E0E0E0;"></i>
+                    </span>
+                    <!-- <img src="images/about-01.jpg" class="img-responsive" alt=".."> -->
+                    <h4>Verified and Trusted Labourers</h4>
+                    <div class="border"></div>
+                    <!-- <p>Duis aute irure dolor in reprehen derit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Lorem reprehenderit</p> -->
+                </div>
+            </div>
+    </div>
+
+    <div class="col m4">
+      <div class="abt-box" style="min-height: auto !important;">
+                    <span class="fa-stack fa-2x about-us-icons">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-money fa-stack-1x inner-icon" style="color: #E0E0E0;"></i>
+                    </span>
+                                        <!-- <img src="images/about-03.jpg" class="img-responsive" alt=".."> -->
+                    <h4>Pay Directly to the Labourers</h4>
+                    <div class="border"></div>
+                    <!-- <p>Duis aute irure dolor in reprehen derit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Lorem reprehenderit</p> -->
+                </div>
+      </div>
+    </div>
+  </div>
+
 
 <script type="text/javascript">
   $('.parallax').parallax();

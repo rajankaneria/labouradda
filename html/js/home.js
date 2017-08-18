@@ -1,5 +1,5 @@
 $(function(){
-	$(".how-it-works-container").on("click",function(){
+	$(".how-it-works-container").on("mouseover",function(){
 		$(".how-it-works-container").removeClass("active");
 		$(this).addClass("active");
 		$("#descriptionContainer #descriptionText").html($(".work-description",this).html());
