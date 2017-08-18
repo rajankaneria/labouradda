@@ -392,7 +392,13 @@ span.team-lastname {
     margin-bottom: 0px;
 }
 
+.box{
+    padding: 25px;
+}
 
+.btn-book{
+    margin-top: -50px;
+}
 /**=======================
     Partners page
 ===========================*/
@@ -444,3 +450,10 @@ input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-def
     line-height: 10px;
     color: #777;
 }
+
+
+
+
+/************************************************************
+        Media Responsive css for Mobile and tablate
+*************************************************************/

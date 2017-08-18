@@ -22,6 +22,9 @@ class Services extends CI_Controller {
 		$this->load->view('template',$viewData);
 	}
 
+	public function Daily_wage_Labourers(){
+		$this->index("s0");
+	}
 	public function cleaning(){
 		$this->index("s1");
 	}
@@ -39,5 +42,8 @@ class Services extends CI_Controller {
 	}
 	public function Tatkaal_labour(){
 		$this->index("s6");
+	}
+	public function Hawkers(){
+		$this->index("Hawkers");
 	}
 }

@@ -67,7 +67,7 @@
       </ul>
         <!-- Dropdown Structure -->
         <ul id="dropdown1" class="dropdown-content">
-          <li><a href="#!">Sign in</a></li>
+          <li><a href="<?php echo base_url(); ?>adda">Sign in</a></li>
           <li class="divider"></li>
           <li><a href="#!">Sign up</a></li>
         </ul>

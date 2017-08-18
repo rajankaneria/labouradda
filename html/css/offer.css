@@ -69,6 +69,7 @@ div#descriptionContainer {
 }
 .offering-container {
     min-height: 416px;
+    width: 12.5% !important;
 }
 
 .offering-container {
@@ -101,4 +102,41 @@ div#descriptionText {
 }
 
 
+
+/*====== Offer page =======*/
+
+.img-bx{
+    width: 150px;
+}
+
+
+
+
+/************************************************************
+        Media Responsive css for Mobile and tablate
+*************************************************************/
+@media(max-width: 1200px) 
+{
+   .row .col.s12{
+    width: 100% !important;
+   }
+    .offering-icon{
+        margin: 2px !important;
+    }
+   div#descriptionTitle {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 35px !important;
+    }
+    
+    .btn-book {
+    margin-top: -85px;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    width: 100%;
+    }
+}
 
