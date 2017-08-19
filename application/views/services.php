@@ -9,7 +9,7 @@
 </div>
 <div class="box">
 
-    <div class="row" style="position: relative;    margin-bottom: 200px;">
+    <div class="row" style="position: relative;">
         <div class="offering-container col s12 m2 card-panel <?php if($serviceID=='s0') {?>active<?php } ?>">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/MorethanoneLabourformorethanoneday.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/MorethanoneLabourformorethanoneday-yellow.png" /></div>
