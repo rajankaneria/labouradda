@@ -108,14 +108,17 @@ i.fa.fa-angle-left.fa-2x.pre1:hover,i.fa.fa-angle-left.fa-2x.pre1:focus{
 	color:#fff;
 }
 .how-it-works-container.active .work-icon{
-	color:#000 !important;
+	color:#feec00 !important;
 }
 .how-it-works-container.active .work-title{
-	color:#000 !important;
+	color:#fff !important;
+}
+.how-it-works-container.active{
+        background: #000 !important;
 }
 
 .how-it-works-container.active{
-	background: #fff !important;
+	/*background: #fff !important;*/
     cursor: pointer;
     -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
@@ -167,6 +170,7 @@ div#descriptionText {
 .offering-container:hover .card-panel.offering-image-container {
     background: #000;
 }
+
 .offering-container:hover .offering-title{
     color:#353535 !important;
 }
@@ -200,3 +204,7 @@ div#descriptionText {
     min-height: 0px !important;
 }
 
+#descriptionContainer{
+    background: #fff !important;
+    box-shadow: none !important;
+}
