@@ -457,3 +457,32 @@ input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-def
 /************************************************************
         Media Responsive css for Mobile and tablate
 *************************************************************/
+
+
+
+.transparent-nav li.me
+ a {
+    color: #fbea0d;
+}
+
+nav.transparent-nav li.me {background: transparent;}
+
+.transparent-nav li a {
+    text-shadow: 1px 1px 1px rgb(76, 76, 76);
+}
+li.me .active-item-indicator {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #c5c5c5;
+    top: 0;
+    left: 0px;
+}
+.transparent-nav li.me .active-item-indicator {
+    background: #fdec00 !important;
+}
+
+li.me {
+    position: relative;
+}
