@@ -1,13 +1,13 @@
-	 	<footer class="page-foote gray" style="margin-top: 30px;">
+	 	<footer class="page-foote gray" style="margin-top: 30px;background: #1b1b1b;">
           <div class="container">
             <div class="row">
               <div class="col l4 s8">
                 <h5 class="footer-title grey-text text-darken-4">Contact</h5>
                 <div class="footer-text grey-text text-darken-3">
-                  <i class="fa fa-envelope" aria-hidden="true"></i> : <a href="maileto:support@labouradda.net"> support@labouradda.net</a></div>
+                  <i class="fa fa-envelope" aria-hidden="true"></i>  <a href="maileto:support@labouradda.net">&nbsp;support@labouradda.net</a></div>
                 <div class="footer-text grey-text text-darken-3">
-                  <i class="fa fa-phone" aria-hidden="true"></i> &nbsp;: 079 4800 6541</div>
-                <div class="footer-text grey-text text-darken-3"><i class="fa fa-globe" aria-hidden="true"></i> &nbsp;: <a href="http://labouradda.net" target="_page"> http://labouradda.net</a></div>
+                  <i class="fa fa-phone" aria-hidden="true"></i> &nbsp; 079 4800 6541</div>
+                <div class="footer-text grey-text text-darken-3"><i class="fa fa-globe" aria-hidden="true"></i> &nbsp;<a href="http://labouradda.net" target="_page"> http://labouradda.net</a></div>
               </div>
 
               <div class="col l4 s4">
