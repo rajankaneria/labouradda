@@ -29,12 +29,28 @@
     <div class="carousel-item amber white-text" href="#one!">
       <img src="<?php echo base_url(); ?>html/images/slider-1.jpg" />
     </div>
+    <div class="carousel-item amber white-text" href="#two!">
+      <img src="<?php echo base_url(); ?>html/images/slider-2.jpg" />
+    </div>
+    <div class="carousel-item amber white-text" href="#three!">
+      <img src="<?php echo base_url(); ?>html/images/slider-3.jpg" />
+    </div>
+    <div class="carousel-item amber white-text" href="#four!">
+      <img src="<?php echo base_url(); ?>html/images/slider-4.jpg" />
+    </div>
+    <div class="carousel-item amber white-text" href="#five!">
+      <img src="<?php echo base_url(); ?>html/images/slider-5.jpg" />
+    </div>
+
+
+    <!--
     <div class="carousel-item amber white-text" href="#three!">
       <img src="<?php echo base_url(); ?>html/images/Main-Banner.png" />
     </div>
     <div class="carousel-item amber white-text" href="#two!">
       <img src="<?php echo base_url(); ?>html/images/Main-Banner-2.png" />
     </div>
+    -->
 <div class="row">
       <i class="fa fa-angle-left fa-2x pre1" aria-hidden="true" onclick="javascript:prev()"></i> 
       <i class="fa fa-angle-right fa-2x nxt1" aria-hidden="true" onclick="javascript:next()"></i>
