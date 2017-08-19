@@ -15,9 +15,11 @@ $(function(){
     });*/
 	$('.carousel.carousel-slider').carousel({fullWidth: true,indicators:true, time_constant: 100});
   
+  /*
     setInterval(function() {
     $('.carousel.carousel-slider').carousel('next');
   }, 10000);
+*/
     $('.parallax').parallax();
     $(".button-collapse").sideNav();
 
