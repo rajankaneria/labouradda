@@ -88,21 +88,24 @@
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/Hawkers.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/Hawkers.png" /></div>
             <div class="offering-title">Hawkers (Male/Female)</div>
-            <div class="offering-description">The work that you can get done through labours are - Labours for cleaning by shifting furniture’s, Labours for Cleaning fixtures and fans, Labour for cleaning doors & windows, Labour for cleaning cabinets and shelves, Labour for Loft cleaning, Labour for overhead tank cleaning, labour for Garden cleaning .</div>
+            <div class="offering-description">
+            <a href="<?php echo base_url(); ?>adda"><button class="btn right black btn-book">Book Now</button></a> The work that you can get done through labours are - Labours for cleaning by shifting furniture’s, Labours for Cleaning fixtures and fans, Labour for cleaning doors & windows, Labour for cleaning cabinets and shelves, Labour for Loft cleaning, Labour for overhead tank cleaning, labour for Garden cleaning .</div>
         </div>
 
         <div class="offering-container col s12 m2 card-panel <?php if($serviceID=='s5') {?>active<?php } ?>">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/Casual Labour (Mazdoor) – daily wage worker.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/MorethanoneLabourformorethanoneday-yellow.png" /></div>
             <div class="offering-title">More than one Labour for more than one day</div>
-            <div class="offering-description">You can place a request for more than one labour for your requirement for more than one day. Labouradda will send you a list of labours with their unique ID a day in advance.  Since all the Loaders and un-loaders booked are adhaar card holders you can build a trust on them by cross checking identity of the labour through our call center by giving your booking ID and the unique ID of the labour.
+            <div class="offering-description">
+            <a href="<?php echo base_url(); ?>adda"><button class="btn right black btn-book">Book Now</button></a>You can place a request for more than one labour for your requirement for more than one day. Labouradda will send you a list of labours with their unique ID a day in advance.  Since all the Loaders and un-loaders booked are adhaar card holders you can build a trust on them by cross checking identity of the labour through our call center by giving your booking ID and the unique ID of the labour.
         </div>
         </div>
         <div class="offering-container col s12 m2 card-panel <?php if($serviceID=='s6') {?>active<?php } ?>">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/tatkaal%20seva.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/tatkaal%20seva-yellow.png" /></div>
             <div class="offering-title">Tatkaal labour</div>
-            <div class="offering-description">Labouradda connects you over the phone with a nearest available Labour for a Tatkaal need subject to availability at a walking distance. The cost estimate of all Tatkaal labour requirement of labour will be determined by the labour themselves by understanding the work over the phone or vide a SMS and dealings can be done on mutual consent of consumer and labourer directly at mutually agreed rates.</div>
+            <div class="offering-description"><a href="<?php echo base_url(); ?>adda"><button class="btn right black btn-book">Book Now</button></a>
+            Labouradda connects you over the phone with a nearest available Labour for a Tatkaal need subject to availability at a walking distance. The cost estimate of all Tatkaal labour requirement of labour will be determined by the labour themselves by understanding the work over the phone or vide a SMS and dealings can be done on mutual consent of consumer and labourer directly at mutually agreed rates.</div>
         </div>
 
 

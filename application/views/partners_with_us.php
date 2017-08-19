@@ -13,7 +13,7 @@
       <div class="partner">
       <div class="row">
         <h5>Join Us</h5>
-        <p>If you are a business or pro interested in joining our network, <a href="#"> click here</a></p>
+        <p>If you are a business or pro interested in joining our network, <a href="https://docs.google.com/forms/d/1vhpSPrjLJw25Wu653nqHhPwhHl9bZGfWRaEhGS_MvTU/" target="_page"> click here</a></p>
       </div>
 
       <div class="row">

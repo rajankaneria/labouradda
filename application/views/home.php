@@ -102,7 +102,7 @@
 
 
     <div class="row" style="position: relative; margin-bottom: 0px;">
-        <a href="Services/Daily_wage_Labourers"><div class="offering-container col s12 m2 card-panel">
+        <a href="Services/Daily_wage_Labourers"><div class="offering-container col s6 m2 card-panel">
         <div class="card-panel offering-image-container">
             <div class="offering-icon white-icon hoverable"><img src="<?php echo base_url(); ?>html/images/MorethanoneLabourformorethanoneday.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/MorethanoneLabourformorethanoneday-yellow.png" /></div>
@@ -111,7 +111,7 @@
           </div>
         </a>
 
-        <a href="Services/cleaning"><div class="offering-container col s12 m2 card-panel">
+        <a href="Services/cleaning"><div class="offering-container col s6 m2 card-panel">
             <div class="card-panel offering-image-container">
               <div class="offering-icon white-icon hoverable"><img src="<?php echo base_url(); ?>html/images/cleaning%20and%20maintenance.png" /></div>
               <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/cleaning%20and%20maintenance-yellow.png" /></div>
@@ -121,7 +121,7 @@
         </a>
 
         <a href="Services/domestic_helpers">
-        <div class="offering-container col s12 m2 card-panel">
+        <div class="offering-container col s6 m2 card-panel">
         <div class="card-panel offering-image-container">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/Domestic%20Helpers.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/Domestic%20Helpers-yellow.png" /></div>
@@ -131,7 +131,7 @@
         </a>
 
         <a href="services/Repair_and_Maintenance">
-        <div class="offering-container col s12 m2 card-panel">
+        <div class="offering-container col s6 m2 card-panel">
         <div class="card-panel offering-image-container">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/Repair%20&%20Maintenance.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/Repair%20&%20Maintenance-yellow.png" /></div>
@@ -141,7 +141,7 @@
         </a>
 
         <a href="services/Loaders_and_Unloaders">
-        <div class="offering-container col s12 m2 card-panel">
+        <div class="offering-container col s6 m2 card-panel">
         <div class="card-panel offering-image-container">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/loader%20unloader.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/loader%20unloader-yellow.png" /></div>
@@ -151,7 +151,7 @@
         </a>
 
         <a href="services/Hawkers">
-        <div class="offering-container col s12 m2 card-panel">
+        <div class="offering-container col s6 m2 card-panel">
         <div class="card-panel offering-image-container">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/Hawkers.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/Hawkers_yellow.png" /></div>
@@ -161,7 +161,7 @@
         </a>
 
         <a href="services/More_than_one_Labour">
-        <div class="offering-container col s12 m2 card-panel">
+        <div class="offering-container col s6 m2 card-panel">
         <div class="card-panel offering-image-container">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/Casual Labour (Mazdoor) – daily wage worker.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/Casual Labour (Mazdoor) – daily wage worker_yellow.png" /></div>
@@ -171,7 +171,7 @@
         </a>
 
         <a href="services/Tatkaal_labour">
-        <div class="offering-container col s12 m2 card-panel">
+        <div class="offering-container col s6 m2 card-panel">
         <div class="card-panel offering-image-container">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/tatkaal%20seva.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/tatkaal%20seva-yellow.png" /></div>

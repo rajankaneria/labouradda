@@ -68,66 +68,32 @@
     </div>
 </div>
 
-    <div class="row card-panel">
+<div class="row card-panel top_ftr_space">
 <div class="container">
+<div class="col m2 s12"></div>
     <div class="col m3 s12 img-box1">
             <div>
-              <img src="<?php echo base_url(); ?>html/images/350x350.png" class="circle hoverable responsive-img" height="200"/>
-              <p class="nm">Team Menmber <strong>Name</strong></p>
-              <p class="deg">Designation</p>
+              <img src="<?php echo base_url(); ?>html/images/m1.jpg" class="circle hoverable responsive-img" height="200"/>
+              <p class="nm">Ravi <strong>Nishad</strong></p>
+              <p class="deg">Trainer</p>
             </div>
-            <p class="grey-text text-darken-4 center-align">
+            <!--<p class="grey-text text-darken-4 center-align">
                 <a href="#" target="_blank"><i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i></a>
                <a href="#" target="_blank"><i class="social-connect connect-linkedin fa fa-linkedin-square" aria-hidden="true"></i></a>
-            </p>
+            </p>-->
         </div>
+        <div class="col m2 "></div>
     <div class="col m3 s12 img-box1">
             <div>
-              <img src="<?php echo base_url(); ?>html/images/350x350.png" class="circle hoverable responsive-img" height="200"/>
-              <p class="nm">Team Menmber <strong>Name</strong></p>
-              <p class="deg">Designation</p>
+              <img src="<?php echo base_url(); ?>html/images/m2.jpg" class="circle hoverable responsive-img" height="200"/>
+              <p class="nm">Harsh <strong>Asthana</strong></p>
+              <p class="deg">Head for Supply Chain</p>
             </div>
-            <p class="grey-text text-darken-4 center-align">
+            <!--<p class="grey-text text-darken-4 center-align">
                 <a href="#" target="_blank"><i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i></a>
                <a href="#" target="_blank"><i class="social-connect connect-linkedin fa fa-linkedin-square" aria-hidden="true"></i></a>
-            </p>
+            </p> -->
         </div>
-
-    <div class="col m3 s12 img-box1">
-            <div>
-              <img src="<?php echo base_url(); ?>html/images/350x350.png" class="circle hoverable responsive-img" height="200"/>
-              <p class="nm">Team Menmber <strong>Name</strong></p>
-              <p class="deg">Designation</p>
-            </div>
-            <p class="grey-text text-darken-4 center-align">
-                <a href="#" target="_blank"><i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i></a>
-               <a href="#" target="_blank"><i class="social-connect connect-linkedin fa fa-linkedin-square" aria-hidden="true"></i></a>
-            </p>
-        </div>
-        
-    <div class="col m3 s12 img-box1">
-            <div>
-              <img src="<?php echo base_url(); ?>html/images/350x350.png" class="circle hoverable responsive-img" height="200"/>
-              <p class="nm">Team Menmber <strong>Name</strong></p>
-              <p class="deg">Designation</p>
-            </div>
-            <p class="grey-text text-darken-4 center-align">
-                <a href="#" target="_blank"><i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i></a>
-               <a href="#" target="_blank"><i class="social-connect connect-linkedin fa fa-linkedin-square" aria-hidden="true"></i></a>
-            </p>
-        </div>
-        
-    <div class="col m3 s12 img-box1">
-            <div>
-              <img src="<?php echo base_url(); ?>html/images/350x350.png" class="circle hoverable responsive-img" height="200"/>
-              <p class="nm">Team Menmber <strong>Name</strong></p>
-              <p class="deg">Designation</p>
-            </div>
-            <p class="grey-text text-darken-4 center-align">
-                <a href="#" target="_blank"><i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i></a>
-               <a href="#" target="_blank"><i class="social-connect connect-linkedin fa fa-linkedin-square" aria-hidden="true"></i></a>
-            </p>
-        </div>            
+  <div class="col m2 s12"></div>
 </div>
     </div>    
-</div>
