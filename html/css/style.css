@@ -139,7 +139,7 @@ transition: all 0.3s ease-in-out;
 ===============================*/
 
 .footer-text.grey-text.text-darken-3 a{
-    color: #424242 !important;
+    color: #e2dbdb !important;
     -webkit-transition:all 0.3s ease-in-out;
     -moz-transition:all 0.3s ease-in-out;
     -o-transition:all 0.3s ease-in-out;
@@ -196,7 +196,7 @@ a.copyright-site-link {
 i.social-connect {
     font-size: 35px !important;
     margin: 0px 10px;
-    color: #7d7d7d;
+    color: #e2dbdb;
     cursor: pointer;
 }
 
@@ -482,7 +482,17 @@ li.me .active-item-indicator {
 .transparent-nav li.me .active-item-indicator {
     background: #fdec00 !important;
 }
-
 li.me {
     position: relative;
 }
+.grey-text.text-darken-4 {color: #fff !important;}
+.grey-text.text-darken-3 {color:#e2dbdb !important}
+.footer-sub-title.footer-text.grey-text.text-darken-3.right-align {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.footer-text.grey-text.text-darken-3.right-align {
+    font-size: 12px;   
+}
+
