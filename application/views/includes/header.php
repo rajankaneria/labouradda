@@ -51,18 +51,23 @@
         </li>
         <li class="<?php if(strtolower($this->uri->segment(1)) == 'about'){ ?>me<?php  } ?>">
             <a href="<?php echo base_url(); ?>about">About</a>
+            <div class="active-item-indicator"></div>
         </li>
         <li class="<?php if(strtolower($this->uri->segment(1)) == 'services'){ ?>me<?php  } ?>">
             <a href="<?php echo base_url(); ?>services">Services</a>
+            <div class="active-item-indicator"></div>
         </li>
         <li class="<?php if(strtolower($this->uri->segment(1)) == 'team'){ ?>me<?php  } ?>">
             <a href="<?php echo base_url(); ?>team" >Team</a>
+            <div class="active-item-indicator"></div>
         </li>
         <li class="<?php if(strtolower($this->uri->segment(1)) == 'partners_with_us'){ ?>me<?php  } ?>">
             <a href="<?php echo base_url(); ?>partners_with_us" class="click">Partners with us</a>
+            <div class="active-item-indicator"></div>
         </li>
         <li class="<?php if(strtolower($this->uri->segment(1)) == 'contact'){ ?>me<?php  } ?>">
             <a href="<?php echo base_url(); ?>contact">Contact us</a>
+            <div class="active-item-indicator"></div>
         </li>
         <li><a href="#"><a class="dropdown-button" href="#!" data-activates="dropdown1"><i class="material-icons">person</i></a></li>
       </ul>
