@@ -14,7 +14,7 @@
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/MorethanoneLabourformorethanoneday-yellow.png" /></div>
             <div class="offering-title">Daily wage Labourers</div>
             <div class="offering-description row">
-            <a href="<?php echo base_url(); ?>adda"><button class="btn right black btn-book">Book Now</button></a>
+            <a href="http://103.48.64.131/adda"><button class="btn right black btn-book">Book Now</button></a>
                 <div class="col m2"><center>
                 <img src="<?php echo base_url(); ?>html/images/Construction & Maintenance.png" class="img-bx" /><div class="offering-title">Construction and maintenance </div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Farming.png" class="img-bx" /><div class="offering-title">Farming </div></center></div>
@@ -27,7 +27,7 @@
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/cleaning%20and%20maintenance-yellow.png" /></div>
             <div class="offering-title">Cleaning & Maintenance</div>
             <div class="offering-description row">
-            <a href="<?php echo base_url(); ?>adda"><button class="btn right black btn-book">Book Now</button></a>
+            <a href="http://103.48.64.131/adda"><button class="btn right black btn-book">Book Now</button></a>
                 <div class="col m2"><center>
                 <img src="<?php echo base_url(); ?>html/images/Labours for cleaning floor by shifting furniture's.png" class="img-bx" /><div class="offering-title">Construction and maintenance </div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Labour for all works when.png" class="img-bx" /><div class="offering-title">Packers and movers  </div></center></div>
@@ -46,7 +46,7 @@
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/Domestic%20Helpers-yellow.png" /></div>
             <div class="offering-title">Domestic Helpers</div>
             <div class="offering-description row">
-            <a href="<?php echo base_url(); ?>adda"><button class="btn right black btn-book">Book Now</button></a>
+            <a href="http://103.48.64.131/adda"><button class="btn right black btn-book">Book Now</button></a>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Maids as substitute.png" class="img-bx" /><div class="offering-title">Proxy maids</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Dhobi & Cloth Washers.png" class="img-bx" /><div class="offering-title">Dhobis</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Helpers for get together & parties.png" class="img-bx" /><div class="offering-title">To help organize parties and gatherings </div></center></div>
@@ -59,7 +59,7 @@
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/Repair%20&%20Maintenance-yellow.png" /></div>
             <div class="offering-title">Repair & Maintenance</div>
             <div class="offering-description row">
-            <a href="<?php echo base_url(); ?>adda"><button class="btn right black btn-book">Book Now</button></a>
+            <a href="http://103.48.64.131/adda"><button class="btn right black btn-book">Book Now</button></a>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Plumbers.png" class="img-bx" /><div class="offering-title">Plumbers</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Carpenters.png" class="img-bx" /><div class="offering-title">Carpenters</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Painters.png" class="img-bx" /><div class="offering-title">Painters</div></center></div>
@@ -76,7 +76,7 @@
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/loader%20unloader-yellow.png" /></div>
             <div class="offering-title">Loaders & Unloaders</div>
             <div class="offering-description row">
-            <a href="<?php echo base_url(); ?>adda"><button class="btn right black btn-book">Book Now</button></a>
+            <a href="http://103.48.64.131/adda"><button class="btn right black btn-book">Book Now</button></a>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Three Wheelers with Labourers.png" class="img-bx" /><div class="offering-title">Three Wheelers with/without labourers</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Four Wheelers without Labourers.png" class="img-bx" /><div class="offering-title">Four Wheelers with/without labourers</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Labourers for Packing & Unpacking.png" class="img-bx" /><div class="offering-title">Labourers for packing and unpacking</div></center></div>
@@ -88,7 +88,7 @@
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/Hawkers.png" /></div>
             <div class="offering-title">Hawkers (Male/Female)</div>
             <div class="offering-description">
-            <a href="<?php echo base_url(); ?>adda"><button class="btn right black btn-book">Book Now</button></a> 
+            <a href="http://103.48.64.131/adda"><button class="btn right black btn-book">Book Now</button></a> 
             <li>Newspaper hawkers –freelancers/distribute news papers</li>
             <li>General hawkers - deal in ready stock of FMCG items to be sold to street vendors. (bread, cigarettes, beery, masaala, toffees etc).</li>
             </div>
@@ -99,7 +99,7 @@
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/MorethanoneLabourformorethanoneday-yellow.png" /></div>
             <div class="offering-title">More than one Labour</div>
             <div class="offering-description">
-            <a href="<?php echo base_url(); ?>adda"><button class="btn right black btn-book">Book Now</button></a>
+            <a href="http://103.48.64.131/adda"><button class="btn right black btn-book">Book Now</button></a>
             <li>Place request for more than one labour for your requirement for en number of days. </li>
         </div>
         </div>
@@ -107,7 +107,7 @@
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/tatkaal%20seva.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/tatkaal%20seva-yellow.png" /></div>
             <div class="offering-title">Tatkaal labour</div>
-            <div class="offering-description"><a href="<?php echo base_url(); ?>adda"><button class="btn right black btn-book">Book Now</button></a>
+            <div class="offering-description"><a href="http://103.48.64.131/adda"><button class="btn right black btn-book">Book Now</button></a>
             <li>Book labourers on urgent basis.</li>    
             <p><em>* The availability of labour is subject to availability (in terms of time and location). The cost estimate will be determined by the labour themselves after analyzing the magnitude of work via a SMS or call.</em></p>
             </div>

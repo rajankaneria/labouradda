@@ -1,7 +1,7 @@
 <div class="nav-top"></div>
 <div class="container">
 	<div class="c-title">Our Team</div>
-	<p class="c-paragraph">To empower people to do more, to be more</p>
+	<!-- <p class="c-paragraph">To empower people to do more, to be more</p> -->
 
  <div class="row team-member">
     <div class="team-box">
@@ -28,7 +28,7 @@
 
 
         <div class="team-name"><span class="team-firstname">SIDDHARTH</span><span class="team-lastname">ASTHANA</span></div>
-        <div class="team-position">CO - FOUNDER & CHIEF INNOVATION OFFICE</div>
+        <div class="team-position">CO - FOUNDER & CHIEF INNOVATION OFFICER</div>
         <p style="color:#696969;">Siddharth is the key architect of the unique concept that LabourAdda has shaped into. A professional turned into an entrepreneur, Siddharth is the co-founder and Director at Otaf Overseas Private Limited and his prime responsibilities include contributing to the strategic alignment of technology for the company’s business plans. He is the torch bearer of the digitization module of LabourAdda and has been instrumental in instilling youthful and modern enthusiasm into the concept. Siddharth is a savoir-faire tech helmer by nature and deep diving into technology has been one of his major indulgences. With a rich work experience, Siddharth has been previously associated with Global Assurance Solutions (GAS), Dubai (UAE), Lacoste and has also co-promoted an exclusive concept- to a prominent telecom company - that aimed at helping block cross-border selling.</p></div>
         </div>
     </div>
@@ -75,7 +75,7 @@
             <div>
               <img src="<?php echo base_url(); ?>html/images/m2.jpg" class="circle hoverable responsive-img" height="200"/>
               <p class="nm">Harsh <strong>Asthana</strong></p>
-              <p class="deg">Chief Innovation Officer.</p>
+              <p class="deg">Head for Supply Chain</p>
             </div>
             <!--<p class="grey-text text-darken-4 center-align">
                 <a href="#" target="_blank"><i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i></a>

@@ -73,9 +73,9 @@
       </ul>
         <!-- Dropdown Structure -->
         <ul id="dropdown1" class="dropdown-content">
-          <li><a href="<?php echo base_url(); ?>adda">Sign in</a></li>
+          <li><a href="http://103.48.64.131/adda">Sign in</a></li>
           <li class="divider"></li>
-          <li><a href="#!">Sign up</a></li>
+          <li><a href="http://103.48.64.131/adda">Sign up</a></li>
         </ul>
       <ul id="nav-mobile" class="side-nav">
         <li class="<?php if(strtolower($this->uri->segment(1)) == 'home'){ ?>me<?php  } ?>">
