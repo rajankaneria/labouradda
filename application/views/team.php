@@ -7,7 +7,7 @@
     <div class="team-box">
         <div class="col m4 s12 img-box hide-on-med-only hide-on-small-only">
             <div>
-                <img src="<?php echo base_url(); ?>html/images/sid.jpeg" class="circle hoverable responsive-img" height="300"/>
+                <img src="<?php echo base_url(); ?>html/images/sid.jpg" class="circle hoverable responsive-img" height="300"/>
             </div>
             <p class="grey-text text-darken-4 center-align">
                 <a href="http://www.facebook.com/siddharth.asthana.336/" target="_blank"><i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i></a>
@@ -18,7 +18,7 @@
 
         <div class="col m4 s12 img-box hide-on-large-only">
             <div>
-                <img src="<?php echo base_url(); ?>html/images/sid.jpeg" class="circle hoverable responsive-img" height="300"/>
+                <img src="<?php echo base_url(); ?>html/images/sid.jpg" class="circle hoverable responsive-img" height="300"/>
             </div>
             <p class="grey-text text-darken-4 center-align" style="text-align: center;">
                 <a href="http://www.facebook.com/siddharth.asthana.336/" target="_blank"><i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i></a>
@@ -57,7 +57,7 @@
         </div>
         <div class="col m4 s12 img-box hide-on-med-only hide-on-small-only">
             <div>
-              <img src="<?php echo base_url(); ?>html/images/indu.jpeg" class="circle hoverable responsive-img" height="300"/>
+              <img src="<?php echo base_url(); ?>html/images/website.jpg" class="circle hoverable responsive-img" height="300"/>
             </div>
             <p class="grey-text text-darken-4 center-align">
                 <a href="https://www.facebook.com/public/Indu-Bhushan-Asthana" target="_blank"><i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i></a>
@@ -73,9 +73,9 @@
 <div class="col m2 s12"></div>
     <div class="col m3 s12 img-box1">
             <div>
-              <img src="<?php echo base_url(); ?>html/images/m1.jpg" class="circle hoverable responsive-img" height="200"/>
-              <p class="nm">Ravi <strong>Nishad</strong></p>
-              <p class="deg">Trainer</p>
+              <img src="<?php echo base_url(); ?>html/images/m2.jpg" class="circle hoverable responsive-img" height="200"/>
+              <p class="nm">Harsh <strong>Asthana</strong></p>
+              <p class="deg">Chief Innovation Officer.</p>
             </div>
             <!--<p class="grey-text text-darken-4 center-align">
                 <a href="#" target="_blank"><i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i></a>
@@ -85,9 +85,9 @@
         <div class="col m2 "></div>
     <div class="col m3 s12 img-box1">
             <div>
-              <img src="<?php echo base_url(); ?>html/images/m2.jpg" class="circle hoverable responsive-img" height="200"/>
-              <p class="nm">Harsh <strong>Asthana</strong></p>
-              <p class="deg">Head for Supply Chain</p>
+              <img src="<?php echo base_url(); ?>html/images/m1.jpg" class="circle hoverable responsive-img" height="200"/>
+              <p class="nm">Ravi <strong>Nishad</strong></p>
+              <p class="deg">Trainer</p>
             </div>
             <!--<p class="grey-text text-darken-4 center-align">
                 <a href="#" target="_blank"><i class="social-connect connect-facebook fa fa-facebook-square" aria-hidden="true"></i></a>
