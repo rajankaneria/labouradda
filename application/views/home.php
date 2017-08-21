@@ -96,8 +96,8 @@
 
 <div class="row">
 <div class="box our-service-box">
-  <div class="c-title">Our Services</div>
-  <p class="c-paragraph">Labouradda is a unique platform that helps in connecting a Consumer to a labourer for Domestic or Commercial use. Just give a missed call at 088 088 088 88 and get a call back for cost and estimation. Explain your requirement to the labourer, then sit back and relax!</p>
+  <div class="c-title">Services we provide</div>
+  <p class="c-paragraph">Book labourers for the following services</p>
 
 
 
@@ -184,7 +184,7 @@
 </div>
 
 <div class="card-panel how_it_WORK_box">
-<div class="container" style="margin-bottom: 100px;">
+<div class="container" style="margin-bottom: 0px;">
   <div class="row">
     <div class="section-title grey-text text-darken-4">HOW IT WORKS?</div>
 
@@ -263,7 +263,7 @@
                       <i class="fa fa-check fa-stack-1x inner-icon" style="color: #E0E0E0;"></i>
                     </span>
                     <!-- <img src="images/about-01.jpg" class="img-responsive" alt=".."> -->
-                    <h4>Verified and Trusted Labourers</h4>
+                    <h4>Adhaar Card Verified Labourers</h4>
                     <div class="border"></div>
                     <!-- <p>Duis aute irure dolor in reprehen derit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Lorem reprehenderit</p> -->
                 </div>
@@ -294,11 +294,7 @@
     <div class="section-title">Our Honorable Partner</div>
     <div class="container">
     <div class="row">
-      <div class="col m4 partner-logo">
-        <div class="center">
-          <img style="margin-top:14px;max-width: 70% !important;" src="<?php echo base_url(); ?>html/images/icreate logo.png">
-        </div>
-      </div>
+      
       <div class="col m4 partner-logo">
         <div class="center">
           <center><img style="margin-top:14px;max-width: 70% !important;" src="<?php echo base_url(); ?>html/images/knowlarity logo.png"></center>
@@ -307,6 +303,11 @@
       <div class="col m4 partner-logo">
         <div class="center">
           <center><img style="margin-top:14px;max-width: 70% !important;" src="<?php echo base_url(); ?>html/images/Magnum.png"></center>
+        </div>
+      </div>
+      <div class="col m4 partner-logo">
+        <div class="center">
+          <img style="margin-top:14px;max-width: 70% !important;" src="<?php echo base_url(); ?>html/images/intelliworkz-logo.jpg">
         </div>
       </div>
     </div>

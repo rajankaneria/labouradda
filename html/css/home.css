@@ -228,3 +228,9 @@ div#descriptionText {
 .carousel-item{
     cursor: pointer;
 }
+.offering-container .offering-title{
+    display: block !important;
+}
+div#descriptionTitle{
+    font-weight: 300 !important;
+}

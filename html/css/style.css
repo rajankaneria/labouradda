@@ -63,10 +63,14 @@ nav.nav-bar ul a:hover {
     text-align: center;
 }
 .abt-box h4{
-    font-size: 14px;
+    font-size: 18px;
     padding: 10px 0px;
     text-align: center;
     font-weight: 500;
+    text-transform: uppercase;
+}
+.about-container .c-paragraph{
+    text-align: justify;
 }
 
 /**============================
