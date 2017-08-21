@@ -172,6 +172,17 @@ a.footer-link-right:hover {
 }
 a.copyright-site-link {
     color: #fff;
+    -webkit-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+a.copyright-site-link:hover{
+    color: yellow;
+    -webkit-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
 }
 
 .footer-copyright{
@@ -195,21 +206,43 @@ a.copyright-site-link {
 
 .footer-title {
     text-transform: uppercase;
+    font-size: 1.30rem;
 }
 
 i.social-connect {
-    font-size: 35px !important;
+    font-size: 25px !important;
     margin: 0px 10px;
     color: #e2dbdb;
     cursor: pointer;
 }
 
-i.social-connect.connect-facebook:hover {
-    color: #3b5998;
+i.social-connect.connect-facebook{
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
 }
 
+i.social-connect.connect-facebook:hover {
+    color: #3b5998;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
+
+i.social-connect.connect-linkedin{
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+}
 i.social-connect.connect-linkedin:hover {
     color: #283e4a;
+    -webkit-transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -o-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
 }
 
 .partner-logo .card-panel {
@@ -490,7 +523,7 @@ li.me {
     position: relative;
 }
 .grey-text.text-darken-4 {color: #212121 !important;}
-.grey-text.text-darken-3 {color:#e2dbdb !important}
+.grey-text.text-darken-3 {color:#e2dbdb !important;    font-size: 0.85rem !important;}
 .footer-sub-title.footer-text.grey-text.text-darken-3.right-align {
     font-size: 14px;
     text-transform: uppercase;
@@ -502,4 +535,8 @@ li.me {
 
 .top_ftr_space{
     margin-bottom: 0px !important;
+}
+
+.trm{
+    width: auto !important;
 }
