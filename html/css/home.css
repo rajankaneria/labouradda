@@ -225,3 +225,6 @@ div#descriptionText {
     background: #fff !important;
     box-shadow: none !important;
 }
+.carousel-item{
+    cursor: pointer;
+}

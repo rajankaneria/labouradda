@@ -14,7 +14,7 @@ class Team extends CI_Controller {
 			"jsFiles" => array("dashboard.js")
 		);
 		$viewData = array(
-			"viewName" => "Team",
+			"viewName" => "team",
             "viewData" => array(),
 			"headerData" => $headerData,
 			"footerData" => $footerData	

@@ -27,19 +27,19 @@
       <img src="<?php echo base_url(); ?>html/images/slider2.jpg" />
     </div> -->
     <div class="carousel-item amber white-text" href="#one!">
-      <img src="<?php echo base_url(); ?>html/images/slider-1.jpg" />
+      <img onclick="window.location.href='<?php echo base_url(); ?>services/cleaning'" src="<?php echo base_url(); ?>html/images/slider-1.jpg" />
     </div>
     <div class="carousel-item amber white-text" href="#two!">
-      <img src="<?php echo base_url(); ?>html/images/slider-2.jpg" />
+      <img onclick="window.location.href='<?php echo base_url(); ?>services/domestic_helpers'" src="<?php echo base_url(); ?>html/images/slider-2.jpg" />
     </div>
     <div class="carousel-item amber white-text" href="#three!">
-      <img src="<?php echo base_url(); ?>html/images/slider-3.jpg" />
+      <img onclick="window.location.href='<?php echo base_url(); ?>services/Repair_and_Maintenance'" src="<?php echo base_url(); ?>html/images/slider-3.jpg" />
     </div>
     <div class="carousel-item amber white-text" href="#four!">
-      <img src="<?php echo base_url(); ?>html/images/slider-4.jpg" />
+      <img onclick="window.location.href='<?php echo base_url(); ?>services/Loaders_and_Unloaders'" src="<?php echo base_url(); ?>html/images/slider-4.jpg" />
     </div>
     <div class="carousel-item amber white-text" href="#five!">
-      <img src="<?php echo base_url(); ?>html/images/slider-5.jpg" />
+      <img onclick="window.location.href='<?php echo base_url(); ?>services/Daily_wage_Labourers'" src="<?php echo base_url(); ?>html/images/slider-5.jpg" />
     </div>
 
 

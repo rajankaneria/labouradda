@@ -13,7 +13,7 @@ class Contact extends CI_Controller {
 			"jsFiles" => array("dashboard.js")
 		);
 		$viewData = array(
-			"viewName" => "Contact",
+			"viewName" => "contact",
             "viewData" => array(),
 			"headerData" => $headerData,
 			"footerData" => $footerData	

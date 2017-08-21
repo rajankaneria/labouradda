@@ -1,4 +1,16 @@
+var sliderInterval;
 $(function(){
+
+  sliderInterval = setInterval(function() {
+    $('.carousel.carousel-slider').carousel('next');
+  }, 3000);
+
+  $(".carousel .indicator-item").on("click",function(){
+    clearInterval(sliderInterval);
+    sliderInterval = setInterval(function() {
+      $('.carousel.carousel-slider').carousel('next');
+    }, 3000);
+  });
 
 	$(window).scroll(function (event) {
       	var scroll = $(window).scrollTop();

@@ -14,7 +14,7 @@ class Home extends CI_Controller {
 			"jsFiles" => array("dashboard.js","home.js")
 		);
 		$viewData = array(
-			"viewName" => "Home",
+			"viewName" => "home",
             "viewData" => array(),
 			"headerData" => $headerData,
 			"footerData" => $footerData	

@@ -14,7 +14,7 @@ class About extends CI_Controller {
 			"jsFiles" => array("dashboard.js")
 		);
 		$viewData = array(
-			"viewName" => "About",
+			"viewName" => "about",
             "viewData" => array(),
 			"headerData" => $headerData,
 			"footerData" => $footerData	
