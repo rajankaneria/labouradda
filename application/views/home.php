@@ -166,7 +166,7 @@
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/Casual Labour (Mazdoor) – daily wage worker.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/Casual Labour (Mazdoor) – daily wage worker_yellow.png" /></div>
             </div>
-            <div class="offering-title">More than one Labour for more than one day</div>
+            <div class="offering-title">More than one labourer</div>
         </div>
         </a>
 
