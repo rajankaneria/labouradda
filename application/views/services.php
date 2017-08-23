@@ -125,8 +125,8 @@
 
 <!-- tearms and Conditions start here-->
 
-<div class="row">
-    <div class="card-panel">
+<div class="row" style="margin-bottom: 0px;">
+    <div class="card-panel" style="margin-bottom: 0px;">
         <div class="container">
         <div class="c-title">Terms and Conditions</div>
         <div class="row">

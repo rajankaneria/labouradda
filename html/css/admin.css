@@ -1,0 +1,39 @@
+.card-panel {
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    padding: 24px;
+    margin: 10.5rem -454px 9rem 410px !important;
+    border-radius: 2px;
+    background-color: #fff;
+}
+#card2 {
+    margin-left: 4px !important;
+    margin-top: 52px !important;
+    margin-bottom: 82px !important;
+    margin-right: -342px !important;
+    padding-bottom: 183px;
+    padding-left: 5px;
+    box-shadow: none;
+    padding-right: 15px;
+   
+}
+#b1{
+	margin-bottom: 25px;
+	color:yellow !important;
+	    margin-top: -81px;
+	
+	
+}
+.red.lighten-5 {
+    background-color: #424242  !important;
+}
+h4,h6{
+	color: white;
+}
+.btn.active {
+    background: #fdeb00 !important;
+    color: #000;
+}
+
