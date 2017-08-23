@@ -153,8 +153,8 @@
         <a href="services/Hawkers">
         <div class="offering-container col s6 m2 card-panel">
         <div class="card-panel offering-image-container">
-            <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/Hawkers.png" /></div>
-            <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/Hawkers_yellow.png" /></div>
+            <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/shop.png" /></div>
+            <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/Icon.png" /></div>
             </div>
             <div class="offering-title">Merchants</div>
         </div>

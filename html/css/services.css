@@ -23,3 +23,22 @@
 div#descriptionTitle{
 	margin-bottom: 20px;
 }
+
+#descriptionText .col {
+    min-height: 200px;
+}
+
+#descriptionText .col:hover {
+    cursor: pointer;
+}
+
+#descriptionText .col:hover img {
+    background: #fff;
+}
+
+.offering-title {
+    color: #696969;
+}
+#descriptionText .col:hover .offering-title {
+    color:#000;
+}

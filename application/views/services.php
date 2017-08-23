@@ -84,8 +84,8 @@
         </div>
 
         <div class="offering-container col s12 m2 card-panel <?php if($serviceID=='Hawkers') {?>active<?php } ?>">
-            <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/Hawkers.png" /></div>
-            <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/Hawkers.png" /></div>
+            <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/shop.png" /></div>
+            <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/Icon.png" /></div>
             <div class="offering-title">Merchants</div>
             <div class="offering-description">
             <a href="http://103.48.64.131/adda"><button class="btn right black btn-book">Book Now</button></a> 

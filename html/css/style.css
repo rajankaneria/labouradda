@@ -540,3 +540,22 @@ li.me {
 .trm{
     width: auto !important;
 }
+
+
+.about-image-box {
+    width: 100%;
+    position: relative;
+}
+
+.abt-box h4 {
+    padding-bottom: 5px;
+    margin-bottom: 5px !important;
+}
+
+.abt-box .c-paragraph {
+    margin-top: 10px;
+}
+
+.about-image-box img {
+    width: 30%;
+}

@@ -34,6 +34,7 @@
         <div class="col m4">
             <div class="card-panel hoverable white abt-box">              
                           <!-- <img src="images/about-02.jpg" class="img-responsive" alt=".."> -->
+              <div class="about-image-box"><img src="<?php echo base_url(); ?>html/images/Reliability.png"></div>
               <h4>Reliability </h4>
                 <div class="border"></div>
                    <p class="c-paragraph">At LabourAdda, we abide by ascetic professional ethics. Our foundation is cemented with honesty towards our consumers, timeliness and commitment towards our work. 
@@ -43,7 +44,8 @@
 
           <div class="col m4">
             <div class="card-panel hoverable white abt-box">
-                      <div class="welcome-section text-center">                   
+                      <div class="welcome-section text-center">    
+                      <div class="about-image-box"><img src="<?php echo base_url(); ?>html/images/EXCELLENCE.png"></div>               
                           <h4>Excellence</h4>
                           <div class="border"></div>
                         <p class="c-paragraph">We are constantly striving for excellence and are always looking for ways to improve. And we make sure that every step forward is aimed at achieving nothing but the best.</p> 
@@ -53,7 +55,8 @@
 
         <div class="col m4">
             <div class="card-panel hoverable white abt-box">
-                      <div class="welcome-section text-center">                   
+                      <div class="welcome-section text-center">   
+                      <div class="about-image-box"><img src="<?php echo base_url(); ?>html/images/Value%20for%20Money.png"></div>                  
                           <h4>Value for Money</h4>
                           <div class="border"></div>
                         <p class="c-paragraph">We understand the value of our consumer’s hard earned money and have designed our services and policies in accordance with this constitutional understanding. 
