@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Contact extends CI_Controller {
 	
-	public function index($modalFlag = 0)
+	public function index()
 	{		
 		$headerData = array(
 			"pageTitle" => "Contact",
@@ -14,26 +14,19 @@ class Contact extends CI_Controller {
 		);
 		$viewData = array(
 			"viewName" => "contact",
-            "viewData" => array("modalFlag" => $modalFlag),
+            "viewData" => array(),
 			"headerData" => $headerData,
 			"footerData" => $footerData	
 		);
 		$this->load->view('template',$viewData);
 	}
 
-	public function thankyou(){
-		$this->index(1);
-	}
-
-	public function failedMail(){
-		$this->index(2);
-	}
-
 	public function contactSubmit(){
-			
+	
 			$name=$_POST["name"];
 			$mobile=$_POST["mobile"];
 			$email=$_POST["email"];
+			$cat=$_POST["cat"];
 			$msg=$_POST["msg"];
 
 			$to = "webdeveloper.intelliworkz@gmail.com";
@@ -46,6 +39,7 @@ class Contact extends CI_Controller {
 			   <tr><td>Name:</td><td>$name</td></tr>
 			   <tr><td>Phone:</td><td>$mobile</td></tr>
 			   <tr><td>E-Mail:</td><td>$email</td></tr>
+			   <tr><td>Category:</td><td>$cat</td></tr>
 			   <tr><td>Message:</td><td>$msg</td></tr>		   
 			   </table></div></body>";
 
@@ -56,14 +50,11 @@ class Contact extends CI_Controller {
 			//$headers .= 'Cc:sales@lexcru.com' . "\r\n";
 			if(mail($to,$subject,$message,$headers)){
 				echo "Mail successfully sent";
-				redirect('contact/thankyou');
 			}
 			else
 			{
-				echo "Failed Mail successfully sent";
-				redirect('contact/failedMail');
+				echo "Mail successfully sent";
 			}
-			
 		
 	}
 

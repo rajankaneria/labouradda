@@ -1,0 +1,25 @@
+.box{
+	width: 90% !important;
+    margin: 0 auto;
+}
+
+#descriptionText .col {
+    position: relative;
+    min-height: 185px;
+}
+
+
+#descriptionText .col
+ img.img-bx {
+    width: 80%;
+    border: 2px solid #ccc;
+    padding: 10%;
+    background: #e0e0e0;
+}
+
+.offering-title {
+    font-size: 12px;
+}
+div#descriptionTitle{
+	margin-bottom: 20px;
+}

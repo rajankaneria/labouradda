@@ -31,7 +31,7 @@
       </div>
        <div class="row">
       <div class="input-field col s12">
-        <select name="cat" id="cate" class="validate">
+        <select name="cat">
             <option value="" disabled selected>Select Enquiry Type</option>
             <option value="1" id="1">No services available for my locality</option>
             <option value="Enlist My Apartment">Enlist My Apartment</option>
@@ -53,9 +53,7 @@
           </div>     
       <div class="row">
         <div class="col s12 center-align">
-        
          <input type="submit" name="submit" value="Submit" class="waves-effect waves-light btn black">
-
         </div>
       </div>
      
@@ -63,36 +61,3 @@
   </div>
   </div>
   </div>
-
- <!-- Modal Structure -->
-  
-    <div id="thankyouModal" class="modal" style="top: 30% !important;">
-    <div class="modal-content">
-      <h4>Modal Header</h4>
-      <p>A bunch of text</p>
-    </div>
-    <div class="modal-footer">
-      <a href="<?php echo base_url(); ?>contact" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-    </div>
-  </div>
-
-   <div id="FailedModal" class="modal" style="top: 30% !important;">
-    <div class="modal-content">
-      <h4>Modal Header</h4>
-      <p>Something is wrong</p>
-      
-    </div>
-    <div class="modal-footer">
-      <a href="<?php echo base_url(); ?>contact" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-    </div>
-  </div>
-
-
-  <script type="text/javascript">
-    $('.modal').modal();
-    <?php if($modalFlag == 1){ ?>
-      $("#thankyouModal").modal('open');
-    <?php } else if ($modalFlag == 2) { ?>
-      $("#FailedModal").modal('open');
-    <?php } ?>
-  </script>

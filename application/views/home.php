@@ -156,7 +156,7 @@
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/Hawkers.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/Hawkers_yellow.png" /></div>
             </div>
-            <div class="offering-title">Hawkers (Male/Female)</div>
+            <div class="offering-title">Merchants</div>
         </div>
         </a>
 

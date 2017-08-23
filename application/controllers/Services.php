@@ -8,7 +8,7 @@ class Services extends CI_Controller {
 	{		
 		$headerData = array(
 			"pageTitle" => "Services",
-			"stylesheet" => array("offer.css")
+			"stylesheet" => array("offer.css","services.css")
 		);
 		$footerData = array(
 			"jsFiles" => array("dashboard.js","offer.js")

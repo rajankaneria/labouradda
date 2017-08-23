@@ -96,6 +96,12 @@
         <li class="<?php if(strtolower($this->uri->segment(1)) == 'contact'){ ?>me<?php  } ?>">
             <a href="<?php echo base_url(); ?>contact">Contact us</a>
         </li>
+        <li>
+            <a href="http://103.48.64.131/adda">Sign in</a>
+        </li>
+        <li>
+            <a href="http://103.48.64.131/adda">Sign up</a>
+        </li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>

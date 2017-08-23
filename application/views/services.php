@@ -4,8 +4,8 @@
 
 <div class="nav-top"></div>
 <div class="container">
-	<div class="c-title">What we Offer</div>
-	<p class="c-paragraph">Labouradda is a unique platform that helps in connecting a Consumer to a labourer for Domestic or Commercial use. Just give a missed call at 088 088 088 88 and get a call back for cost and estimation. Explain your requirement to the labourer, then sit back and relax!</p>
+	<div class="c-title">Services we provide</div>
+	<p class="c-paragraph">Book labourers for the following services</p>
 </div>
 <div class="box">
     <div class="row" style="position: relative;">
@@ -29,8 +29,8 @@
             <div class="offering-description row">
             <a href="http://103.48.64.131/adda"><button class="btn right black btn-book">Book Now</button></a>
                 <div class="col m2"><center>
-                <img src="<?php echo base_url(); ?>html/images/Labours for cleaning floor by shifting furniture's.png" class="img-bx" /><div class="offering-title">Construction and maintenance </div></center></div>
-                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Labour for all works when.png" class="img-bx" /><div class="offering-title">Packers and movers  </div></center></div>
+                <img src="<?php echo base_url(); ?>html/images/Labours for cleaning floor by shifting furniture's.png" class="img-bx" /><div class="offering-title">Cleaning floor, fixtures and fans, doors, windows, cabinets, shelves and lofts</div></center></div>
+                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Labour for all works when.png" class="img-bx" /><div class="offering-title">Packers and movers </div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Labour for overhead tank cleaning.png" class="img-bx" /><div class="offering-title">Overhead tank cleaning</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Labour for Garden Cleaning.png" class="img-bx" /><div class="offering-title">Garden maintenance </div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Labour for Toilet Cleaning.png" class="img-bx" /><div class="offering-title">Toilet cleaning </div></center></div>
@@ -67,7 +67,7 @@
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Mason.png" class="img-bx" /><div class="offering-title">Mason</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Fabricator.png" class="img-bx" /><div class="offering-title">Fabricator</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Car Repair & Maintenance.png" class="img-bx" /><div class="offering-title">Car Repair and maintenance</div></center></div>
-                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Car Tire Repair.png" class="img-bx" /><div class="offering-title">Car Tire Repair</div></center></div>
+                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Car Tire Repair.png" class="img-bx" /><div class="offering-title">Car Tyre Repair</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/A-C Repair & Maintenance.png" class="img-bx" /><div class="offering-title">A/C Repair and maintenance</div></center></div>
             </div>
         </div>
@@ -86,7 +86,7 @@
         <div class="offering-container col s12 m2 card-panel <?php if($serviceID=='Hawkers') {?>active<?php } ?>">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/Hawkers.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/Hawkers.png" /></div>
-            <div class="offering-title">Hawkers (Male/Female)</div>
+            <div class="offering-title">Merchants</div>
             <div class="offering-description">
             <a href="http://103.48.64.131/adda"><button class="btn right black btn-book">Book Now</button></a> 
             <li>Newspaper hawkers –freelancers/distribute news papers</li>
@@ -139,7 +139,7 @@
         </div>
         <div class="row">
             <div class="col s1 trm"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></div>
-            <div class="col s11">Supervision of labourers to be done by the customers themselves. LabourAdda is not responsible for ant shortcomings in the work output and skills of the labourers. </div>
+            <div class="col s11">Supervision of labourers to be done by the customers themselves. LabourAdda is not responsible for and shortcomings in the work output and skills of the labourers. </div>
         </div>
         </div>
     </div>
