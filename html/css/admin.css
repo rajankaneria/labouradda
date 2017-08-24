@@ -3,10 +3,13 @@
 .title
 {
     text-align: center;
-    font-size: 30px;
-    font-weight: 500;
-    border-bottom: 2px solid #eee;
+    font-size: 20px;
+    /* font-weight: 500; */
+    /* border-bottom: 2px solid #eee; */
     padding-bottom: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 .login-panel {
 	width: 60%;
@@ -16,7 +19,7 @@
 }
 .login-cont{
 	margin-top: 63px !important;
-	background: url("../images/slider2.jpg");
+
 }
 .login-btn{	
 border-radius: 22px;
@@ -25,7 +28,7 @@ padding: 11px;
 width: 12%;
 margin: 0 auto;
 display: block;
-margin-top: 20px;
+margin-top: 0px;
 background: yellow;
 font-weight: 500;
 font-size: 15px;
@@ -41,6 +44,8 @@ border: 1px solid grey !important;
 -webkit-border-radius: 25px;
 -moz-border-radius: 25px;
 margin-top: 30px !important;
+text-align: center;
+color: #ffff00;
 }
 
 
@@ -72,6 +77,51 @@ margin-top: 30px !important;
     padding-bottom: 80px;
     padding-top: 150px;
     margin: 0 auto !important;
+    overflow: hidden;
+    position: relative;
 }
 
+.bg-image img {
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.bg-image {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+        z-index: -10;
+}
+
+.bg-image-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+    z-index: -5;
+    top: 0;
+}
     
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: transparent !important;
+    background-image: none;
+    color: #ffff00 !important;
+    text-align: center;
+    -webkit-box-shadow: 0 0 0 30px #000 inset !important;
+    -webkit-text-fill-color: #989897 !important;
+
+}
+
+nav.nav-bar {
+    background: transparent !important;
+    box-shadow: none !important;
+    position: absolute;;
+}
+nav .brand-logo{
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 50px;
+}
