@@ -1,2 +1,77 @@
+/* CSS of login page*/
+
+.title
+{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+.login-panel {
+	width: 60%;
+	margin: 0 auto;	
+	min-height: 273px;
+	background: transparent;
+}
+.login-cont{
+	margin-top: 63px !important;
+	background: url("../images/slider2.jpg");
+}
+.login-btn{	
+border-radius: 22px;
+border: 0px solid grey;
+padding: 11px;
+width: 12%;
+margin: 0 auto;
+display: block;
+margin-top: 20px;
+background: yellow;
+font-weight: 500;
+font-size: 15px;
+text-transform: uppercase;
+letter-spacing: 0.12px;
+}
+.login-input{
+border-radius: 20px !important;
+width: 50% !important;
+margin: 0 auto !important;
+display: block !important;
+border: 1px solid grey !important;
+-webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+margin-top: 30px !important;
+}
 
 
+/* media query for login responsive*/
+
+@media screen and (max-width:615px)
+{
+	.login-btn{	width: 30% !important}
+}
+
+/*for place holder align center*/
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+.row.login-form.login-cont {
+    padding-bottom: 80px;
+    padding-top: 150px;
+    margin: 0 auto !important;
+}
+
+    

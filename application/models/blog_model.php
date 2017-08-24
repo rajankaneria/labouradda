@@ -8,7 +8,7 @@ class blog_model extends CI_Model {
 
 	public function updateBlog($blogdata,$blogid)
 	{
-		$this->db->where('id' => $blogid);
+		$this->db->where('id',$blogid);
 		$this->db->update('blog',$blogdata);
 	}
 
@@ -18,7 +18,7 @@ class blog_model extends CI_Model {
         $this->db->delete('blog');
 	}
 
-	public function blogDetails($blogid)
+	public function blogDetails($blogid)	
 	{
 		$query = $this->db->query("select * from blog where id='$blogid'");
 		$output = $query->row_array();
