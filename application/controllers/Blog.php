@@ -104,6 +104,12 @@ class Blog extends CI_Controller
 		$output=$this->blog_model->allBlog();
 		echo json_encode($output);
 	}
+
+	public function getUpdateData($blogID){
+		$this->load->model("blog_model");
+		$blogRow=$this->blog_model->blogDetails($blogID);
+		$this->load->view("update_blog",array("blogdata"=>$blogRow));
+	}
 	
 }
 

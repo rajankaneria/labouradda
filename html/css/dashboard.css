@@ -1,1 +1,33 @@
 /* page specific stylesheet */
+.page-container.container {
+    margin-top: 85px;
+}
+
+.page-header .page-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    float: left;
+}
+
+.page-header .page-button {
+    float: right;
+}
+
+.page-header {
+    overflow: hidden;
+}
+
+.blog-btn a {
+    margin-left: 10px;
+}
+.modal-title {
+    margin-bottom: 50px;
+    margin-left: 20px;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.modal{
+	max-height: 90%;
+}
