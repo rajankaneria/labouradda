@@ -1,20 +1,21 @@
 $("#login").on("click",function(){
 	var baseurl = $("#base_url").val();
 	var data = {
-		"username" : $("#username").val();
-		"password" : $("#password").val();
+		"username" : $("#username").val(),
+		"password" : $("#password").val()
 	};
-	$("#login").html("processing..");
+	$("#login").val("processing..");
 	$.post(baseurl+"admin/login",{data:data},function(data){
 		var check = $.parseJSON(data);
+		//console.log(check);
 		if(check.status=="ok")
 		{
-			$("#login").html("Redirecting..");
-			window.location.href="#";
+			$("#login").val("Redirecting..");
+			window.location.href=baseurl+"admin/dashboard";
 		}
 		else if(check.status=="fail")
 		{
-			aleret("Fail Your Login");
+			alert("Fail Your Login");
 		}
 		else
 		{

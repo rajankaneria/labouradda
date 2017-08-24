@@ -8,8 +8,8 @@
 		<div class="card-panel login-panel">
 			<div class="form-container">
 				<div class="title">Login</div>
-				<input type="text" name="username" placeholder="Username" class="login-input" id="inputId">
-				<input type="password" name="password" placeholder="Password" class="login-input" id="inputId">		
+				<input type="text" name="username" placeholder="Username" class="login-input" id="username">
+				<input type="password" name="password" placeholder="Password" class="login-input" id="password">		
 			</div>	
 		</div>
 		<input type="submit" name="login" id="login" value="Login" class="login-btn">

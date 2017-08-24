@@ -5,7 +5,7 @@
         public function login($data)
         {
         	$username = $data["username"];
-        	$password = $data["password"];
+        	$password = md5($data["password"]);
         	$sql = $this->db->query("select * from login where username='$username' and password='$password' ");
         	if($sql->num_rows()==1)
         	{
