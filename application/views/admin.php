@@ -1,6 +1,5 @@
 
-<div class="row login-form login-cont">
-	
+<div class="row login-form login-cont">	
 	<div class="bg-image-overlay"></div>
 	<div class="bg-image"><img src="<?php echo base_url() ?>html/images/slider2.jpg" /></div>
 
