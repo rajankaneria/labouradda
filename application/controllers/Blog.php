@@ -48,7 +48,7 @@ class Blog extends CI_Controller
 
 
 		//set configuration for the upload library
-		$config['upload_path'] = 'C:\wamp\www\labouradda\html\images\blog';
+		$config['upload_path'] = 'C:\xampp\htdocs\labouradda\html\images\blog';
 	    $config['allowed_types'] = 'gif|jpg|png';
 	    $config['overwrite'] = TRUE;
 	    $config['encrypt_name'] = FALSE;
