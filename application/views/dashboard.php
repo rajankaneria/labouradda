@@ -36,9 +36,6 @@
 
   </div>  
 </div>
-
-
-
 <!-- Modal Structure -->
   <div id="editModal" class="modal">
     <div class="modal-content">
