@@ -25,35 +25,45 @@ class Blog extends CI_Controller
 	public function addBlog()
 	{
 		$this->load->model("blog_model");
-		$data=$_POST['blogdata'];
-		$config['upload_path'] = 'C:\xampp\htdocs\labouradda\html\images\blog';
+
+		//get text data which has been bosted
+		$result=array(
+			"title"=>$_POST['title'],
+			"author"=>$_POST['author'],
+			"content"=>$_POST['content']
+		);
+
+		//add blog with the text data and get the blog id
+		$blogID = $this->blog_model->addBlog($result);
+
+		//Define the file names with blog id with same extension which has been uploaded
+		$featureImage = $blogID."_feature.".pathinfo($_FILES['feature-image']['name'], PATHINFO_EXTENSION);
+		$blogImage = $blogID."_blog.".pathinfo($_FILES['blog-image']['name'], PATHINFO_EXTENSION);
+		$updateData = array(
+			"blog-image" => $blogImage,
+			"feature-image" => $featureImage
+		);
+		// update the name of the images in the database
+		$this->blog_model->updateBlog($updateData,$blogID);
+
+
+		//set configuration for the upload library
+		$config['upload_path'] = 'C:\wamp\www\labouradda\html\images\blog';
 	    $config['allowed_types'] = 'gif|jpg|png';
-	    $config['max_size'] = '100';
-	    $config['max_width']  = '1024';
-	    $config['max_height']  = '768';
 	    $config['overwrite'] = TRUE;
 	    $config['encrypt_name'] = FALSE;
 	    $config['remove_spaces'] = TRUE;
-	    if ( ! is_dir($config['upload_path']) ) die("THE UPLOAD DIRECTORY DOES NOT EXIST");
+	    
+	    //set name in the config file for the feature image
+	    $config['file_name'] = $blogID."_feature";
 	    $this->load->library('upload', $config);
-	    if ( ! $this->upload->do_upload('userfile')) {
-	        echo 'error';
-	    } else {
+	    $this->upload->do_upload('feature-image');
 
-	        return array('upload_data' => $this->upload->data());
-	    }
+		//set name in the config file for the blog image
+	    $config['file_name'] = $blogID."_blog";
+	    $this->upload->initialize($config);
+	    $this->upload->do_upload('blog-image');
 
-		/*
-		$result=array(
-			"title"=>$result['title'],
-			"author"=>$result['author'],
-			"content"=>$result['content'],
-			"feature-image"=>$result['feature-image'],
-			"blog-image"=>$result['	blog-image'],
-			"createdon"=>$result['createdon']
-			);
-		*/
-		 $this->blog_model->addBlog($data);
 	}
 	public function updateBlog()
 	{

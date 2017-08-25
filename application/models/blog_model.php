@@ -4,6 +4,8 @@ class blog_model extends CI_Model {
 	public function addBlog($blogdata)
 	{	
 		$query = $this->db->insert("blog",$blogdata);	
+		$id = $this->db->insert_id();
+		return $id;
 	}
 
 	public function updateBlog($blogdata,$blogid)
