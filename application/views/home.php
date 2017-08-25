@@ -247,7 +247,7 @@
   <div class="container">
     <div class="col m4">
       <div class="abt-box" style="min-height: auto !important;">
-                <span class="fa-stack fa-2x about-us-icons">
+                  <span class="fa-stack fa-2x about-us-icons">
                       <i class="fa fa-circle fa-stack-2x"></i>
                       <i class="fa fa-phone fa-stack-1x" style="color: #E0E0E0;"></i>
                     </span>
@@ -287,8 +287,57 @@
       </div>
     </div>
   </div>
+<div class="parallax-container z-depth-1 black" id="appSection">
+  <div class="row">
+    <div class="col s8 m8">
 
 
+      <div class="app-description-container">
+        <div class="app-description-title">Download Labouradda App</div>
+        <div class="row">
+          <div class="col s4 m4 app-content-icon center-align">
+            <span class="fa-stack fa-2x about-us-icons">
+              <i class="fa fa-circle fa-stack-2x" style="color: #fff;"></i>
+              <i class="fa fa-phone fa-stack-1x"></i>
+            </span>
+            <div class="app-icon-text">Speak Directly to the Labourers</div>
+          </div>
+          <div class="col s4 m4 app-content-icon center-align">
+            <span class="fa-stack fa-2x about-us-icons">
+              <i class="fa fa-certificate fa-stack-2x" style="color: #fff;"></i>
+              <i class="fa fa-check fa-stack-1x inner-icon"></i>
+            </span>
+            <div class="app-icon-text">Adhaar Card Verified Labourers</div>
+          </div>
+          <div class="col s4 m4 app-content-icon center-align">
+            <span class="fa-stack fa-2x about-us-icons">
+              <i class="fa fa-circle fa-stack-2x" style="color: #fff;"></i>
+              <i class="fa fa-money fa-stack-1x inner-icon"></i>
+            </span>
+            <div class="app-icon-text">Pay Directly to the Labourers</div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="app-actions">
+        <div class="store-icon center-align"><img src="<?php echo base_url(); ?>html/images/playstorelogo.png" /><img src="<?php echo base_url(); ?>html/images/apple.png" /></div>
+        <div class="send-to-mobile center-align">
+          <input type="text" placeholder="Enter your mobile number"><a class="btn">Get Link</a>
+        </div>
+      </div>  
+      <div class="app-footer-content"></div>
+
+    </div>
+    <div class="col s4 m4">
+      <div class="app-image-container">
+        <div class="app-image-frame"><img src="<?php echo base_url(); ?>html/images/iphone.png" /></div>
+        <div class="app-slider-images">
+          <div class="app-slider-item"><img src="<?php echo base_url(); ?>html/images/AppLoginScreen.jpg" /></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <script type="text/javascript">
   $('.parallax').parallax();
 </script>
