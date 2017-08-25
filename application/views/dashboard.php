@@ -4,8 +4,7 @@
   <div class="page-header">
       <div class="page-title">Blog Mangement</div>
       <div class="page-button"><a class="waves-effect waves-light btn">Add</a></div>
-  </div>
-  
+  </div>  
   <div class="page-content">
     <table>
       <thead>

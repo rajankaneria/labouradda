@@ -40,7 +40,6 @@ class Admin extends CI_Controller {
 			header("Location:".base_url()."login");
 		}
 
-
 		$this->load->model("blog_model");
 		$blogs=$this->blog_model->allBlog();
 
