@@ -25,16 +25,34 @@ $(function(){
 			"blog-image":$("#blog-image").val()
 		};
 
-		$.post(baseurl+"blog/addBlog/",{blogdata:blogdata},function(data){
+		$.post(baseurl+"blog/addBlog/",{blogdata:$('#addBlogForm').serialize()},function(data){
 			$("#addModal").modal('close');	
 		});
 
 	});
 
-
 	$(".blog-delete-btn").on("click",function(){
-		$("#data-blogid").remove();
+		var blogID = $(this).data("blogid");
+		if(confirm("Do you want to delete this Blog?")){
+			$.post(baseurl+"blog/deleteBlog/"+blogID,function(data){
+				$("tr[data-blogid="+blogID+"]").remove();	
+			});
+		}
+	});
 
+	$("#updateblogdata").on("click",function(){
+		var blogdata={
+				"title":$("#editModal #title").val(),
+				"author":$("#editModal #author").val(),
+				"content":$("#editModal #content").val(),
+				"feature-image":$("#editModal #feature_image").val(),
+				"blog-image":$("#editModal #blog_image").val()
+		};
+		var blogID = $("#editModal #blogUpdateID").val();
+		$.post(baseurl+"blog/updateBlog/",{data:blogdata,blogID:blogID},function(data){		
+			window.location.reload();
+		});
+		
 	});
 
 

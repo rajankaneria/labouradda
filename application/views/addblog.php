@@ -1,5 +1,6 @@
 <div class="row">
-    <form class="col s12">
+    <form class="col s12" id="addBlogForm" enctype="multipart/form-data
+">
       <div class="row">      
         <div class="input-field col s6">
           <input id="title" name="title" type="text" class="validate">
@@ -28,12 +29,12 @@
       <div class="col s6 xs-12">          
           <div class="row">      
             <div class="input-field col s6">          
-              <label for="feature-image">Blog Image</label>
+              <label for="blog-image">Blog Image</label>
             </div>
           </div>
           <div class="row">      
             <div class="input-field col s6 xs-12">          
-              <input id="feature-image" name="feature-image" type="file" class="validate">
+              <input id="blog-image" name="feature-image" type="file" class="validate">
             </div>
           </div>
         </div>
