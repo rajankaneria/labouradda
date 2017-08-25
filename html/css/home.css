@@ -234,3 +234,113 @@ div#descriptionText {
 div#descriptionTitle{
     font-weight: 300 !important;
 }
+
+div#our_partner {
+    margin-top: 0px;
+}
+
+
+
+
+.app-image-container {
+    position: relative;
+}
+
+.app-image-frame {
+    width: 100%;
+    padding: 0 80px;
+}
+
+.app-image-frame img {
+    width: 100%;
+}
+
+div#appSection {
+    padding-top: 50px;
+}
+
+
+.app-slider-images {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 36px 90px;
+}
+
+.app-slider-item img {
+    width: 100%;
+}
+
+.app-slider-images {
+    z-index: 10;
+}
+
+.app-image-frame {
+    position: absolute;
+    z-index: 20;
+}
+
+div#appSection {
+    min-height: 650px;
+}
+
+
+.app-description-title {
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.app-description-container {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.app-description-title {
+    margin-bottom: 40px;
+}
+.app-content-icon span {
+    font-size: 25px;
+}
+
+.app-icon-text {
+    color: #a7a7a7;
+    margin-top: 15px;
+}
+.store-icon img {
+    max-width: 100px;
+    margin: 20px;
+}
+
+.send-to-mobile input {
+    border-radius: 5px 0px 0px 5px !important;
+    /* overflow: hidden !important; */
+    background: #000 !important;
+    border: 1px solid #fff !important;
+    height: 43px !important;
+    padding: 0px 7px !important;
+    color: #fff;
+    max-width: 200px;
+}
+
+.send-to-mobile a.btn {
+    color: #000;
+    background: #feec00;
+    height: 46px;
+    line-height: 46px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 10px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.send-to-mobile {
+    margin-top: 25px;
+}
+.app-description-container {
+    margin-top: 40px;
+}
