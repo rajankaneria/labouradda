@@ -34,7 +34,7 @@
           </div>
           <div class="row">      
             <div class="input-field col s6 xs-12">          
-              <input id="blog-image" name="feature-image" type="file" class="validate">
+              <input id="blog-image" name="blog-image" type="file" class="validate">
             </div>
           </div>
         </div>
