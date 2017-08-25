@@ -10,4 +10,8 @@ $(function(){
 			Materialize.updateTextFields();
 		});
 	});
+
+	$("#addBlogBtn").on("click",function(){
+		$("#addModal").modal('open');
+	});
 })
