@@ -42,13 +42,15 @@
             </div>
           </div>
         </div>
+      </div> 
 
-      
-        <div class="input-field col s6">
-          <input id="content" type="text" value="<?php echo $blogdata["content"] ?> " class="validate">
-          <label for="content">Content</label>
-        </div>
-      </div>       
+
+        <div class="row">      
+                    
+             <label for="content">Content</label>
+              <textarea id="content" name="content" style="height:12rem !important"><?php echo $blogdata["content"] ?></textarea>
+            
+          </div>      
           <input type="hidden" value="<?php echo $blogdata["id"] ?>" name="blogUpdateID" id="blogUpdateID">
       </div>
     </form>
