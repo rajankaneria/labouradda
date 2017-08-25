@@ -17,12 +17,12 @@
         </thead>
         <tbody>
           <?php foreach ($blogs as $key => $blogRow) { ?>
-          <tr>
+          <tr data-blogid='<?php echo $blogRow['id']; ?>'>
             <td><?php echo $blogRow["title"]; ?></td>
             <td><?php echo $blogRow["author"]; ?></td>
             <td><?php echo $blogRow["createdon"]; ?></td>
             <td class="right-align blog-btn">
-              <a class="btn-floating waves-effect waves-light red"><i class="material-icons">delete</i></a>
+              <a  class="btn-floating waves-effect waves-light red blog-delete-btn"><i class="material-icons">delete</i></a>
               <a data-blogid="<?php echo $blogRow['id']; ?>" class="btn-floating waves-effect waves-light blue-grey blog-edit-btn"><i class="material-icons">mode_edit</i></a>
             </td>
           </tr>
@@ -39,6 +39,7 @@
 <!-- Modal Structure -->
   <div id="editModal" class="modal">
     <div class="modal-content">
+    
       
     </div>
     <div class="modal-footer">
@@ -53,6 +54,6 @@
       <?php $this->load->view("addblog"); ?>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Save</a>
+      <a id="sendblogdata" href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Save</a>
     </div>
   </div>

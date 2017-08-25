@@ -31,3 +31,6 @@
 .modal{
 	max-height: 90%;
 }
+@media screen and (max-width: 480px) {
+   .row .col .s6 {width: 100% !important}
+}
