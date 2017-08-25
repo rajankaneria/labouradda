@@ -4,22 +4,38 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Blog extends CI_Controller
 {
 
-	public function index()
-	{		
+	public function index($blogID = 0)
+	{
+		$this->load->model("blog_model");
+		if($blogID == 0){
+			//get all blogs
+			$blogData = $this->blog_model->allBlog();
+			$blogView = "multiBlog";
+		}else{
+			//get specific blog
+			$blogData = $this->blog_model->blogDetails($blogID);
+			$blogView = "singleBlog";
+		}		
+
+
 		$headerData = array(
 			"pageTitle" => "Blog",
-			"stylesheet" => array()
+			"stylesheet" => array("blog.css")
 		);
 		$footerData = array(
-			"jsFiles" => array("blog.js")
+			"jsFiles" => array()
 		);
 		$viewData = array(
-			"viewName" => "blog",
-            "viewData" => array(),
+			"viewName" => $blogView,
+            "viewData" => array("blogData" => $blogData),
 			"headerData" => $headerData,
 			"footerData" => $footerData	
 		);
 		$this->load->view('template',$viewData);
+	}
+
+	public function id($blogID){
+		$this->index($blogID);
 	}
 
 	public function addBlog()
