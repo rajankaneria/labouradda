@@ -3,7 +3,7 @@
 
   <div class="page-header">
       <div class="page-title">Blog Mangement</div>
-      <div class="page-button"><a class="waves-effect waves-light btn">Add</a></div>
+      <div class="page-button"><a class="waves-effect waves-light btn" id="addBlogBtn">Add</a></div>
   </div>
   
   <div class="page-content">
@@ -41,6 +41,17 @@
   <div id="editModal" class="modal">
     <div class="modal-content">
       
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Save</a>
+    </div>
+  </div>
+
+
+  <!-- Modal Structure -->
+  <div id="addModal" class="modal">
+    <div class="modal-content">
+      <?php $this->load->view("addblog"); ?>
     </div>
     <div class="modal-footer">
       <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Save</a>
