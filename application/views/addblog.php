@@ -41,16 +41,11 @@
       </div>              
 
         <div class="row">      
-        <div class="input-field col s6">
-          <input id="content" name="content" type="text" class="validate">
-          <label for="content">Content</label>
-        </div>
-           
-        <div class="input-field col s6">
-          <input id="createdon"  name="createdon" type="text" class="validate">
-          <label for=" createdon">Created Date</label>
-        </div>
-      </div> 
+                    
+             <label for="content">Content</label>
+              <textarea id="content" name="content" style="height:12rem !important"></textarea>
+            
+          </div>
  
      
     </form>
