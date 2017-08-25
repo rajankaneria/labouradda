@@ -21,7 +21,7 @@
     margin-left: 10px;
 }
 .modal-title {
-    margin-bottom: 50px;
+    margin-bottom: 15px;
     margin-left: 20px;
     font-size: 22px;
     text-transform: uppercase;
@@ -30,6 +30,8 @@
 }
 .modal{
 	max-height: 90%;
+    top: 7% !important;
+    overflow-y: hidden !important;
 }
 @media screen and (max-width: 480px) {
    .row .col .s6 {width: 100% !important}
