@@ -1,5 +1,5 @@
 <div class="row">
-    <form class="col s12" id="addBlogForm" enctype="multipart/form-data
+    <form class="col s12" method="post" id="addBlogForm" enctype="multipart/form-data
 ">
       <div class="row">      
         <div class="input-field col s6">

@@ -17,17 +17,19 @@ $(function(){
 	});
 	
 	$("#sendblogdata").on("click",function(){		
-		var blogdata={
-			"title":$("#title").val(),
-			"author":$("#author").val(),
-			"content":$("#content").val(),
-			"feature-image":$("#feature-image").val(),
-			"blog-image":$("#blog-image").val()
-		};
+		
+		var blogdata = new FormData($('#addBlogForm')[0]);
+ 		$.ajax({
+            url: baseurl+"blog/addBlog/",
+            type: 'POST',
+            processData: false,
+            contentType: false,
+            data: blogdata,
+            success: function (res){
+            	console.log(res);
+            }
+        });
 
-		$.post(baseurl+"blog/addBlog/",{blogdata:$('#addBlogForm').serialize()},function(data){
-			$("#addModal").modal('close');	
-		});
 
 	});
 
