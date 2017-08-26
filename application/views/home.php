@@ -104,7 +104,7 @@
 
 
 
-    <div class="row" style="position: relative; margin-bottom: 0px;">
+    <div class="row home-services" style="position: relative; margin-bottom: 0px;">
         <a href="Services/Daily_wage_Labourers"><div class="offering-container col s6 m2 card-panel">
         <div class="card-panel offering-image-container">
             <div class="offering-icon white-icon hoverable"><img src="<?php echo base_url(); ?>html/images/MorethanoneLabourformorethanoneday.png" /></div>
@@ -289,11 +289,11 @@
   </div>
 <div class="parallax-container z-depth-1 black" id="appSection">
   <div class="row">
-    <div class="col s8 m8">
+    <div class="col s12 m8">
 
 
       <div class="app-description-container">
-        <div class="app-description-title">Download Labouradda App</div>
+        <div class="app-description-title">Labouradda App Coming Soon</div>
         <div class="row">
           <div class="col s4 m4 app-content-icon center-align">
             <span class="fa-stack fa-2x about-us-icons">
@@ -321,14 +321,16 @@
     
       <div class="app-actions">
         <div class="store-icon center-align"><img src="<?php echo base_url(); ?>html/images/playstorelogo.png" /><img src="<?php echo base_url(); ?>html/images/apple.png" /></div>
+        <!--
         <div class="send-to-mobile center-align">
           <input type="text" placeholder="Enter your mobile number"><a class="btn">Get Link</a>
         </div>
+        -->
       </div>  
       <div class="app-footer-content"></div>
 
     </div>
-    <div class="col s4 m4">
+    <div class="col s4 m4 hide-on-small-only hide-on-med-only ">
       <div class="app-image-container">
         <div class="app-image-frame"><img src="<?php echo base_url(); ?>html/images/iphone.png" /></div>
         <div class="app-slider-images">
@@ -349,17 +351,17 @@
       
       <div class="col m4 partner-logo">
         <div class="center">
-          <center><img style="margin-top:14px;max-width: 70% !important;" src="<?php echo base_url(); ?>html/images/knowlarity logo.png"></center>
+          <center><img style="margin-top:14px;" src="<?php echo base_url(); ?>html/images/knowlarity logo.png"></center>
         </div>
       </div>
       <div class="col m4 partner-logo">
         <div class="center">
-          <center><img style="margin-top:14px;max-width: 70% !important;" src="<?php echo base_url(); ?>html/images/Magnum.png"></center>
+          <center><img style="margin-top:14px;" src="<?php echo base_url(); ?>html/images/Magnum.png"></center>
         </div>
       </div>
       <div class="col m4 partner-logo">
         <div class="center">
-          <img style="margin-top:14px;max-width: 70% !important;" src="<?php echo base_url(); ?>html/images/intelliworkz-logo.jpg">
+          <img style="margin-top:14px;" src="<?php echo base_url(); ?>html/images/intelliworkz-logo.jpg">
         </div>
       </div>
     </div>

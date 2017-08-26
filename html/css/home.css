@@ -62,7 +62,7 @@ i.fa.fa-angle-left.fa-2x.pre1:hover,i.fa.fa-angle-left.fa-2x.pre1:focus{
 /*============= Overe Slider =========*/
 
 .how_it_WORK_box{
-    min-height: 600px !important;
+    min-height: 600px;
 }
 
 .how-it-works-container {
@@ -89,7 +89,7 @@ i.fa.fa-angle-left.fa-2x.pre1:hover,i.fa.fa-angle-left.fa-2x.pre1:focus{
         margin: 2px !important;
         background: #e0e0e0;
         box-shadow: none;
-        padding: 0px 0px 30px 0px !important;
+        padding: 0px 0px 30px 0px;
     }
     div#descriptionContainer
     {
@@ -218,7 +218,7 @@ div#descriptionText {
 }
 
 .offering-container{
-    min-height: 0px !important;
+    /*min-height: 0px !important;*/
 }
 
 #descriptionContainer{
@@ -247,7 +247,7 @@ div#our_partner {
 }
 
 .app-image-frame {
-    width: 100%;
+    width: 90%;
     padding: 0 80px;
 }
 
@@ -263,7 +263,7 @@ div#appSection {
 .app-slider-images {
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 90%;
     padding: 36px 90px;
 }
 
@@ -281,7 +281,8 @@ div#appSection {
 }
 
 div#appSection {
-    min-height: 650px;
+    /*min-height: 650px;*/
+    padding-bottom: 90px;
 }
 
 
@@ -291,7 +292,7 @@ div#appSection {
     font-size: 22px;
     /* text-transform: uppercase; */
     letter-spacing: 1px;
-    word-spacing: 5px;
+    /*word-spacing: 5px;*/
 }
 
 .app-description-container {
@@ -343,4 +344,7 @@ div#appSection {
 }
 .app-description-container {
     margin-top: 40px;
+}
+.partner-logo img {
+    width: 70%;
 }
