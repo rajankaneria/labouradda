@@ -17,7 +17,7 @@ $(function(){
 		$("#mobileSubService #descriptionContainer").show();
 		$("#mobileSubService").modal('open');
 	});
-	$(".modal-trigger-mobile .btn-book").on("click",function(){
+	$("#mobileSubService .modal-trigger-mobile").on("click",function(){
 		$("#mobileSubService").modal('close');
 		$("#bookNowModal").modal('open');
 	});

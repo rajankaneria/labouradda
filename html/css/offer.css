@@ -222,7 +222,7 @@ div#descriptionText {
 }
 
 .service-box-mobile .offering-container.card-panel {
-    min-height: 120px !important;
+    min-height: 135px !important;
 }
 .service-box-mobile .offering-title {
     display: block;
@@ -261,4 +261,27 @@ div#mobileSubService {
     height: 110px !important;
     overflow: hidden !important;
     margin-bottom: 25px;
+}
+
+
+#mobileSubService div#descriptionContainer{
+    background: #fff !important;
+    box-shadow: none !important; 
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+a.modal-trigger-mobile {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+#mobileSubService.modal .modal-content {
+    padding: 24px;
+    overflow: hidden;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+a.modal-trigger-mobile {
+    margin-top: 20px;
 }
