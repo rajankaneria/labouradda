@@ -77,4 +77,94 @@
 	.contact-us-form{
 	    padding: 10px 30px;
 	}
+	.carousel.carousel-slider {
+    margin-top: 56px;
+	}
+
+	nav.transparent-nav.nav-bar {
+	    background: #000!important;
+	}
+
+	.box.our-service-box {
+	    padding-top: 0px;
+	}
+
+	.our-service-box .c-title {
+	    font-size: 16px;
+	    padding-bottom: 0px;
+	}
+
+	.our-service-box .c-paragraph {
+	    padding: 0px;
+	    margin-top: 0px;
+	    font-size: 13px;
+	    color: #717171;
+	}
+	.offering-container 
+    {
+      width: 33.33% !important;
+      padding: 0px 2px !important;
+
+    }   
+
+    .card-panel.offering-image-container {
+	    margin-bottom: 5px;
+	}
+
+	.offering-container .offering-title {
+	    font-size: 11px !important;
+	    font-weight: normal !important;
+	}
+
+	.offering-container {
+	    margin-bottom: 0px;
+	    min-height: 140px !important;
+	}
+	.how_it_WORK_box{
+	    min-height: 450px !important;
+	}
+
+	.how_it_WORK_box .section-title {
+	    margin-top: 0px;
+	    margin-bottom: 20px;
+	}
+
+	.how-it-works-container.card-panel {
+	    padding: 10px !important;
+    	padding-bottom: 25px !important;
+	}
+
+	.work-icon {
+	    font-size: 30px;
+	}
+
+	.work-title {
+	    font-size: 11px;
+	}
+
+	.app-description-container {
+	    width: 90%;
+	    margin-top: 0px;
+	}
+
+	.app-description-container .app-description-title {
+	    font-size: 18px;
+	}
+
+	.app-icon-text {
+	    font-size: 11px;
+	}
+	div#appSection {
+	    padding: 0px !important;
+	}
+	.app-description-container{
+		width: 90% !important;
+	}
+	.partner-logo img {
+	    width: 50%;
+	}
+
+	div#our_partner {
+	    padding-bottom: 0px !important;
+	}
 }
