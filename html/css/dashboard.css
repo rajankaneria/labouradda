@@ -20,6 +20,8 @@
 .blog-btn a {
     margin-left: 10px;
 }
+.btn-flat {
+    margin: 0 0 !important;}
 .modal-title {
     margin-bottom: 15px;
     margin-left: 20px;
