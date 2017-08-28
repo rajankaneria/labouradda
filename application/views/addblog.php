@@ -45,8 +45,6 @@
              <label for="content">Content</label>
               <textarea id="content" name="content" style="height:12rem !important"></textarea>
             
-        </div>
- 
-     
+        </div>    
     </form>
   </div>
