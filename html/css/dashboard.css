@@ -36,3 +36,9 @@
 @media screen and (max-width: 480px) {
    .row .col .s6 {width: 100% !important}
 }
+
+.partner-logo {
+    margin: 0 auto;
+    display: block;
+    float: none !important;
+}

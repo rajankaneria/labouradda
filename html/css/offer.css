@@ -209,3 +209,56 @@ div#descriptionText {
     text-align: center;
     margin-top: 36px;
 }
+
+@media (max-width: 768px){
+.nav-top.service-nav-top {
+    margin-top: 60px;
+}
+
+.container.service-container .c-title {
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+}
+
+.service-box-mobile .offering-container.card-panel {
+    min-height: 120px !important;
+}
+.service-box-mobile .offering-title {
+    display: block;
+}
+
+.service-box-mobile .offering-icon {
+    margin-bottom: 0px !important;
+}
+
+
+.service-box-mobile .offering-container.card-panel.active {
+    background: #e0e0e0 !important;
+    box-shadow: none;
+}
+
+.service-box-mobile .offering-container.card-panel.active .offering-title {
+    color: #000 !important;
+}
+
+.box.service-box-mobile {
+    padding-top: 0px;
+}
+#mobileSubService .btn-book {
+    margin-top: -100px;
+}
+
+div#mobileSubService {
+    max-height: 90%;
+}
+
+#mobileSubService #descriptionText .col {
+    width: 33.33%;
+    float: left;
+    /* max-height: 110px !important; */
+    min-height: 100px !important;
+    height: 110px !important;
+    overflow: hidden !important;
+    margin-bottom: 25px;
+}
