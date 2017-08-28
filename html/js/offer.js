@@ -7,4 +7,5 @@ $(function(){
 		$("#descriptionContainer #descriptionTitle").html($(".offering-title",this).html());
 		$("#descriptionContainer").show();
 	})
+	 $('.modal').modal();
 });

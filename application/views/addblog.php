@@ -1,3 +1,4 @@
+<div class="modal-title">Add Blog</div>
 <div class="row">
     <form class="col s12" method="post" id="addBlogForm" enctype="multipart/form-data">
       <div class="row">      
@@ -39,17 +40,11 @@
         </div>
       </div>              
 
-        <div class="row">      
-        <div class="input-field col s6">
-          <input id="content" name="content" type="text" class="validate">
-          <label for="content">Content</label>
+        <div class="row">                 
+             <label for="content">Content</label>
+              <textarea id="content" name="content" style="height:12rem !important"></textarea>
+            
         </div>
-           
-        <div class="input-field col s6">
-          <input id="createdon"  name="createdon" type="text" class="validate">
-          <label for=" createdon">Created Date</label>
-        </div>
-      </div> 
  
      
     </form>
