@@ -19,6 +19,7 @@ $(function(){
 	$("#sendblogdata").on("click",function(){		
 		
 		var blogdata = new FormData($('#addBlogForm')[0]);
+		
  		$.ajax({
             url: baseurl+"blog/addBlog/",
             type: 'POST',
@@ -26,7 +27,8 @@ $(function(){
             contentType: false,
             data: blogdata,
             success: function (res){
-            	console.log(res);
+            	alert("Inserted Successfully");
+            	window.location.reload();
             }
         });
 
@@ -43,17 +45,20 @@ $(function(){
 	});
 
 	$("#updateblogdata").on("click",function(){
-		var blogdata={
-				"title":$("#editModal #title").val(),
-				"author":$("#editModal #author").val(),
-				"content":$("#editModal #content").val(),
-				"feature-image":$("#editModal #feature_image").val(),
-				"blog-image":$("#editModal #blog_image").val()
-		};
-		var blogID = $("#editModal #blogUpdateID").val();
-		$.post(baseurl+"blog/updateBlog/",{data:blogdata,blogID:blogID},function(data){		
-			window.location.reload();
-		});
+		var blogdata = new FormData($('#addBlogForm')[0]);
+ 		$.ajax({
+            url: baseurl+"blog/updateBlog/",
+            type: 'POST',
+            processData: false,
+            contentType: false,
+            data: blogdata,
+            success: function (res){
+            	alert("Updated Successfully");
+            	window.location.reload();
+            }           
+           
+        });
+
 		
 	});
 

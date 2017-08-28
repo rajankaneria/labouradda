@@ -67,29 +67,48 @@ class Blog extends CI_Controller
 	}
 	public function updateBlog()
 	{
-		$data=$_POST['data'];
-		$updateID=$_POST['blogID'];
+		$blogID=$_POST['blogUpdateID'];
 
-		$config['upload_path'] = './uploads/';
+		$this->load->model("blog_model");
+
+
+
+		//Define the file names with blog id with same extension which has been uploaded
+		$featureImage = $blogID."_feature.".pathinfo($_FILES['feature-image']['name'], PATHINFO_EXTENSION);
+		$blogImage = $blogID."_blog.".pathinfo($_FILES['blog-image']['name'], PATHINFO_EXTENSION);
+
+
+		//get text data which has been bosted
+		$result=array(
+			"title"=>$_POST['title'],
+			"author"=>$_POST['author'],
+			"content"=>$_POST['content'],
+			"blog-image" => $blogImage,
+			"feature-image" => $featureImage
+		);
+
+		//add blog with the text data and get the blog id
+		$this->blog_model->updateBlog($result,$blogID);
+
+
+
+		//set configuration for the upload library
+		$config['upload_path'] = 'C:\xampp\htdocs\labouradda\html\images\blog';
 	    $config['allowed_types'] = 'gif|jpg|png';
-	    $config['max_size'] = '100';
-	    $config['max_width']  = '1024';
-	    $config['max_height']  = '768';
 	    $config['overwrite'] = TRUE;
 	    $config['encrypt_name'] = FALSE;
 	    $config['remove_spaces'] = TRUE;
-	    if ( ! is_dir($config['upload_path']) ) die("THE UPLOAD DIRECTORY DOES NOT EXIST");
-	    $this->load->library('upload', $config);
-	    if ( ! $this->upload->do_upload('userfile')) {
-	        echo 'error';
-	    } else {
-
-	        return array('upload_data' => $this->upload->data());
-	    }
-
 	    
-		$this->load->model("blog_model");
-		$this->blog_model->updateBlog($data,$updateID);
+	    //set name in the config file for the feature image
+	    $config['file_name'] = $blogID."_feature";
+	    $this->load->library('upload', $config);
+	    $this->upload->do_upload('feature-image');
+
+		//set name in the config file for the blog image
+	    $config['file_name'] = $blogID."_blog";
+	    $this->upload->initialize($config);
+	    $this->upload->do_upload('blog-image');    
+
 	}
 	public function deleteBlog($deleteID)
 	{
