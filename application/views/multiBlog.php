@@ -29,7 +29,7 @@
 	<?php } ?>
 	</div>
 	<div class="col s12 m4 site-bar">
-		<div class="card-panel blog-box-panel" onclick="window.location.href='<?php echo base_url(); ?>blog/id/<?php echo $blogRow["id"]; ?>'">
+		<div class="card-panel blog-box-panel">
 			<div class="blog-box-container site-bar-cont">
 			<h5 class="post-title">Recent POSTS</h5>
 			<div class="row">
