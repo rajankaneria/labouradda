@@ -246,7 +246,7 @@
         <div class="c-title">Terms and Conditions</div>
         <div class="row">
             <div class="col s1 trm"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></div>
-            <div class="col s11">LabourAdda in neither directly or indirectly an employer of the labourer. </div>
+            <div class="col s11">LabourAdda is neither directly or indirectly an employer of the labourer. </div>
         </div>
         <div class="row">
             <div class="col s1 trm"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></div>
