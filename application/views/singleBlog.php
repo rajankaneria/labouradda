@@ -7,9 +7,8 @@
         <a  href="#!" class="breadcrumb" onclick="window.location.href='<?php echo base_url(); ?>blog/'">All Blogs</a>        
         <a  class="breadcrumb active"><?php echo $blogRow["title"]; ?></a>
       </div>
-    </div>
-          
-		<div class="col s12 m12">
+    </div>          
+	<div class="col s12 m12">
 			<div class="card-panel">
 				<div class="blog-feature-image"><img src="<?php echo base_url(); ?>html/images/blog/<?php echo $blogRow['feature-image']; ?>" /></div>
 				<div class="blog-title"><?php echo $blogRow["title"]; ?></div>

@@ -58,9 +58,16 @@
             <div class="active-item-indicator"></div>
         </li>
         <li class="<?php if(strtolower($this->uri->segment(1)) == 'team'){ ?>me<?php  } ?>">
-            <a href="<?php echo base_url(); ?>team" >Team</a>
+            <a href="<?php echo base_url(); ?>team">Team</a>
             <div class="active-item-indicator"></div>
         </li>
+
+        <li class="<?php if(strtolower($this->uri->segment(1)) == 'blog'){ ?>me<?php  } ?>">
+            <a href="<?php echo base_url(); ?>blog" >Blog</a>
+            <div class="active-item-indicator"></div>
+        </li>
+
+
         <li class="<?php if(strtolower($this->uri->segment(1)) == 'partners_with_us'){ ?>me<?php  } ?>">
             <a href="<?php echo base_url(); ?>partners_with_us" class="click">Partners with us</a>
             <div class="active-item-indicator"></div>
@@ -73,9 +80,9 @@
       </ul>
         <!-- Dropdown Structure -->
         <ul id="dropdown1" class="dropdown-content">
-          <li><a href="http://103.48.64.131/adda">Sign in</a></li>
+          <li><a href="#bookNowModal" class="modal-trigger">Sign in</a></li>
           <li class="divider"></li>
-          <li><a href="http://103.48.64.131/adda">Sign up</a></li>
+          <li><a href="#bookNowModal" class="modal-trigger">Sign up</a></li>
         </ul>
       <ul id="nav-mobile" class="side-nav">
         <li class="<?php if(strtolower($this->uri->segment(1)) == 'home'){ ?>me<?php  } ?>">
@@ -90,6 +97,12 @@
         <li class="<?php if(strtolower($this->uri->segment(1)) == 'team'){ ?>me<?php  } ?>">
             <a href="<?php echo base_url(); ?>team" >Team</a>
         </li>
+
+        <li class="<?php if(strtolower($this->uri->segment(1)) == 'blog'){ ?>me<?php  } ?>">
+            <a href="<?php echo base_url(); ?>blog">Blog</a>
+            <div class="active-item-indicator"></div>
+        </li>
+
         <li class="<?php if(strtolower($this->uri->segment(1)) == 'partners_with_us'){ ?>me<?php  } ?>">
             <a href="<?php echo base_url(); ?>partners_with_us">Partners with us</a>
         </li>
@@ -106,3 +119,14 @@
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
+
+  <div id="bookNowModal" class="modal">
+    <div class="modal-content">
+      <h4>Thank you</h4>
+      <p>Thank you for your booking. Labouradda is coming soon to your neighbourhood.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+
