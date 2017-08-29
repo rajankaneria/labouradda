@@ -199,16 +199,7 @@ div#descriptionText {
     width: 12.5%;
 }
 
-#bookNowModal h4 {
-    text-align: center;
-    font-size: 25px;
-    text-transform: uppercase;
-}
 
-#bookNowModal p {
-    text-align: center;
-    margin-top: 36px;
-}
 
 @media (max-width: 768px){
 .nav-top.service-nav-top {

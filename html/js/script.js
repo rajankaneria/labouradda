@@ -1,5 +1,6 @@
 $(function(){
 	$(".dropdown-button").dropdown();
+	$('.modal').modal();
 });
 
   $(document).ready(function() {
