@@ -31,8 +31,6 @@ $(function(){
             	window.location.reload();
             }
         });
-
-
 	});
 
 	$(".blog-delete-btn").on("click",function(){
@@ -57,9 +55,15 @@ $(function(){
             	window.location.reload();
             }           
            
-        });
-
-		
+        });		
 	});
-
+        $(".blog-view-btn").on("click",function(){
+			$("#viewModal .modal-content").html("");
+			$("#viewModal").modal('open');
+			var blogID = $(this).data("blogid");
+			$.post(baseurl+"blog/getViewData/"+blogID,function(data){
+				$("#viewModal .modal-content").html(data);
+				
+			});
+		});
 });

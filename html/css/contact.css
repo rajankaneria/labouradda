@@ -9,3 +9,6 @@
 .row.card-panel.contact-us-form.contact .row {
     margin-bottom: 10px;
 }
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
