@@ -11,6 +11,7 @@
 .blog-author {
     float: left;
     margin-right: 20px;
+    margin-left: 12px
     /* font-size: 13px; */
 }
 
@@ -40,7 +41,8 @@
 
 .blog-content {
     margin-top: 20px;
-    color: #717171;
+    color: #717171;      
+    padding: 10px;
 }
 
 .blog-box-image {
@@ -49,6 +51,7 @@
 
 .blog-box-image img {
     width: 100%;
+
 }
 .blog-box-container .blog-title {
     font-size: 19px;
@@ -62,11 +65,63 @@
 .blog-box-container .blog-title {
     padding: 10px;
 }
+.blog-title {
+    padding-bottom:0px !important;
+}
 
 .blog-box-container {
-    max-height: 265px;
     overflow: hidden;
 }
 .blog-box-container {
     cursor: pointer;
 }
+.site-bar-blog-img img{max-height: 90px !important;max-width: 90px !important}
+.site-bar-blog-img{margin-top: 24px !important;width: 100%;position:relative;padding-left: 10px;}
+.site-bar-blog-title{padding: 0px !important;font-size: 16px !important;}
+.site-bar-blog-author{margin-right: 0px !important;}
+.site-bar-details{margin-top: 21px !important}
+.site-bar-user{margin-right: 8px !important}
+
+.read-more-btn {
+    display: block;
+    max-width: 140px;
+    border-radius: 20px;
+    font-size: 12px; 
+    background: #1b1b1b;   
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 20px;  
+    margin-bottom: 20px;
+}
+.read-more-btn:hover {
+    background: #feec00 !important;color:#4e4d4d }
+.post-title{text-align: center;}
+@media(max-width: 768px){
+    .site-bar-blog-img img{max-height:none !important}    
+}
+@media(max-width:991px){.site-bar{display: none !important}}
+
+h5.post-title {
+    box-shadow: inset 0 0 0 1px rgba(255,255,255,.2);
+    border: 3px solid #161616;
+    background: #232323;   
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 40px;
+    /* border: 1px solid #ccc; */
+    margin: 10px;
+    margin-bottom: ;
+    margin-bottom: 0px !important;
+}
+.blog-box-container .row {
+    margin-bottom: 0px;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 18px;
+}
+.breadcrumb:before {margin: -5px 10px 0 8px !important;color: #4a4848 !important;}
+.breadcrumb{color: #4a4848 !important;}
+.breadcrumb:hover{color: #000 !important;}
+.active{color: #949292 !important;}
+.active:hover{color: #353535 !important;

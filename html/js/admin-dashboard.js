@@ -13,7 +13,6 @@ $(function(){
 
 	$("#addBlogBtn").on("click",function(){		
 		$("#addModal").modal('open');
-
 	});
 	
 	$("#sendblogdata").on("click",function(){		
