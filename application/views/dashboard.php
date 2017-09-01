@@ -1,5 +1,6 @@
-<div class="page-container container">
-  <div class="card-panel">
+<div class="page-container .full-width-container  container">
+
+ <div class="card-panel">
 
   <div class="page-header">
       <div class="page-title">Blog Mangement</div>
@@ -24,7 +25,9 @@
             <td><img src="<?php echo base_url(); ?>html/images/blog"><?php echo $blogRow["feature-image"]; ?></td>
             <td><?php echo $blogRow["blog-image"]; ?></td>
 
+
             <td class="right-align blog-btn">
+            <a data-blogid="<?php echo $blogRow['id']; ?>" class="btn-floating waves-effect waves-light blue-grey blog-view-btn"><i class="fa fa-eye" aria-hidden="true"></i></a>
               <a data-blogid="<?php echo $blogRow['id']; ?>" class="btn-floating waves-effect waves-light red blog-delete-btn"><i class="material-icons">delete</i></a>
               <a data-blogid="<?php echo $blogRow['id']; ?>" class="btn-floating waves-effect waves-light blue-grey blog-edit-btn"><i class="material-icons">mode_edit</i></a>
             </td>
@@ -36,15 +39,11 @@
 
   </div>  
 </div>
-
-
-
 <!-- Modal Structure -->
   <div id="editModal" class="modal">
     <div class="modal-content">
-    
-      
-    </div>
+     </div>
+
     <div class="modal-footer">
       <a  id="updateblogdata" href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Save</a>
     </div>
@@ -60,3 +59,16 @@
       <a id="sendblogdata" href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Save</a>
     </div>
   </div>
+
+   <!-- Modal Structure -->
+  <div id="viewModal" class="modal">
+    <div class="modal-content">
+      
+    </div>
+    <div class="modal-footer">
+      <a id="viewblogdata" href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">view</a>
+    </div>
+  </div>
+</div>
+
+ 

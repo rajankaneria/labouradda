@@ -43,4 +43,18 @@ var data={
 
 };
 
+/* View Records */
+
+$('#viewblogdata').on(click,function(){
+var baseurl=$("#baseurl").val(),
+var data={
+		'title':$("#title").val(),
+		'author':$("#author").val(),
+		'content':$("#content").val(),
+		'feature-image':$("#feature-image").val(),
+		'blog-image':$("#blog-image").val(),
+		'createdon':$("#createdon").val()
+
+};
+
 });

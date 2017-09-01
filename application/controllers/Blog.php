@@ -20,6 +20,7 @@ class Blog extends CI_Controller
 
 		$headerData = array(
 			"pageTitle" => "Blog",
+			
 			"stylesheet" => array("blog.css")
 		);
 		$footerData = array(
@@ -179,6 +180,12 @@ class Blog extends CI_Controller
 		$this->load->model("blog_model");
 		$blogRow=$this->blog_model->blogDetails($blogID);
 		$this->load->view("update_blog",array("blogdata"=>$blogRow));
+	}
+
+	public function getViewData($blogID){
+		$this->load->model("blog_model");
+		$blogRow=$this->blog_model->blogDetails($blogID);
+		$this->load->view("viewblog",array("blogdata"=>$blogRow));
 	}
 	
 }

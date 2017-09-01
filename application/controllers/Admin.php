@@ -56,13 +56,13 @@ class Admin extends CI_Controller {
 			"headerData" => $headerData,
 			"footerData" => $footerData	
 		);
-		$this->load->view('admin-template',$viewData);
+		$this->load->view('dashboard-template',$viewData);
 	}
 	public function logout()
 	{
 		$this->session->unset_userdata("username");
 		$this->session->sess_destroy();
-		header("Location:".base_url());
+		header("Location:".base_url()."admin");
 	}
 
 }
