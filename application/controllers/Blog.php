@@ -6,7 +6,7 @@ class Blog extends CI_Controller
 
 	public function index($blogID = 0)
 	{
-		$this->load->model("blog_model");
+		/*$this->load->model("blog_model");
 		if($blogID == 0){
 			//get all blogs
 			$blogData = $this->blog_model->allBlog();
@@ -26,6 +26,36 @@ class Blog extends CI_Controller
 		$footerData = array(
 			"jsFiles" => array()
 		);
+		$viewData = array(
+			"viewName" => $blogView,
+            "viewData" => array("blogData" => $blogData),
+			"headerData" => $headerData,
+			"footerData" => $footerData	
+		);
+		$this->load->view('template',$viewData);*/
+
+		//$this->load->model("blog_model");
+		$blogView = "staticBlog";
+		/*
+		if($blogID == 0){
+			//get all blogs
+			//$blogData = $this->blog_model->allBlog();
+			$blogView = "multiBlog";
+		}else{
+			//get specific blog
+			//$blogData = $this->blog_model->blogDetails($blogID);
+			$blogView = "singleBlog";
+		}*/		
+
+
+		$headerData = array(
+			"pageTitle" => "Blog",
+			"stylesheet" => array("blog.css")
+		);
+		$footerData = array(
+			"jsFiles" => array()
+		);
+		$blogData = array();
 		$viewData = array(
 			"viewName" => $blogView,
             "viewData" => array("blogData" => $blogData),
@@ -85,7 +115,7 @@ class Blog extends CI_Controller
 	public function updateBlog()
 	{
 		$blogID=$_POST['blogUpdateID'];
-
+		
 		$this->load->model("blog_model");
 
 
@@ -95,7 +125,7 @@ class Blog extends CI_Controller
 		$blogImage = $blogID."_blog.".pathinfo($_FILES['blog-image']['name'], PATHINFO_EXTENSION);
 
 
-		//get text data which has been bosted
+		//get text data which has been posted
 		$result=array(
 			"title"=>$_POST['title'],
 			"author"=>$_POST['author'],

@@ -2,17 +2,17 @@
 <div class="modal-title">Edit Blog</div>
 
 <div class="row">
-    <form class="col s12" method="post" id="addBlogForm" enctype="multipart/form-data
+    <form class="col s12" method="POST" id="UpdateBlogForm" enctype="multipart/form-data
 ">
       <div class="row">
 
         <div class="input-field col s6">
-          <input id="title" type="text" value="<?php echo $blogdata["title"] ?> " class="validate">
+          <input id="title" name="title" type="text" value="<?php echo $blogdata["title"] ?> " class="validate" >
           <label for="title">Title</label>
         </div>
 
         <div class="input-field col s6">
-          <input id="author" type="text" value="<?php echo $blogdata["author"] ?> " class="validate">
+          <input id="author" name="author" type="text" value="<?php echo $blogdata["author"] ?> " class="validate">
           <label for="author">Author</label>
         </div>
       

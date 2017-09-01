@@ -51,9 +51,9 @@ background-color: rgba(0,0,0,0.6) !important;
 
 /* media query for login responsive*/
 
-@media screen and (max-width:615px)
+@media screen and (max-width:768px)
 {
-	.login-btn{	width: 30% !important}
+	.login-btn{	width: 50% !important}
 }
 
 /*for place holder align center*/
@@ -124,6 +124,12 @@ nav .brand-logo{
   margin: 0 auto;
   position: relative;
   margin-top: 50px;
+}
+@media screen and (max-width:768px)
+{
+    .login-input {width: 100% !important;}
+    .login-panel {
+    width: 90%;}
 }
 
 
