@@ -345,28 +345,23 @@
 </script>
 <div class="parallax-container z-depth-1" id="our_partner">
     <div class="parallax"><img src="<?php echo base_url(); ?>html/images/paralax.jpg"></div>
-    <div class="section-title">Powered by</div>
+    <div class="section-title">Our Honorable Partner</div>
     <div class="container">
     <div class="row">
       
-      <div class="col m3 partner-logo">
+      <div class="col m4 partner-logo">
         <div class="center">
           <center><img style="margin-top:14px;" src="<?php echo base_url(); ?>html/images/knowlarity logo.png"></center>
         </div>
       </div>
-      <div class="col m3 partner-logo">
+      <div class="col m4 partner-logo">
         <div class="center">
           <center><img style="margin-top:14px;" src="<?php echo base_url(); ?>html/images/Magnum.png"></center>
         </div>
       </div>
-      <div class="col m3 partner-logo">
+      <div class="col m4 partner-logo">
         <div class="center">
           <img style="margin-top:14px;" src="<?php echo base_url(); ?>html/images/intelliworkz-logo.jpg">
-        </div>
-      </div>
-      <div class="col m3 partner-logo">
-        <div class="center">
-          <img style="margin-top:14px;" src="<?php echo base_url(); ?>html/images/airtel-payments-bank.jpg">
         </div>
       </div>
     </div>
