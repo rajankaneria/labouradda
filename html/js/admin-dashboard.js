@@ -42,16 +42,16 @@ $(function(){
 	});
 
 	$("#updateblogdata").on("click",function(){
-		var blogdata = new FormData($('#addBlogForm')[0]);
- 		$.ajax({
+		var blogdata = new FormData($('#UpdateBlogForm')[0]);
+		$.ajax({
             url: baseurl+"blog/updateBlog/",
             type: 'POST',
             processData: false,
             contentType: false,
             data: blogdata,
             success: function (res){
-            	alert("Updated Successfully");
-            	window.location.reload();
+           alert("Updated Successfully");
+           window.location.reload();
             }           
            
         });		

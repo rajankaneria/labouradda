@@ -115,7 +115,7 @@ class Blog extends CI_Controller
 	public function updateBlog()
 	{
 		$blogID=$_POST['blogUpdateID'];
-
+		
 		$this->load->model("blog_model");
 
 
@@ -125,7 +125,7 @@ class Blog extends CI_Controller
 		$blogImage = $blogID."_blog.".pathinfo($_FILES['blog-image']['name'], PATHINFO_EXTENSION);
 
 
-		//get text data which has been bosted
+		//get text data which has been posted
 		$result=array(
 			"title"=>$_POST['title'],
 			"author"=>$_POST['author'],
