@@ -351,3 +351,10 @@ div#appSection {
 .partner-logo img {
     width: 70%;
 }
+
+body .row.home-services .offering-container {
+    width: 20%;
+    padding: 5%;
+    padding-top:0px;
+    padding-bottom: 0px;
+}

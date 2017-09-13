@@ -10,19 +10,33 @@
 
 <div class="box service-box-mobile hide-on-large-only">
     <div class="row service-page" style="position: relative;">
+
         <div class="offering-container col s4 m4 card-panel <?php if($serviceID=='s0') {?>active<?php } ?>">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/MorethanoneLabourformorethanoneday.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/MorethanoneLabourformorethanoneday-yellow.png" /></div>
             <div class="offering-title">Daily wage Labourers</div>
             <div class="offering-description row">
-           
+                <li>Hire Daily Wage Labourers for Anywork, Anywhere, Anytime</li>
+                <!--
                 <div class="col m2"><center>
                 <img src="<?php echo base_url(); ?>html/images/Construction & Maintenance.png" class="img-bx" /><div class="offering-title">Construction and maintenance </div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Farming.png" class="img-bx" /><div class="offering-title">Farming </div></center></div>
+                -->
             </div>
         </div>
 
-         
+
+        <div class="offering-container col s4 m4 card-panel <?php if($serviceID=='s5') {?>active<?php } ?>">
+            <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/Casual Labour (Mazdoor) – daily wage worker.png" /></div>
+            <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/MorethanoneLabourformorethanoneday-yellow.png" /></div>
+            <div class="offering-title">Bulk labourers</div>
+            <div class="offering-description">
+                
+                <li>Place request for more than one labour for your requirement for en number of days. </li>
+            </div>
+        </div>
+
+         <!--
          <div class="offering-container col s4 m4 card-panel <?php if($serviceID=='s1') {?>active<?php } ?>">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/cleaning%20and%20maintenance.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/cleaning%20and%20maintenance-yellow.png" /></div>
@@ -40,8 +54,9 @@
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Office Cleaning.png" class="img-bx" /><div class="offering-title">Office cleaning </div></center></div>
             </div>
         </div>
+        -->
 
-
+        <!--
         <div class="offering-container col s4 m4 card-panel <?php if($serviceID=='s2') {?>active<?php } ?>">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/Domestic%20Helpers.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/Domestic%20Helpers-yellow.png" /></div>
@@ -55,6 +70,22 @@
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Local Drivers.png" class="img-bx" /><div class="offering-title">Local Drivers</div></center></div>
             </div>
         </div>
+        -->
+
+
+        <div class="offering-container col s4 m4 card-panel <?php if($serviceID=='s4') {?>active<?php } ?>">
+            <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/loader%20unloader.png" /></div>
+            <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/loader%20unloader-yellow.png" /></div>
+            <div class="offering-title">Loaders & Transporters</div>
+            <div class="offering-description row">
+            
+                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Three Wheelers with Labourers.png" class="img-bx" /><div class="offering-title">3 Wheelers</div></center></div>
+                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Four Wheelers without Labourers.png" class="img-bx" /><div class="offering-title">Four wheelers</div></center></div>
+                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Labourers for Packing & Unpacking.png" class="img-bx" /><div class="offering-title">Truck</div></center></div>
+            </div>
+        </div>
+
+
         <div class="offering-container col s4 m4 card-panel <?php if($serviceID=='s3') {?>active<?php } ?>">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/Repair%20&%20Maintenance.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/Repair%20&%20Maintenance-yellow.png" /></div>
@@ -67,23 +98,15 @@
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Electricians.png" class="img-bx" /><div class="offering-title">Electricians</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Mason.png" class="img-bx" /><div class="offering-title">Mason</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Fabricator.png" class="img-bx" /><div class="offering-title">Fabricator</div></center></div>
-                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Car Repair & Maintenance.png" class="img-bx" /><div class="offering-title">Car Repair and maintenance</div></center></div>
-                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Car Tire Repair.png" class="img-bx" /><div class="offering-title">Car Tyre Repair</div></center></div>
-                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/A-C Repair & Maintenance.png" class="img-bx" /><div class="offering-title">A/C Repair and maintenance</div></center></div>
-            </div>
-        </div>
-        <div class="offering-container col s4 m4 card-panel <?php if($serviceID=='s4') {?>active<?php } ?>">
-            <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/loader%20unloader.png" /></div>
-            <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/loader%20unloader-yellow.png" /></div>
-            <div class="offering-title">Loaders & Unloaders</div>
-            <div class="offering-description row">
-            
-                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Three Wheelers with Labourers.png" class="img-bx" /><div class="offering-title">Three Wheelers with/without labourers</div></center></div>
-                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Four Wheelers without Labourers.png" class="img-bx" /><div class="offering-title">Four Wheelers with/without labourers</div></center></div>
-                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Labourers for Packing & Unpacking.png" class="img-bx" /><div class="offering-title">Labourers for packing and unpacking</div></center></div>
+                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Car Repair & Maintenance.png" class="img-bx" /><div class="offering-title">Car Mechanics</div></center></div>
+                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/A-C Repair & Maintenance.png" class="img-bx" /><div class="offering-title">A/c Mechanics</div></center></div>
             </div>
         </div>
 
+
+        
+
+        <!--
         <div class="offering-container col s4 m4 card-panel <?php if($serviceID=='Hawkers') {?>active<?php } ?>">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/shop.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/Icon.png" /></div>
@@ -94,22 +117,15 @@
             <li>General hawkers - deal in ready stock of FMCG items to be sold to street vendors. (bread, cigarettes, beery, masaala, toffees etc).</li>
             </div>
         </div>
+        -->
 
-        <div class="offering-container col s4 m4 card-panel <?php if($serviceID=='s5') {?>active<?php } ?>">
-            <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/Casual Labour (Mazdoor) – daily wage worker.png" /></div>
-            <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/MorethanoneLabourformorethanoneday-yellow.png" /></div>
-            <div class="offering-title">More than one Labour</div>
-            <div class="offering-description">
-            
-            <li>Place request for more than one labour for your requirement for en number of days. </li>
-        </div>
-        </div>
+        
         <div class="offering-container col s4 m4 card-panel <?php if($serviceID=='s6') {?>active<?php } ?>">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/tatkaal%20seva.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/tatkaal%20seva-yellow.png" /></div>
-            <div class="offering-title">Tatkaal labour</div>
+            <div class="offering-title">Night Gaurd</div>
             <div class="offering-description">
-            <li>Book labourers on urgent basis.</li>    
+            <!--<li>Book labourers on urgent basis.</li>-->
             <p><em>* The availability of labour is subject to availability (in terms of time and location). The cost estimate will be determined by the labour themselves after analyzing the magnitude of work via a SMS or call.</em></p>
             </div>
         </div>
@@ -130,12 +146,26 @@
             <div class="offering-title">Daily wage Labourers</div>
             <div class="offering-description row">
             <a href="#bookNowModal" class="modal-trigger"><button class="btn right black btn-book">Book Now</button></a>
-                <div class="col m2"><center>
+                <!--<div class="col m2"><center>
                 <img src="<?php echo base_url(); ?>html/images/Construction & Maintenance.png" class="img-bx" /><div class="offering-title">Construction and maintenance </div></center></div>
-                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Farming.png" class="img-bx" /><div class="offering-title">Farming </div></center></div>
+                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Farming.png" class="img-bx" /><div class="offering-title">Farming </div></center></div>-->
+                <li>Hire Daily Wage Labourers for Anywork, Anywhere, Anytime</li>
             </div>
         </div>
 
+
+        <div class="offering-container col s12 m2 card-panel <?php if($serviceID=='s5') {?>active<?php } ?>">
+            <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/Casual Labour (Mazdoor) – daily wage worker.png" /></div>
+            <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/MorethanoneLabourformorethanoneday-yellow.png" /></div>
+            <div class="offering-title">Bulk Labourers</div>
+            <div class="offering-description">
+            <a href="#bookNowModal" class="modal-trigger"><button class="btn right black btn-book">Book Now</button></a>
+            <li>Place request for more than one labour for your requirement for en number of days. </li>
+        </div>
+        </div>
+
+
+        <!--
          
          <div class="offering-container col s12 m2 card-panel <?php if($serviceID=='s1') {?>active<?php } ?>">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/cleaning%20and%20maintenance.png" /></div>
@@ -154,8 +184,9 @@
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Office Cleaning.png" class="img-bx" /><div class="offering-title">Office cleaning </div></center></div>
             </div>
         </div>
+        -->
 
-
+        <!--
         <div class="offering-container col s12 m2 card-panel <?php if($serviceID=='s2') {?>active<?php } ?>">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/Domestic%20Helpers.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/Domestic%20Helpers-yellow.png" /></div>
@@ -169,6 +200,21 @@
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Local Drivers.png" class="img-bx" /><div class="offering-title">Local Drivers</div></center></div>
             </div>
         </div>
+        -->
+
+        <div class="offering-container col s12 m2 card-panel <?php if($serviceID=='s4') {?>active<?php } ?>">
+            <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/loader%20unloader.png" /></div>
+            <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/loader%20unloader-yellow.png" /></div>
+            <div class="offering-title">Loaders & Transporters</div>
+            <div class="offering-description row">
+            <a href="#bookNowModal" class="modal-trigger"><button class="btn right black btn-book">Book Now</button></a>
+                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Three Wheelers with Labourers.png" class="img-bx" /><div class="offering-title">3 Wheelers</div></center></div>
+                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Four Wheelers without Labourers.png" class="img-bx" /><div class="offering-title">Four wheelers</div></center></div>
+                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Labourers for Packing & Unpacking.png" class="img-bx" /><div class="offering-title">Truck</div></center></div>
+            </div>
+        </div>
+
+
         <div class="offering-container col s12 m2 card-panel <?php if($serviceID=='s3') {?>active<?php } ?>">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/Repair%20&%20Maintenance.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/Repair%20&%20Maintenance-yellow.png" /></div>
@@ -181,23 +227,12 @@
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Electricians.png" class="img-bx" /><div class="offering-title">Electricians</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Mason.png" class="img-bx" /><div class="offering-title">Mason</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Fabricator.png" class="img-bx" /><div class="offering-title">Fabricator</div></center></div>
-                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Car Repair & Maintenance.png" class="img-bx" /><div class="offering-title">Car Repair and maintenance</div></center></div>
-                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Car Tire Repair.png" class="img-bx" /><div class="offering-title">Car Tyre Repair</div></center></div>
-                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/A-C Repair & Maintenance.png" class="img-bx" /><div class="offering-title">A/C Repair and maintenance</div></center></div>
+                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Car Repair & Maintenance.png" class="img-bx" /><div class="offering-title">Car Mechanics</div></center></div>
+                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/A-C Repair & Maintenance.png" class="img-bx" /><div class="offering-title">A/c Mechanics</div></center></div>
             </div>
         </div>
-        <div class="offering-container col s12 m2 card-panel <?php if($serviceID=='s4') {?>active<?php } ?>">
-            <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/loader%20unloader.png" /></div>
-            <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/loader%20unloader-yellow.png" /></div>
-            <div class="offering-title">Loaders & Unloaders</div>
-            <div class="offering-description row">
-            <a href="#bookNowModal" class="modal-trigger"><button class="btn right black btn-book">Book Now</button></a>
-                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Three Wheelers with Labourers.png" class="img-bx" /><div class="offering-title">Three Wheelers with/without labourers</div></center></div>
-                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Four Wheelers without Labourers.png" class="img-bx" /><div class="offering-title">Four Wheelers with/without labourers</div></center></div>
-                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Labourers for Packing & Unpacking.png" class="img-bx" /><div class="offering-title">Labourers for packing and unpacking</div></center></div>
-            </div>
-        </div>
-
+        
+        <!--
         <div class="offering-container col s12 m2 card-panel <?php if($serviceID=='Hawkers') {?>active<?php } ?>">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/shop.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/Icon.png" /></div>
@@ -208,22 +243,14 @@
             <li>General hawkers - deal in ready stock of FMCG items to be sold to street vendors. (bread, cigarettes, beery, masaala, toffees etc).</li>
             </div>
         </div>
-
-        <div class="offering-container col s12 m2 card-panel <?php if($serviceID=='s5') {?>active<?php } ?>">
-            <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/Casual Labour (Mazdoor) – daily wage worker.png" /></div>
-            <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/MorethanoneLabourformorethanoneday-yellow.png" /></div>
-            <div class="offering-title">More than one Labour</div>
-            <div class="offering-description">
-            <a href="#bookNowModal" class="modal-trigger"><button class="btn right black btn-book">Book Now</button></a>
-            <li>Place request for more than one labour for your requirement for en number of days. </li>
-        </div>
-        </div>
+        -->
+        
         <div class="offering-container col s12 m2 card-panel <?php if($serviceID=='s6') {?>active<?php } ?>">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/tatkaal%20seva.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/tatkaal%20seva-yellow.png" /></div>
-            <div class="offering-title">Tatkaal labour</div>
+            <div class="offering-title">Night Gaurd</div>
             <div class="offering-description"><a href="#bookNowModal" class="modal-trigger"><button class="btn right black btn-book">Book Now</button></a>
-            <li>Book labourers on urgent basis.</li>    
+            <!--<li>Book labourers on urgent basis.</li>-->
             <p><em>* The availability of labour is subject to availability (in terms of time and location). The cost estimate will be determined by the labour themselves after analyzing the magnitude of work via a SMS or call.</em></p>
             </div>
         </div>

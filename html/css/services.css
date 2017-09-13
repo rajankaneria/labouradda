@@ -42,3 +42,10 @@ div#descriptionTitle{
 #descriptionText .col:hover .offering-title {
     color:#000;
 }
+
+
+
+.service-box .offering-container {
+    margin-left: 3.75% !important;
+    margin-right: 3.75% !important;
+}
