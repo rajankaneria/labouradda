@@ -574,3 +574,31 @@ li.me {
     text-align: center;
     margin-top: 36px;
 }
+
+
+div#___plus_0 {
+    float: left !important;
+    margin:5px !important;
+}
+
+div#facebook {
+    float: left;
+    margin:5px
+}
+
+span.IN-widget {
+    float: left;
+    margin:5px;
+    margin-top:7px;
+}
+
+iframe#twitter-widget-0 {
+    float: left;
+    margin:5px;
+    margin-top:7px;
+}
+
+.row.social-plugin-container {
+    margin-left: 5px !important;
+    margin-top: 5px !important;
+}

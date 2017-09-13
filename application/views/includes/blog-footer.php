@@ -1,4 +1,41 @@
-	 	<footer class="page-foote gray" style="background: #1b1b1b;">
+<!-- facebook share sdk -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.10";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<!-- google plus share sdk -->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+<!-- Linked in share sdk -->
+<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+
+<!-- twitter share SDK -->
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+
+
+
+    <footer class="page-foote gray" style="background: #1b1b1b;">
           <div class="container">
             <div class="row">
               <div class="col l6 s6">

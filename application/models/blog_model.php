@@ -1,5 +1,5 @@
 <?php 
-class blog_model extends CI_Model {
+class Blog_model extends CI_Model {
 
 	public function addBlog($blogdata)
 	{	

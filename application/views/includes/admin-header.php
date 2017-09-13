@@ -44,19 +44,7 @@
 <nav class="<?php  if(strtolower($this->uri->segment(1)) == 'home' || $this->uri->segment(1) == '' ){ ?> transparent-nav <?php  } ?> nav-bar" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="<?php echo base_url(); ?>home" class="brand-logo center-align"><img src="<?php echo base_url(); ?>html/images/logo.png" /></a>
-</nav>
-<!--<?php 
-    $name='admin';
-    $this->session->unset_userdata('username',$name);
-    $username=$this->session->userdata;
-    if(isset($username['username']))
-        { ?>
-      <a href="logout" ><i class="fa fa-power-off blog-logout-btn " aria-hidden="true"></i></a> 
-      <?php } else{ ?>   
-      <a href="" ></a><?php } ?>
-    </div>-->
-  
 
- 
 
-    
+    </div>
+  </nav>

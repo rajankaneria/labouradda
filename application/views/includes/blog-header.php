@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="msapplication-tap-highlight" content="no">
-    <title>Labouradda - <?php echo $pageTitle; ?></title>
+    <title>Labouradda | <?php echo $blogRow["title"]; ?></title>
     <!-- CSS-->
 
     <!-- Compiled and minified CSS -->
@@ -26,6 +26,16 @@
     <?php } ?>
     <script src="https://use.fontawesome.com/4c9f41dc36.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+    <meta property="og:url"           content="<?php echo $blogRow["url"]; ?>" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="<?php echo $blogRow["title"]; ?>" />
+    <meta property="og:description"   content="<?php echo $blogRow["content"]; ?>" />
+    <meta property="og:image"         content="<?php echo $blogRow["image"]; ?>" />
+
+
+
   <script>
         $(document).ready(function (){
             $(".click").click(function (){
