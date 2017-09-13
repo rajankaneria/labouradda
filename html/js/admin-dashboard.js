@@ -30,8 +30,6 @@ $(function(){
             	window.location.reload();
             }
         });
-
-
 	});
 
 	$(".blog-delete-btn").on("click",function(){
@@ -44,21 +42,27 @@ $(function(){
 	});
 
 	$("#updateblogdata").on("click",function(){
-		var blogdata = new FormData($('#addBlogForm')[0]);
- 		$.ajax({
+		var blogdata = new FormData($('#UpdateBlogForm')[0]);
+		$.ajax({
             url: baseurl+"blog/updateBlog/",
             type: 'POST',
             processData: false,
             contentType: false,
             data: blogdata,
             success: function (res){
-            	alert("Updated Successfully");
-            	window.location.reload();
+           alert("Updated Successfully");
+           window.location.reload();
             }           
            
-        });
-
-		
+        });		
 	});
-
+        $(".blog-view-btn").on("click",function(){
+			$("#viewModal .modal-content").html("");
+			$("#viewModal").modal('open');
+			var blogID = $(this).data("blogid");
+			$.post(baseurl+"blog/getViewData/"+blogID,function(data){
+				$("#viewModal .modal-content").html(data);
+				
+			});
+		});
 });

@@ -38,25 +38,44 @@
 
 </head>
 <body class="grey lighten-2">
-<style type="text/css">
-    .me{background: #dedede;}
-</style>
+
 <nav class="<?php  if(strtolower($this->uri->segment(1)) == 'home' || $this->uri->segment(1) == '' ){ ?> transparent-nav <?php  } ?> nav-bar" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="<?php echo base_url(); ?>home" class="brand-logo center-align"><img src="<?php echo base_url(); ?>html/images/logo.png" /></a>
-</nav>
-<!--<?php 
-    $name='admin';
-    $this->session->unset_userdata('username',$name);
-    $username=$this->session->userdata;
-    if(isset($username['username']))
-        { ?>
-      <a href="logout" ><i class="fa fa-power-off blog-logout-btn " aria-hidden="true"></i></a> 
-      <?php } else{ ?>   
-      <a href="" ></a><?php } ?>
-    </div>-->
-  
 
- 
+      <!--logout button or link -->
+       <a href="logout" ><i class="fa fa-power-off blog-logout-btn " aria-hidden="true"></i></a>
+    </div>
+  </nav>
 
-    
+  <div id="wrapper" class="active">   
+      <!-- Sidebar -->
+            <!-- Sidebar -->
+      <div id="sidebar-wrapper">
+      <ul id="sidebar_menu" class="sidebar-nav">
+           <li class="sidebar-brand"><a id="menu-toggle" href="#">Menu<span id="main_icon" class="glyphicon glyphicon-align-justify"></span></a></li>
+      </ul>
+        <ul class="sidebar-nav" id="sidebar">     
+          <li><a>Blog<span class="sub_icon glyphicon glyphicon-link"></span></a></li>
+          <li><a>link2<span class="sub_icon glyphicon glyphicon-link"></span></a></li>
+        </ul>
+      </div>
+          
+      <!-- Page content -->
+      <div id="page-content-wrapper">
+        <!-- Keep all page content within the page-content inset div! -->
+        <div class="page-content inset">
+          <div class="row">
+              
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <script type="text/javascript">
+        $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("active");
+});
+    </script>

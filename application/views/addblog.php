@@ -1,7 +1,6 @@
 <div class="modal-title">Add Blog</div>
 <div class="row">
-    <form class="col s12" method="post" id="addBlogForm" enctype="multipart/form-data
-">
+    <form class="col s12" method="post" id="addBlogForm" enctype="multipart/form-data">
       <div class="row">      
         <div class="input-field col s6">
           <input id="title" name="title" type="text" class="validate">
