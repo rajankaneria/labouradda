@@ -26,9 +26,9 @@
     <div class="carousel-item amber white-text" href="#two!">
       <img src="<?php echo base_url(); ?>html/images/slider2.jpg" />
     </div> -->
-    <!--<div class="carousel-item amber white-text" href="#one!">
-      <img src="<?php echo base_url(); ?>html/images/slider-special.jpg" />
-    </div> -->
+    <div class="carousel-item amber white-text" href="#one!">
+      <img src="<?php echo base_url(); ?>html/images/Eid.jpg" />
+    </div>
     <div class="carousel-item amber white-text" href="#one!">
       <img onclick="window.location.href='<?php echo base_url(); ?>services/cleaning'" src="<?php echo base_url(); ?>html/images/slider-1.jpg" />
     </div>
