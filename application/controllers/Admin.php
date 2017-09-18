@@ -58,6 +58,32 @@ class Admin extends CI_Controller {
 		);
 		$this->load->view('dashboard-template',$viewData);
 	}
+
+	public function banner(){
+		if(!$this->session->userdata("username"))
+		{
+			header("Location:".base_url()."login");
+		}
+
+		$this->load->model("blog_model");
+		$blogs=$this->blog_model->allBlog();
+
+		$headerData = array(
+			"pageTitle" => "Dashboard",
+			"stylesheet" => array("dashboard.css")
+		);
+		$footerData = array(
+			"jsFiles" => array("admin-dashboard.js")
+		);
+		$viewData = array(
+			"viewName" => "blog_image",
+            "viewData" => array("blogs" => $blogs),
+			"headerData" => $headerData,
+			"footerData" => $footerData	
+		);
+		$this->load->view('dashboard-template',$viewData);
+	}
+
 	public function logout()
 	{
 		$this->session->unset_userdata("username");

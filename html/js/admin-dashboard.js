@@ -65,4 +65,24 @@ $(function(){
 				
 			});
 		});
+
+
+        $("#sendBlogImageData").on("click",function(){
+        	var blogdata = new FormData($('#addBlogImageForm')[0]);
+			
+	 		$.ajax({
+	            url: baseurl+"blog/addBlogImage/",
+	            type: 'POST',
+	            processData: false,
+	            contentType: false,
+	            data: blogdata,
+	            success: function (res){
+	            	alert("Inserted Successfully");
+	            	window.location.reload();
+	            }
+        	});
+        });
+
+
+
 });

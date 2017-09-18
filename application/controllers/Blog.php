@@ -126,6 +126,36 @@ class Blog extends CI_Controller
 	    $this->upload->do_upload('blog-image');
 
 	}
+
+	public function addBlogImage(){
+
+		$this->load->model("blog_model");
+
+		//get text data which has been bosted
+		$blogID = $_POST['blog_id'];
+		$imageFileName = $blogID."_".time()."_blog";
+		$blogImage = $imageFileName.".".pathinfo($_FILES['blog-image']['name'], PATHINFO_EXTENSION);
+		$result=array(
+			"blog_id"=>$blogID,
+			"image_caption"=>$_POST['image_caption'],
+			"image_name"=>$blogImage
+		);
+
+		$this->blog_model->addBlogImage($result);
+
+		//set configuration for the upload library
+		$config['upload_path'] = 'C:\wamp\www\labouradda\html\images\blog';
+	    $config['allowed_types'] = 'gif|jpg|png';
+	    $config['overwrite'] = TRUE;
+	    $config['encrypt_name'] = FALSE;
+	    $config['remove_spaces'] = TRUE;
+	    
+	    //set name in the config file for the blog image
+	    $config['file_name'] = $imageFileName;
+	    $this->load->library('upload', $config);
+	    $this->upload->do_upload('blog-image');
+	}
+
 	public function updateBlog()
 	{
 		$blogID=$_POST['blogUpdateID'];

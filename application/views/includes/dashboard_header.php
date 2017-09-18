@@ -17,6 +17,10 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
 
+    <script src="<?php echo base_url(); ?>html/js/tinymce/jquery.tinymce.min.js"></script>
+    <script src="<?php echo base_url(); ?>html/js/tinymce/tinymce.min.js"></script>
+
+
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
      
@@ -33,6 +37,9 @@
                     scrollTop: $("#our_partner").offset().top
                 }, 2000);
             });
+            tinymce.init({
+                selector: '#content'
+            });
         });
     </script>
 
@@ -41,7 +48,7 @@
 
 <nav class="<?php  if(strtolower($this->uri->segment(1)) == 'home' || $this->uri->segment(1) == '' ){ ?> transparent-nav <?php  } ?> nav-bar" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="<?php echo base_url(); ?>home" class="brand-logo center-align"><img src="<?php echo base_url(); ?>html/images/logo.png" /></a>
+      <a id="logo-container" href="<?php echo base_url(); ?>admin/dashboard" class="brand-logo center-align"><img src="<?php echo base_url(); ?>html/images/logo.png" /></a>
 
       <!--logout button or link -->
        <a href="logout" ><i class="fa fa-power-off blog-logout-btn " aria-hidden="true"></i></a>
@@ -56,8 +63,8 @@
            <li class="sidebar-brand"><a id="menu-toggle" href="#">Menu<span id="main_icon" class="glyphicon glyphicon-align-justify"></span></a></li>
       </ul>
         <ul class="sidebar-nav" id="sidebar">     
-          <li><a>Blog<span class="sub_icon glyphicon glyphicon-link"></span></a></li>
-          <li><a>link2<span class="sub_icon glyphicon glyphicon-link"></span></a></li>
+          <li><a href="<?php echo base_url(); ?>admin/dashboard">Blog<span class="sub_icon glyphicon glyphicon-link"></span></a></li>
+          <li><a href="<?php echo base_url(); ?>admin/banner">Blog Images<span class="sub_icon glyphicon glyphicon-link"></span></a></li>
         </ul>
       </div>
           

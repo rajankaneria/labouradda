@@ -33,5 +33,9 @@ class Blog_model extends CI_Model {
 		$output = $query->result_array();
 		return $output;	
 	}
+
+	public function addBlogImage($blogdata){
+		$query = $this->db->insert("blog_image",$blogdata);	
+	}
 }
 ?>
