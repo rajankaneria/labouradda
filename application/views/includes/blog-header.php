@@ -8,6 +8,9 @@
     <title>Labouradda | <?php echo $blogRow["title"]; ?></title>
     <!-- CSS-->
 
+    <!-- <link rel="icon" type="image/x-icon" href="<?php echo base_url(); ?>favicon.png"> -->
+    <link rel="icon" type="image/png" href="<?php echo base_url(); ?>favicon.png" />
+
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
 

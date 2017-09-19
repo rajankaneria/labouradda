@@ -16,39 +16,12 @@
           <label for="author">Author</label>
         </div>
       
-    
-         <div class="row">
-        <div class="col s6 xs-12">          
-          <div class="row">      
-            <div class="input-field col s6">          
-              <label for="feature-image">Featured Image</label>
-            </div>
-          </div>
-          <div class="row">      
-            <div class="input-field col s6 xs-12">          
-              <input id="feature-image" name="feature-image" type="file" class="validate" value="<?php echo $blogdata["feature-image"] ?>">
-            </div>
-          </div>
-        </div>
-      <div class="col s6 xs-12">          
-          <div class="row">      
-            <div class="input-field col s6">          
-              <label for="blog-image">Blog Image</label>
-            </div>
-          </div>
-          <div class="row">      
-            <div class="input-field col s6 xs-12">          
-              <input id="blog-image" name="blog-image" type="file" class="validate" value="<?php echo $blogdata["blog-image"] ?>">
-            </div>
-          </div>
-        </div>
-      </div> 
 
 
         <div class="row">      
                     
              <label for="content">Content</label>
-              <textarea id="content" name="content" style="height:12rem !important"><?php echo $blogdata["content"] ?></textarea>
+              <textarea id="updatecontent" name="updatecontent" style="height:12rem !important"><?php echo $blogdata["content"] ?></textarea>
             
           </div>      
           <input type="hidden" value="<?php echo $blogdata["id"] ?>" name="blogUpdateID" id="blogUpdateID">

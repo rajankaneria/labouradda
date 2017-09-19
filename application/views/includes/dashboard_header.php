@@ -40,6 +40,9 @@
             tinymce.init({
                 selector: '#content'
             });
+            tinymce.init({
+                selector: '#updatecontent'
+            });
         });
     </script>
 

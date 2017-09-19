@@ -97,6 +97,7 @@ class Blog extends CI_Controller
 		//add blog with the text data and get the blog id
 		$blogID = $this->blog_model->addBlog($result);
 
+		/*
 		//Define the file names with blog id with same extension which has been uploaded
 		$featureImage = $blogID."_feature.".pathinfo($_FILES['feature-image']['name'], PATHINFO_EXTENSION);
 		$blogImage = $blogID."_blog.".pathinfo($_FILES['blog-image']['name'], PATHINFO_EXTENSION);
@@ -124,7 +125,7 @@ class Blog extends CI_Controller
 	    $config['file_name'] = $blogID."_blog";
 	    $this->upload->initialize($config);
 	    $this->upload->do_upload('blog-image');
-
+		*/
 	}
 
 	public function addBlogImage(){
@@ -163,26 +164,24 @@ class Blog extends CI_Controller
 		$this->load->model("blog_model");
 
 
-
+		/*
 		//Define the file names with blog id with same extension which has been uploaded
 		$featureImage = $blogID."_feature.".pathinfo($_FILES['feature-image']['name'], PATHINFO_EXTENSION);
 		$blogImage = $blogID."_blog.".pathinfo($_FILES['blog-image']['name'], PATHINFO_EXTENSION);
-
+		*/
 
 		//get text data which has been posted
 		$result=array(
 			"title"=>$_POST['title'],
 			"author"=>$_POST['author'],
-			"content"=>$_POST['content'],
-			"blog-image" => $blogImage,
-			"feature-image" => $featureImage
+			"content"=>$_POST['updatecontent']
 		);
 
 		//add blog with the text data and get the blog id
 		$this->blog_model->updateBlog($result,$blogID);
 
 
-
+		/*
 		//set configuration for the upload library
 		$config['upload_path'] = 'C:\xampp\htdocs\labouradda\html\images\blog';
 	    $config['allowed_types'] = 'gif|jpg|png';
@@ -198,7 +197,8 @@ class Blog extends CI_Controller
 		//set name in the config file for the blog image
 	    $config['file_name'] = $blogID."_blog";
 	    $this->upload->initialize($config);
-	    $this->upload->do_upload('blog-image');    
+	    $this->upload->do_upload('blog-image');   
+	    */ 
 
 	}
 	public function deleteBlog($deleteID)
@@ -223,7 +223,8 @@ class Blog extends CI_Controller
 	public function getUpdateData($blogID){
 		$this->load->model("blog_model");
 		$blogRow=$this->blog_model->blogDetails($blogID);
-		$this->load->view("update_blog",array("blogdata"=>$blogRow));
+		//$this->load->view("update_blog",array("blogdata"=>$blogRow));
+		echo json_encode($blogRow);
 	}
 
 	public function getViewData($blogID){

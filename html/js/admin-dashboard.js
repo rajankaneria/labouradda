@@ -1,12 +1,29 @@
 $(function(){
 	var baseurl = $("#base_url").val();
 	$('.modal').modal();
+
+
+	/* blog image management */
+	 $(".blog-image-btn").on("click",function(){
+	 	$("#addBlogImageModal").modal('open');
+	 });
+	/* -------------------- */
+
+
+
 	$(".blog-edit-btn").on("click",function(){
-		$("#editModal .modal-content").html("");
+		//$("#editModal .modal-content").html("");
 		$("#editModal").modal('open');
 		var blogID = $(this).data("blogid");
 		$.post(baseurl+"blog/getUpdateData/"+blogID,function(data){
-			$("#editModal .modal-content").html(data);
+			data = $.parseJSON(data);
+			$("#editModal #title").val(data.title);
+			$("#editModal #author").val(data.author);
+			$("#editModal #blogUpdateID").val(data.id);
+			$("#editModal #updatecontent").html(data.content);
+			//tinyMCE.EditorManager.execCommand('mceRemoveControl',true, "updatecontent");
+			console.log()
+            tinymce.get('updatecontent').setContent(data.content);
 			Materialize.updateTextFields();
 		});
 	});
@@ -17,8 +34,8 @@ $(function(){
 	
 	$("#sendblogdata").on("click",function(){		
 		
+		$('#content').html( tinymce.get('content').getContent());
 		var blogdata = new FormData($('#addBlogForm')[0]);
-		
  		$.ajax({
             url: baseurl+"blog/addBlog/",
             type: 'POST',
@@ -42,6 +59,7 @@ $(function(){
 	});
 
 	$("#updateblogdata").on("click",function(){
+		$('#updatecontent').html(tinymce.get('updatecontent').getContent());
 		var blogdata = new FormData($('#UpdateBlogForm')[0]);
 		$.ajax({
             url: baseurl+"blog/updateBlog/",

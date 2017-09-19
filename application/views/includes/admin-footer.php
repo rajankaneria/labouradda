@@ -1,7 +1,7 @@
 	<footer class="page-foote gray" style="background: #1b1b1b;">
 
 
-          <div class="footer-copyright black f">
+          <div class="admin-footer footer-copyright black f">
             <div class="container" style="text-align: center;">
               <span>Copyright © <a class="copyright-site-link" href="#!">Labouradda</a> 2017</span>
              

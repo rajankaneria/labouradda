@@ -602,3 +602,18 @@ iframe#twitter-widget-0 {
     margin-left: 5px !important;
     margin-top: 5px !important;
 }
+
+.admin-footer.footer-copyright {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 10;
+    opacity: 0.9;
+}
+
+.select-image-container a {
+    font-size: 12px !important;
+    width: 150px !important;
+    margin: 10px 0px;
+    /* height: 46px; */
+}
