@@ -67,7 +67,7 @@
       </ul>
         <ul class="sidebar-nav" id="sidebar">     
           <li><a href="<?php echo base_url(); ?>admin/dashboard">Blog<span class="sub_icon glyphicon glyphicon-link"></span></a></li>
-          <li><a href="<?php echo base_url(); ?>admin/banner">Blog Images<span class="sub_icon glyphicon glyphicon-link"></span></a></li>
+          <!--<li><a href="<?php echo base_url(); ?>admin/banner">Blog Images<span class="sub_icon glyphicon glyphicon-link"></span></a></li>-->
         </ul>
       </div>
           

@@ -157,6 +157,14 @@ class Blog extends CI_Controller
 	    $this->upload->do_upload('blog-image');
 	}
 
+	public function getBlogImages($blogID){
+		$this->load->model("blog_model");
+		$imageList = $this->blog_model->blogImages($blogID);
+		foreach ($imageList as $key => $imageRow) {
+			$this->load->view("admin-blog-image-frame",$imageRow);
+		}
+	}
+
 	public function updateBlog()
 	{
 		$blogID=$_POST['blogUpdateID'];
@@ -231,6 +239,11 @@ class Blog extends CI_Controller
 		$this->load->model("blog_model");
 		$blogRow=$this->blog_model->blogDetails($blogID);
 		$this->load->view("viewblog",array("blogdata"=>$blogRow));
+	}
+
+	public function deleteImage($imageID){
+		$this->load->model("blog_model");
+		$this->blog_model->deleteImage($imageID);
 	}
 	
 }

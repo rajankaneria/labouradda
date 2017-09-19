@@ -37,5 +37,15 @@ class Blog_model extends CI_Model {
 	public function addBlogImage($blogdata){
 		$query = $this->db->insert("blog_image",$blogdata);	
 	}
+
+	public function blogImages($blogID){
+		$query = $this->db->query("select * from blog_image where blog_id='$blogID'");
+		$result = $query->result_array();
+		return $result;
+	}
+
+	public function deleteImage($imageID){
+		$query = $this->db->query("delete from blog_image where id='$imageID'");
+	}
 }
 ?>

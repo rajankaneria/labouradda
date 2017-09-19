@@ -617,3 +617,83 @@ iframe#twitter-widget-0 {
     margin: 10px 0px;
     /* height: 46px; */
 }
+
+
+
+.blog-image-container {
+    position: relative;
+}
+
+.blog-image-container
+ img {
+    width: 100%;
+    display: block;
+}
+
+.blog-image-caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+}
+
+.manage-blog-image-item {
+    position: relative;
+    padding: 0px !important;
+}
+
+.blog-image-caption {
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+    padding: 10px;
+    text-align: justify;
+    font-weight: 300;
+    font-size: 11px;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.manage-blog-image-item:hover .blog-image-caption {
+    opacity: 1;
+    cursor: pointer;-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.manage-blog-image-item {
+    margin: 5px;
+    width: calc(33.33% - 10px) !important;
+    height: 145px;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.blog-image-action {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.manage-blog-image-item:hover .blog-image-action {
+     opacity: 1;
+}
+
+.blog-image-action a {
+    font-size: 10px;
+    padding: 6px 10px;
+    line-height: 18px;
+    height: 30px;
+}

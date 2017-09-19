@@ -26,7 +26,7 @@
 
             <td class="right-align blog-btn">
               <a  data-blogid="<?php echo $blogRow['id']; ?>" data-position="top" data-delay="50" data-tooltip="Add Blog Image"  class="btn-floating waves-effect waves-light blue-grey blog-image-btn tooltipped"><i class="fa fa-file-image-o" aria-hidden="true"></i></a>
-            <a data-blogid="<?php echo $blogRow['id']; ?>" data-position="top" data-delay="50" data-tooltip="Preview Blog"  class="btn-floating waves-effect waves-light blue-grey blog-view-btn tooltipped"><i class="fa fa-eye" aria-hidden="true"></i></a>
+            <!--<a data-blogid="<?php echo $blogRow['id']; ?>" data-position="top" data-delay="50" data-tooltip="Preview Blog"  class="btn-floating waves-effect waves-light blue-grey blog-view-btn tooltipped"><i class="fa fa-eye" aria-hidden="true"></i></a>-->
               
               <a data-blogid="<?php echo $blogRow['id']; ?>" data-position="top" data-delay="50" data-tooltip="Edit Blog"  class="btn-floating waves-effect waves-light blue-grey blog-edit-btn tooltipped"><i class="material-icons">mode_edit</i></a>
 
@@ -53,17 +53,24 @@
         <form class="col s12" method="POST" id="addBlogImageForm" enctype="multipart/form-data">
           <div class="row">
             <div class="input-field col s10 " style="width: calc(100% - 150px) !important;">
-              <input id="caption" name="caption" type="text" value="" class="validate" >
+              <input id="image_caption" name="image_caption" type="text" value="" class="validate" >
               <label for="caption">Caption</label>
             </div>
-            <div class="col s2 select-image-container"><a id="addBlogImageBtn" href="#!" class="waves-effect waves-light btn blue-grey">Select Image</a></div>
+            <div class="col s2 select-image-container"><a id="selectBlogImageBtn" href="#!" class="waves-effect waves-light btn blue-grey">Select Image</a></div>
+
+            <input type="file" name="blog-image" id="blog-image" style="display: none;" />
           </div>
           <div class="row upload-image-container"><center><a id="uploadBlogImageBtn" href="#!" class="waves-effect waves-light btn">Upload</a></center></div>
           <div class="row">
-              <input type="hidden" value="" name="blogUpdateID" id="blogUpdateID">
+              <input type="hidden" value="" name="blog_id" id="blog_id">
           </div>
         </form>
       </div>
+
+
+      
+      <div class="uploaded-blog-images row"></div>
+      
 
      </div>
 

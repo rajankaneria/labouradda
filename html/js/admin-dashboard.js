@@ -1,3 +1,23 @@
+function getBlogImages(blogID){
+	var baseurl = $("#base_url").val();
+	$("#addBlogImageModal .uploaded-blog-images").html("");
+	$.post(baseurl+"blog/getBlogImages/"+blogID,function(data){
+	 	$("#addBlogImageModal .uploaded-blog-images").html(data);
+	 	initDeleteImage();
+	 });
+}
+function deleteImage(imageID){
+	var baseurl = $("#base_url").val();
+	$.post(baseurl+"blog/deleteImage/"+imageID,function(data){
+		 $("#blogImage-"+imageID).remove();
+	});
+}
+function initDeleteImage(){
+	$("#addBlogImageModal .delete-blog-image").on("click",function(data){
+		var imageID = $(this).data("image-id");
+		deleteImage(imageID);
+	});
+}
 $(function(){
 	var baseurl = $("#base_url").val();
 	$('.modal').modal();
@@ -5,8 +25,41 @@ $(function(){
 
 	/* blog image management */
 	 $(".blog-image-btn").on("click",function(){
+	 	var blogID = $(this).data("blogid");
+	 	$("#addBlogImageForm #blog_id").val(blogID);
+	 	getBlogImages(blogID);
 	 	$("#addBlogImageModal").modal('open');
 	 });
+	 $("#selectBlogImageBtn").on("click",function(){
+	 	$("#blog-image").click();
+	 });
+	 $("#uploadBlogImageBtn").on("click",function(){
+	 	var blogdata = new FormData($('#addBlogImageForm')[0]);
+	 	$("#uploadBlogImageBtn").html("Uploading...");
+		$.ajax({
+            url: baseurl+"blog/addBlogImage/",
+            type: 'POST',
+            processData: false,
+            contentType: false,
+            data: blogdata,
+            success: function (res){
+           		//alert("Updated Successfully");
+           		//window.location.reload();
+           		$("#addBlogImageForm #image_caption").val("");
+           		$("#uploadBlogImageBtn").html("Upload");
+           		getBlogImages($("#addBlogImageForm #blog_id").val());
+            }           
+        });	
+	 });
+
+	 $("#addBlogImageModal .delete-blog-image").on("click",function(data){
+	 	var imageID = $(this).data("image-id");
+	 	$.post(baseurl+"blog/deleteImage/"+imageID,function(data){
+		 	getBlogImages($("#addBlogImageForm #blog_id").val());
+		 });
+	 });
+
+
 	/* -------------------- */
 
 
