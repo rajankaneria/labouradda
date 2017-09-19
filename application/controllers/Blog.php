@@ -7,45 +7,66 @@ class Blog extends CI_Controller
 	public function index($blogID = 0)
 	{
 		$this->load->model("blog_model");
+
+		$headerData = array(
+			"pageTitle" => "Blog",
+			"stylesheet" => array("blog.css")
+		);
+
+
 		if($blogID == 0){
 			//get all blogs
 			$blogData = $this->blog_model->allBlog();
 			$blogView = "multiBlog";
+			$template = "template";
+			$viewDataArray = array("blogData" => $blogData);
 		}else{
 			//get specific blog
 			$blogData = $this->blog_model->blogDetails($blogID);
 			$blogView = "singleBlog";
+			$template = "blog-template";
+			$blogTitle = $blogData["title"];
+			$blogDescription = $blogData["content"];
+			$blogURL = "http://labouradda.net/blog/id/".$blogData["id"];
+			$blogImage = "https://lh3.googleusercontent.com/oRlZh2CLUzQ21q9Qjxvg2TH2ZOHzcGUTBTnmXxYs1-xvKZ2GtAS0zE6xYnFAKHWUIOV9ZGFmNVFH_udNbwTAWWr9iMKSGPtfnmh_ydT9hnr-2WGeOMG9XzMHL7TRZpjSR5tNqmpEk3Plv2QtXw";
+			$blogRow = array(
+					"url" => $blogURL,
+					"content" => $blogDescription,
+					"title" => $blogTitle,
+					"image" => $blogImage
+			);
+			$shareContainer = $this->load->view("share-layout",$blogRow,TRUE);
+			$headerData["blogRow"] = $blogRow;
+			$blogData["url"] = $blogURL;
+			$viewDataArray = array("blogData" => $blogData,"shareContainer"=>$shareContainer);
 		}		
-
-
-		$headerData = array(
-			"pageTitle" => "Blog",
-			
-			"stylesheet" => array("blog.css")
-		);
 		$footerData = array(
 			"jsFiles" => array()
 		);
 		$viewData = array(
 			"viewName" => $blogView,
-            "viewData" => array("blogData" => $blogData),
+            "viewData" => $viewDataArray,
 			"headerData" => $headerData,
 			"footerData" => $footerData	
 		);
-		$this->load->view('template',$viewData);
+		$this->load->view($template,$viewData);
 
 		//$this->load->model("blog_model");
 		//$blogView = "staticBlog";
 		
+		/*
 		if($blogID == 0){
 			//get all blogs
 			$blogData = $this->blog_model->allBlog();
 			$blogView = "multiBlog";
+			$template = "template";
 		}else{
 			//get specific blog
 			$blogData = $this->blog_model->blogDetails($blogID);
 			$blogView = "singleBlog";
-		}	
+			$template = "blog-template";
+		}
+		*/	
 		/*
 
 		$blogTitle = "Labouradda: Inception and Design";
