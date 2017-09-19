@@ -6,7 +6,7 @@ class Blog extends CI_Controller
 
 	public function index($blogID = 0)
 	{
-		/*$this->load->model("blog_model");
+		$this->load->model("blog_model");
 		if($blogID == 0){
 			//get all blogs
 			$blogData = $this->blog_model->allBlog();
@@ -32,21 +32,21 @@ class Blog extends CI_Controller
 			"headerData" => $headerData,
 			"footerData" => $footerData	
 		);
-		$this->load->view('template',$viewData);*/
+		$this->load->view('template',$viewData);
 
 		//$this->load->model("blog_model");
-		$blogView = "staticBlog";
-		/*
+		//$blogView = "staticBlog";
+		
 		if($blogID == 0){
 			//get all blogs
-			//$blogData = $this->blog_model->allBlog();
+			$blogData = $this->blog_model->allBlog();
 			$blogView = "multiBlog";
 		}else{
 			//get specific blog
-			//$blogData = $this->blog_model->blogDetails($blogID);
+			$blogData = $this->blog_model->blogDetails($blogID);
 			$blogView = "singleBlog";
-		}*/		
-
+		}	
+		/*
 
 		$blogTitle = "Labouradda: Inception and Design";
 		$blogDescription = "The inspiration of devising a digital crossroad where demand (consumer) makes direct communication with the supply (manpower) came into being as an urge to find a solution to help an undervalued and humongous section of our society. One morning at an ordinary ‘labour mandi’ is what it took to motivate us to hustle for a platform where the dynamics of labourers and customers is simplified and put into order.";
@@ -61,10 +61,13 @@ class Blog extends CI_Controller
 				"image" => $blogImage
 		);
 		$shareContainer = $this->load->view("share-layout",$blogRow,TRUE);
+		*/
+		/*
+		$shareContainer = "";
 		$headerData = array(
 			"pageTitle" => "Blog",
 			"stylesheet" => array("blog.css"),
-			"blogRow" => $blogRow
+			"blogRow" => $blogData
 		);
 		$footerData = array(
 			"jsFiles" => array()
@@ -77,10 +80,11 @@ class Blog extends CI_Controller
 			"footerData" => $footerData	
 		);
 		$this->load->view('blog-template',$viewData);
+		*/
 	}
 
 	public function id($blogID){
-		$this->index($blogID);
+		$this->index($blogID); 
 	}
 
 	public function addBlog()
