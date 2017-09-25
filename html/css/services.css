@@ -1,4 +1,8 @@
-.box{
+
+
+div#descriptionText p {
+    text-align: justify;
+}.box{
 	width: 90% !important;
     margin: 0 auto;
 }
@@ -48,4 +52,8 @@ div#descriptionTitle{
 .service-box .offering-container {
     margin-left: 3.75% !important;
     margin-right: 3.75% !important;
+}
+
+div#descriptionText p {
+    text-align: justify;
 }

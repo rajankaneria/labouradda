@@ -16,7 +16,16 @@
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/MorethanoneLabourformorethanoneday-yellow.png" /></div>
             <div class="offering-title">Daily wage Labourers</div>
             <div class="offering-description row">
-                <li>Hire Daily Wage Labourers for Anywork, Anywhere, Anytime</li>
+                <p>Through our digitized Labouradda, the customers can hire verified (adhaar card holder), trustworthy labourer for various services including cleaning and maintenance work - anytime and anywhere. Now, no need to go to the regular Labour mandi and struggle to hire a worker for your homely needs</p>
+
+                <p>You can call a labourer through our website by simply letting us know your address and the time you want the daily wage labourer to arrive. We will notify the nearest labourer to your destination and you can speak to the worker directly before his arrival at your address.
+Customers can hire a labourer for the following time duration:</p>
+
+                <li>Full-time (8 hours)</li>
+                <li>Part-time (4 hours)</li>
+                <li>Casual basis (2 hours)</li>
+
+                <p>These laborious, daily wagers will work in accordance to the customer’s requirement and demand. However, the unskilled daily wagers will require customer supervision for a satisfactory job completion.</p>
                 <!--
                 <div class="col m2"><center>
                 <img src="<?php echo base_url(); ?>html/images/Construction & Maintenance.png" class="img-bx" /><div class="offering-title">Construction and maintenance </div></center></div>
@@ -121,9 +130,9 @@
 
         
         <div class="offering-container col s4 m4 card-panel <?php if($serviceID=='s6') {?>active<?php } ?>">
-            <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/tatkaal%20seva.png" /></div>
-            <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/tatkaal%20seva-yellow.png" /></div>
-            <div class="offering-title">Night Gaurd</div>
+            <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/night_guard.png" /></div>
+            <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/night_guard_yellow.png" /></div>
+            <div class="offering-title">Night Guard</div>
             <div class="offering-description">
             <!--<li>Book labourers on urgent basis.</li>-->
             <p><em>* The availability of labour is subject to availability (in terms of time and location). The cost estimate will be determined by the labour themselves after analyzing the magnitude of work via a SMS or call.</em></p>
@@ -149,7 +158,16 @@
                 <!--<div class="col m2"><center>
                 <img src="<?php echo base_url(); ?>html/images/Construction & Maintenance.png" class="img-bx" /><div class="offering-title">Construction and maintenance </div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Farming.png" class="img-bx" /><div class="offering-title">Farming </div></center></div>-->
-                <li>Hire Daily Wage Labourers for Anywork, Anywhere, Anytime</li>
+                <p>Through our digitized Labouradda, the customers can hire verified (adhaar card holder), trustworthy labourer for various services including cleaning and maintenance work - anytime and anywhere. Now, no need to go to the regular Labour mandi and struggle to hire a worker for your homely needs</p>
+
+                <p>You can call a labourer through our website by simply letting us know your address and the time you want the daily wage labourer to arrive. We will notify the nearest labourer to your destination and you can speak to the worker directly before his arrival at your address.
+Customers can hire a labourer for the following time duration:</p>
+
+                <li>Full-time (8 hours)</li>
+                <li>Part-time (4 hours)</li>
+                <li>Casual basis (2 hours)</li>
+
+                <p>These laborious, daily wagers will work in accordance to the customer’s requirement and demand. However, the unskilled daily wagers will require customer supervision for a satisfactory job completion.</p>
             </div>
         </div>
 
@@ -246,9 +264,9 @@
         -->
         
         <div class="offering-container col s12 m2 card-panel <?php if($serviceID=='s6') {?>active<?php } ?>">
-            <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/tatkaal%20seva.png" /></div>
-            <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/tatkaal%20seva-yellow.png" /></div>
-            <div class="offering-title">Night Gaurd</div>
+            <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/night_guard.png" /></div>
+            <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/night_guard_yellow.png" /></div>
+            <div class="offering-title">Night Guard</div>
             <div class="offering-description"><a href="#bookNowModal" class="modal-trigger"><button class="btn right black btn-book">Book Now</button></a>
             <!--<li>Book labourers on urgent basis.</li>-->
             <p><em>* The availability of labour is subject to availability (in terms of time and location). The cost estimate will be determined by the labour themselves after analyzing the magnitude of work via a SMS or call.</em></p>

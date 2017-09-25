@@ -186,10 +186,10 @@
         <a href="services/Tatkaal_labour">
         <div class="offering-container col s6 m2 card-panel">
         <div class="card-panel offering-image-container">
-            <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/tatkaal%20seva.png" /></div>
-            <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/tatkaal%20seva-yellow.png" /></div>
+            <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/night_guard.png" /></div>
+            <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/night_guard_yellow.png" /></div>
             </div>
-            <div class="offering-title">Night Gaurd</div>
+            <div class="offering-title">Night Guard</div>
         </div>
         </a>
     </div>  
