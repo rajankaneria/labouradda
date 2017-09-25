@@ -105,10 +105,14 @@
 	}
 	.offering-container 
     {
-      width: 33.33% !important;
+      width: 50% !important;
       padding: 0px 2px !important;
 
     }   
+
+    .box.our-service-box{
+    	width:90% !important;
+    }
 
     .card-panel.offering-image-container {
 	    margin-bottom: 5px;

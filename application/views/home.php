@@ -101,13 +101,13 @@
 
 <div class="row">
 <div class="box our-service-box">
-  <div class="c-title">HIRE FOR</div>
-  <p class="c-paragraph">Hire labourers for following</p>
+  <div class="c-title">HIRE FOR FOLLOWING SERVICES</div>
+  
 
 
 
     <div class="row home-services" style="position: relative; margin-bottom: 0px;">
-        <a href="Services/Daily_wage_Labourers"><div class="offering-container col s6 m2 card-panel">
+        <a href="Services/Daily_wage_Labourers"><div class="offering-container col s6 m3 card-panel">
         <div class="card-panel offering-image-container">
             <div class="offering-icon white-icon hoverable"><img src="<?php echo base_url(); ?>html/images/MorethanoneLabourformorethanoneday.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/MorethanoneLabourformorethanoneday-yellow.png" /></div>
@@ -117,7 +117,7 @@
         </a>
 
         <a href="services/More_than_one_Labour">
-        <div class="offering-container col s6 m2 card-panel">
+        <div class="offering-container col s6 m3 card-panel">
         <div class="card-panel offering-image-container">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/Casual Labour (Mazdoor) – daily wage worker.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/Casual Labour (Mazdoor) – daily wage worker_yellow.png" /></div>
@@ -149,7 +149,7 @@
         -->
 
         <a href="services/Loaders_and_Unloaders">
-        <div class="offering-container col s6 m2 card-panel">
+        <div class="offering-container col s6 m3 card-panel">
         <div class="card-panel offering-image-container">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/loader%20unloader.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/loader%20unloader-yellow.png" /></div>
@@ -159,7 +159,7 @@
         </a>
 
         <a href="services/Repair_and_Maintenance">
-        <div class="offering-container col s6 m2 card-panel">
+        <div class="offering-container col s6 m3 card-panel">
         <div class="card-panel offering-image-container">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/Repair%20&%20Maintenance.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/Repair%20&%20Maintenance-yellow.png" /></div>
@@ -182,7 +182,7 @@
         -->
 
         
-
+        <!--
         <a href="services/Tatkaal_labour">
         <div class="offering-container col s6 m2 card-panel">
         <div class="card-panel offering-image-container">
@@ -192,6 +192,7 @@
             <div class="offering-title">Night Guard</div>
         </div>
         </a>
+      -->
     </div>  
   </div>
 </div>
@@ -255,18 +256,7 @@
 
 <div class="row"><div class="pad-20"></div>
   <div class="container">
-    <div class="col m4">
-      <div class="abt-box" style="min-height: auto !important;">
-                  <span class="fa-stack fa-2x about-us-icons">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-phone fa-stack-1x" style="color: #E0E0E0;"></i>
-                    </span>
-                    <!-- <img src="images/about-02.jpg" class="img-responsive" alt=".."> -->
-                    <h4>Speak Directly to the Labourers </h4>
-                    <div class="border"></div>
-                    <!-- <p>Duis aute irure dolor in reprehen derit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Lorem reprehenderit</p> -->
-                </div>
-    </div>
+
 
     <div class="col m4">
       <div class="abt-box" style="min-height: auto !important;">
@@ -282,6 +272,22 @@
                 </div>
             </div>
     </div>
+
+
+    <div class="col m4">
+      <div class="abt-box" style="min-height: auto !important;">
+                  <span class="fa-stack fa-2x about-us-icons">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-phone fa-stack-1x" style="color: #E0E0E0;"></i>
+                    </span>
+                    <!-- <img src="images/about-02.jpg" class="img-responsive" alt=".."> -->
+                    <h4>Speak Directly to the Labourers </h4>
+                    <div class="border"></div>
+                    <!-- <p>Duis aute irure dolor in reprehen derit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Lorem reprehenderit</p> -->
+                </div>
+    </div>
+
+
 
     <div class="col m4">
       <div class="abt-box" style="min-height: auto !important;">
@@ -305,13 +311,8 @@
       <div class="app-description-container">
         <div class="app-description-title">Labouradda App Coming Soon</div>
         <div class="row">
-          <div class="col s4 m4 app-content-icon center-align">
-            <span class="fa-stack fa-2x about-us-icons">
-              <i class="fa fa-circle fa-stack-2x" style="color: #fff;"></i>
-              <i class="fa fa-phone fa-stack-1x"></i>
-            </span>
-            <div class="app-icon-text">Speak Directly to the Labourers</div>
-          </div>
+
+
           <div class="col s4 m4 app-content-icon center-align">
             <span class="fa-stack fa-2x about-us-icons">
               <i class="fa fa-certificate fa-stack-2x" style="color: #fff;"></i>
@@ -319,6 +320,15 @@
             </span>
             <div class="app-icon-text">Adhaar Card Verified Labourers</div>
           </div>
+          
+          <div class="col s4 m4 app-content-icon center-align">
+            <span class="fa-stack fa-2x about-us-icons">
+              <i class="fa fa-circle fa-stack-2x" style="color: #fff;"></i>
+              <i class="fa fa-phone fa-stack-1x"></i>
+            </span>
+            <div class="app-icon-text">Speak Directly to the Labourers</div>
+          </div>
+
           <div class="col s4 m4 app-content-icon center-align">
             <span class="fa-stack fa-2x about-us-icons">
               <i class="fa fa-circle fa-stack-2x" style="color: #fff;"></i>

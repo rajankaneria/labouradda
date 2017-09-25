@@ -196,7 +196,7 @@ div#descriptionText {
 }
 
 .box.our-service-box {
-    width: 90%;
+    width: 50%;
     display: block;
     margin: 0 auto;
     padding-bottom: 0px !important;
@@ -353,8 +353,8 @@ div#appSection {
 }
 
 body .row.home-services .offering-container {
-    width: 20%;
-    padding: 5%;
+        width: 25%;
+    /* padding: 5%; */
     padding-top:0px;
     padding-bottom: 0px;
 }

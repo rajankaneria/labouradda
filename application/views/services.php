@@ -18,14 +18,16 @@
             <div class="offering-description row">
                 <p>Through our digitized Labouradda, the customers can hire verified (adhaar card holder), trustworthy labourer for various services including cleaning and maintenance work - anytime and anywhere. Now, no need to go to the regular Labour mandi and struggle to hire a worker for your homely needs</p>
 
-                <p>You can call a labourer through our website by simply letting us know your address and the time you want the daily wage labourer to arrive. We will notify the nearest labourer to your destination and you can speak to the worker directly before his arrival at your address.
-Customers can hire a labourer for the following time duration:</p>
+                <p>You can call a labourer through our website by simply letting us know your address and the time you want the daily wage labourer to arrive. We will notify the nearest labourer to your destination and you can speak to the worker directly before his arrival at your address for hassle free transaction.
+Customers can hire a labourer for the following time durations:</p>
 
                 <li>Full-time (8 hours)</li>
                 <li>Part-time (4 hours)</li>
                 <li>Casual basis (2 hours)</li>
 
                 <p>These laborious, daily wagers will work in accordance to the customer’s requirement and demand. However, the unskilled daily wagers will require customer supervision for a satisfactory job completion.</p>
+                
+                <p><em>* The availability of labour is subject to availability (in terms of time and location). The cost estimate will be determined by the labour themselves after analyzing the magnitude of work via a SMS or call.</em></p>
                 <!--
                 <div class="col m2"><center>
                 <img src="<?php echo base_url(); ?>html/images/Construction & Maintenance.png" class="img-bx" /><div class="offering-title">Construction and maintenance </div></center></div>
@@ -41,7 +43,17 @@ Customers can hire a labourer for the following time duration:</p>
             <div class="offering-title">Bulk labourers</div>
             <div class="offering-description">
                 
-                <li>Place request for more than one labour for your requirement for en number of days. </li>
+                <!-- <li>Place request for more than one labour for your requirement for en number of days. </li> -->
+            
+                <p>To meet the customers’ requirement such as home shifting, office cleaning, office shifting, intense home cleaning, commercial and business purpose (loading, unloading bags and other items)- Labouradda provides you with an option to hire more than one daily wage labourer for one or more days- to best meet your needs.</p> 
+
+                <p>Through our website or app, customers can book labourers by simply enlisting their address, number of labourers they require and number of days they want to avail the services of the labourers.  Labouradda will connect you directly to the labourers so that you can discuss your requirements with them and also workout the pay with them, directly before hiring the help.</p>
+
+                <p>Customer supervision to the labourers will be required for a constructive and convenient work output.</p>    
+
+
+                <p><em>*The availability of labour is subject to availability (in terms of time and location). The cost estimate will be determined by the labour themselves after analyzing the magnitude of work via a SMS or call.</em></p>
+
             </div>
         </div>
 
@@ -106,8 +118,8 @@ Customers can hire a labourer for the following time duration:</p>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Painters.png" class="img-bx" /><div class="offering-title">Painters</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Electricians.png" class="img-bx" /><div class="offering-title">Electricians</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Mason.png" class="img-bx" /><div class="offering-title">Mason</div></center></div>
-                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Fabricator.png" class="img-bx" /><div class="offering-title">Fabricator</div></center></div>
-                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Car Repair & Maintenance.png" class="img-bx" /><div class="offering-title">Car Mechanics</div></center></div>
+                <!-- <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Fabricator.png" class="img-bx" /><div class="offering-title">Fabricator</div></center></div>
+                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Car Repair & Maintenance.png" class="img-bx" /><div class="offering-title">Car Mechanics</div></center></div> -->
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/A-C Repair & Maintenance.png" class="img-bx" /><div class="offering-title">A/c Mechanics</div></center></div>
             </div>
         </div>
@@ -128,7 +140,7 @@ Customers can hire a labourer for the following time duration:</p>
         </div>
         -->
 
-        
+        <?php /*
         <div class="offering-container col s4 m4 card-panel <?php if($serviceID=='s6') {?>active<?php } ?>">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/night_guard.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/night_guard_yellow.png" /></div>
@@ -138,7 +150,7 @@ Customers can hire a labourer for the following time duration:</p>
             <p><em>* The availability of labour is subject to availability (in terms of time and location). The cost estimate will be determined by the labour themselves after analyzing the magnitude of work via a SMS or call.</em></p>
             </div>
         </div>
-
+        */ ?>
     </div>
 </div>  
 
@@ -149,6 +161,7 @@ Customers can hire a labourer for the following time duration:</p>
 
 <div class="box service-box hide-on-small-only hide-on-med-only">
     <div class="row service-page" style="position: relative;">
+        <div class="service-icon-container">
         <div class="offering-container col s12 m2 card-panel <?php if($serviceID=='s0') {?>active<?php } ?>">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/MorethanoneLabourformorethanoneday.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/MorethanoneLabourformorethanoneday-yellow.png" /></div>
@@ -160,14 +173,16 @@ Customers can hire a labourer for the following time duration:</p>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Farming.png" class="img-bx" /><div class="offering-title">Farming </div></center></div>-->
                 <p>Through our digitized Labouradda, the customers can hire verified (adhaar card holder), trustworthy labourer for various services including cleaning and maintenance work - anytime and anywhere. Now, no need to go to the regular Labour mandi and struggle to hire a worker for your homely needs</p>
 
-                <p>You can call a labourer through our website by simply letting us know your address and the time you want the daily wage labourer to arrive. We will notify the nearest labourer to your destination and you can speak to the worker directly before his arrival at your address.
-Customers can hire a labourer for the following time duration:</p>
+                <p>You can call a labourer through our website by simply letting us know your address and the time you want the daily wage labourer to arrive. We will notify the nearest labourer to your destination and you can speak to the worker directly before his arrival at your address for hassle free transaction.
+Customers can hire a labourer for the following time durations:</p>
 
                 <li>Full-time (8 hours)</li>
                 <li>Part-time (4 hours)</li>
                 <li>Casual basis (2 hours)</li>
 
                 <p>These laborious, daily wagers will work in accordance to the customer’s requirement and demand. However, the unskilled daily wagers will require customer supervision for a satisfactory job completion.</p>
+            
+                <p><em>* The availability of labour is subject to availability (in terms of time and location). The cost estimate will be determined by the labour themselves after analyzing the magnitude of work via a SMS or call.</em></p>
             </div>
         </div>
 
@@ -177,9 +192,17 @@ Customers can hire a labourer for the following time duration:</p>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/MorethanoneLabourformorethanoneday-yellow.png" /></div>
             <div class="offering-title">Bulk Labourers</div>
             <div class="offering-description">
-            <a href="#bookNowModal" class="modal-trigger"><button class="btn right black btn-book">Book Now</button></a>
-            <li>Place request for more than one labour for your requirement for en number of days. </li>
-        </div>
+                <a href="#bookNowModal" class="modal-trigger"><button class="btn right black btn-book">Book Now</button></a>
+                <p>To meet the customers’ requirement such as home shifting, office cleaning, office shifting, intense home cleaning, commercial and business purpose (loading, unloading bags and other items)- Labouradda provides you with an option to hire more than one daily wage labourer for one or more days- to best meet your needs.</p> 
+
+                <p>Through our website or app, customers can book labourers by simply enlisting their address, number of labourers they require and number of days they want to avail the services of the labourers.  Labouradda will connect you directly to the labourers so that you can discuss your requirements with them and also workout the pay with them, directly before hiring the help.</p>
+
+                <p>Customer supervision to the labourers will be required for a constructive and convenient work output.</p>    
+
+
+                <p><em>*The availability of labour is subject to availability (in terms of time and location). The cost estimate will be determined by the labour themselves after analyzing the magnitude of work via a SMS or call.</em></p>
+
+            </div>
         </div>
 
 
@@ -244,8 +267,8 @@ Customers can hire a labourer for the following time duration:</p>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Painters.png" class="img-bx" /><div class="offering-title">Painters</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Electricians.png" class="img-bx" /><div class="offering-title">Electricians</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Mason.png" class="img-bx" /><div class="offering-title">Mason</div></center></div>
-                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Fabricator.png" class="img-bx" /><div class="offering-title">Fabricator</div></center></div>
-                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Car Repair & Maintenance.png" class="img-bx" /><div class="offering-title">Car Mechanics</div></center></div>
+                <!-- <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Fabricator.png" class="img-bx" /><div class="offering-title">Fabricator</div></center></div> -->
+                <!-- <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Car Repair & Maintenance.png" class="img-bx" /><div class="offering-title">Car Mechanics</div></center></div> -->
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/A-C Repair & Maintenance.png" class="img-bx" /><div class="offering-title">A/c Mechanics</div></center></div>
             </div>
         </div>
@@ -262,7 +285,7 @@ Customers can hire a labourer for the following time duration:</p>
             </div>
         </div>
         -->
-        
+        <?php /*
         <div class="offering-container col s12 m2 card-panel <?php if($serviceID=='s6') {?>active<?php } ?>">
             <div class="offering-icon white-icon"><img src="<?php echo base_url(); ?>html/images/night_guard.png" /></div>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/night_guard_yellow.png" /></div>
@@ -272,7 +295,8 @@ Customers can hire a labourer for the following time duration:</p>
             <p><em>* The availability of labour is subject to availability (in terms of time and location). The cost estimate will be determined by the labour themselves after analyzing the magnitude of work via a SMS or call.</em></p>
             </div>
         </div>
-
+        */ ?>
+        </div>
 
         <div id="descriptionContainer">
           <div id="descriptionTitle"></div>

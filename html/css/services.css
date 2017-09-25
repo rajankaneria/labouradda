@@ -50,10 +50,16 @@ div#descriptionTitle{
 
 
 .service-box .offering-container {
-    margin-left: 3.75% !important;
-    margin-right: 3.75% !important;
+   /* margin-left: 3.75% !important;
+    margin-right: 3.75% !important;*/
 }
 
 div#descriptionText p {
     text-align: justify;
+}
+
+.service-icon-container {
+    width: 50%;
+    margin: 0 auto;
+    overflow: hidden;
 }
