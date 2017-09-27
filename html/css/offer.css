@@ -164,7 +164,7 @@ div#descriptionText {
 }
 
 .box.our-service-box {
-    width: 90%;
+    width: 50%;
     display: block;
     margin: 0 auto;
     padding-bottom: 0px !important;
@@ -193,7 +193,7 @@ div#descriptionText {
     /*min-height: 0px !important;*/
 }
 .row.service-page .offering-container {
-    width: 12.5%;
+    width: 25%;
 }
 .row.home-services .offering-container {
     width: 12.5%;

@@ -6,47 +6,68 @@ class Blog extends CI_Controller
 
 	public function index($blogID = 0)
 	{
-		/*$this->load->model("blog_model");
+		$this->load->model("blog_model");
+
+		$headerData = array(
+			"pageTitle" => "Blog",
+			"stylesheet" => array("blog.css")
+		);
+
+
 		if($blogID == 0){
 			//get all blogs
 			$blogData = $this->blog_model->allBlog();
 			$blogView = "multiBlog";
+			$template = "template";
+			$viewDataArray = array("blogData" => $blogData);
 		}else{
 			//get specific blog
 			$blogData = $this->blog_model->blogDetails($blogID);
 			$blogView = "singleBlog";
+			$template = "blog-template";
+			$blogTitle = $blogData["title"];
+			$blogDescription = $blogData["content"];
+			$blogURL = "http://labouradda.net/blog/id/".$blogData["id"];
+			$blogImage = "https://lh3.googleusercontent.com/oRlZh2CLUzQ21q9Qjxvg2TH2ZOHzcGUTBTnmXxYs1-xvKZ2GtAS0zE6xYnFAKHWUIOV9ZGFmNVFH_udNbwTAWWr9iMKSGPtfnmh_ydT9hnr-2WGeOMG9XzMHL7TRZpjSR5tNqmpEk3Plv2QtXw";
+			$blogRow = array(
+					"url" => $blogURL,
+					"content" => $blogDescription,
+					"title" => $blogTitle,
+					"image" => $blogImage
+			);
+			$shareContainer = $this->load->view("share-layout",$blogRow,TRUE);
+			$headerData["blogRow"] = $blogRow;
+			$blogData["url"] = $blogURL;
+			$viewDataArray = array("blogData" => $blogData,"shareContainer"=>$shareContainer);
 		}		
-
-
-		$headerData = array(
-			"pageTitle" => "Blog",
-			
-			"stylesheet" => array("blog.css")
-		);
 		$footerData = array(
 			"jsFiles" => array()
 		);
 		$viewData = array(
 			"viewName" => $blogView,
-            "viewData" => array("blogData" => $blogData),
+            "viewData" => $viewDataArray,
 			"headerData" => $headerData,
 			"footerData" => $footerData	
 		);
-		$this->load->view('template',$viewData);*/
+		$this->load->view($template,$viewData);
 
 		//$this->load->model("blog_model");
-		$blogView = "staticBlog";
+		//$blogView = "staticBlog";
+		
 		/*
 		if($blogID == 0){
 			//get all blogs
-			//$blogData = $this->blog_model->allBlog();
+			$blogData = $this->blog_model->allBlog();
 			$blogView = "multiBlog";
+			$template = "template";
 		}else{
 			//get specific blog
-			//$blogData = $this->blog_model->blogDetails($blogID);
+			$blogData = $this->blog_model->blogDetails($blogID);
 			$blogView = "singleBlog";
-		}*/		
-
+			$template = "blog-template";
+		}
+		*/	
+		/*
 
 		$blogTitle = "Labouradda: Inception and Design";
 		$blogDescription = "The inspiration of devising a digital crossroad where demand (consumer) makes direct communication with the supply (manpower) came into being as an urge to find a solution to help an undervalued and humongous section of our society. One morning at an ordinary ‘labour mandi’ is what it took to motivate us to hustle for a platform where the dynamics of labourers and customers is simplified and put into order.";
@@ -61,10 +82,13 @@ class Blog extends CI_Controller
 				"image" => $blogImage
 		);
 		$shareContainer = $this->load->view("share-layout",$blogRow,TRUE);
+		*/
+		/*
+		$shareContainer = "";
 		$headerData = array(
 			"pageTitle" => "Blog",
 			"stylesheet" => array("blog.css"),
-			"blogRow" => $blogRow
+			"blogRow" => $blogData
 		);
 		$footerData = array(
 			"jsFiles" => array()
@@ -77,10 +101,11 @@ class Blog extends CI_Controller
 			"footerData" => $footerData	
 		);
 		$this->load->view('blog-template',$viewData);
+		*/
 	}
 
 	public function id($blogID){
-		$this->index($blogID);
+		$this->index($blogID); 
 	}
 
 	public function addBlog()
