@@ -47,5 +47,17 @@ class Blog_model extends CI_Model {
 	public function deleteImage($imageID){
 		$query = $this->db->query("delete from blog_image where id='$imageID'");
 	}
+	public function register($data){
+		$this->db->insert("register",$data);
+		$id=$this->db->insert_id();
+		return $id;
+	}
+
+	public function updateRegister($data,$id){
+		$this->db->where("id",$id);
+		$this->db->update("register",$data);
+	}
+
+
 }
 ?>
