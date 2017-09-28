@@ -1,22 +1,32 @@
-<div class="page-container .full-width-container  container">
+<div class="registration-info-area">
 
- <div class="card-panel">
+ <div class="info-panel-area">
 
-  <div class="page-header">
-      <div class="page-title">All Register Data Mangement</div>
+  <div class="info-header">
+      <div class="info-title"><center><h5>All Register Data Mangement</h5></center></div>
       <!-- <div class="page-button"><a class="waves-effect waves-light btn" id="addBlogBtn">Add</a></div> -->
   </div>
-  <div class="page-content">
-    <table>      
+  <div class="info-conten">
+    <table class="responsive-table">      
         <tbody> 
         <tr>
-          <td><b>Name:</b><?php echo $full_name; ?></td>
+          <td><b>Name :</b>&nbsp;<span> <?php echo $full_name; ?></span></td>
         </tr>        
-        <tr><td><b>Addhar Card:</b><?php echo $addhar_card; ?></td></tr>          
-           <tr><td><b>Phone:</b><?php echo $phone; ?></td></tr>
-          <tr><td><b>Labouradda Location:</b><?php echo $labouradda_location; ?></td></tr>
-          <td><b>Addhar Photo:</b><img src="<?php echo base_url() ?>html/images/register/<?php echo $addhar_photo; ?>"></td>
-          <td><b>Labourer Photo:</b><img src="<?php echo base_url() ?>html/images/register/<?php echo $labourer_photo; ?>"></td>      
+        <tr><td><b>Addhar Card :</b> &nbsp; <?php echo $addhar_card; ?></td></tr>          
+           <tr><td><b>Phone :</b>&nbsp; <?php echo $phone; ?></td></tr>
+          <tr><td><b>Labouradda Location :</b>&nbsp; <?php echo $labouradda_location; ?></td></tr>
+          <div class="row">
+          <td class="col s12 m6">
+            <div class="lable-name"><label><b>Addhar Photo :</b></label></div>
+            <div>
+            &nbsp; <img src="<?php echo base_url() ?>html/images/register/<?php echo $addhar_photo; ?>">
+            </div>
+          </td>
+          <td class="col s12 m6">
+            <div class="lable-name"><label><b>Labourer Photo :</b></label></div>
+            &nbsp; <img src="<?php echo base_url() ?>html/images/register/<?php echo $labourer_photo; ?>">
+          </td>      
+        </div>
         </tr>       
                   
         </tbody>
