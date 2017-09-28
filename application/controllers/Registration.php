@@ -7,7 +7,7 @@ class Registration extends CI_Controller {
 	{		
 		$headerData = array(
 			"pageTitle" => "Registration",
-			"stylesheet" => array("dashboard.css")
+			"stylesheet" => array("dashboard.css","registration.css")
 		);
 		$footerData = array(
 			"jsFiles" => array("registration.js")
