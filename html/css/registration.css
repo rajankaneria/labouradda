@@ -49,3 +49,9 @@ table tr td span {
     line-height: 2rem;
  
 }
+
+@media(max-width: 768px){
+	.card-panel{
+		margin: 0 auto;
+	}
+}

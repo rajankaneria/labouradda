@@ -7,7 +7,7 @@
       <!-- <div class="page-button"><a class="waves-effect waves-light btn" id="addBlogBtn">Add</a></div> -->
   </div>
   <div class="info-conten">
-    <table class="responsive-table">      
+    <table>      
         <tbody> 
         <tr>
           <td><b>Name :</b>&nbsp;<span> <?php echo $full_name; ?></span></td>
