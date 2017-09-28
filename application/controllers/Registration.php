@@ -64,8 +64,30 @@ class Registration extends CI_Controller {
 		//set name in the config file for the blog image
 	    $config['file_name'] = $regId."_labourer";
 	    $this->upload->initialize($config);
-	    $this->upload->do_upload('labourer_photo');
+	    $this->upload->do_upload('labourer_photo');	    
+	}
 
-	    
+	public function registeredData(){
+		$this->load->model("blog_model");
+		$allRegisterData=$this->blog_model->allRegisterData();
+		$headerData = array(
+			"pageTitle" => "Registration",
+			"stylesheet" => array("dashboard.css","registration.css")
+		);
+		$footerData = array(
+			"jsFiles" => array("registration.js")
+		);
+		$viewData = array(
+			"viewName" => "registration_info",
+            "viewData" => array("allRegisterData"=>$allRegisterData),
+			"headerData" => $headerData,
+			"footerData" => $footerData	
+		);
+		$this->load->view('admin-template',$viewData);
+	}
+	public function singleView($regID){
+		$this->load->model("blog_model");
+		$data=$this->blog_model->singleViewData($regID);
+		$this->load->view("full_register_info",$data);
 	}
 }

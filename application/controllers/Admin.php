@@ -32,7 +32,6 @@ class Admin extends CI_Controller {
 		$pass= $this->admin_model->login($res);
 		echo json_encode($pass);
 	}
-
 	public function dashboard()
 	{		
 		if(!$this->session->userdata("username"))

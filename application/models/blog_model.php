@@ -57,6 +57,16 @@ class Blog_model extends CI_Model {
 		$this->db->where("id",$id);
 		$this->db->update("register",$data);
 	}
+	public function allRegisterData(){
+		$query=$this->db->query("select * from register");
+		$output=$query->result_array();
+		return $output;
+	}
+	public function singleViewData($id){
+		$query=$this->db->query("select * from register where id='$id'");
+		$output=$query->row_array();
+		return $output;
+	}
 
 
 }
