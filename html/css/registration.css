@@ -22,3 +22,30 @@
 
 	}
 }
+
+
+
+
+/*Admin registration Info detail*/
+.registration-info-area{
+	padding: 25px;
+}
+.modal-content{
+
+}
+.info-panel-area{
+	background: #fff;
+}
+.info-content{
+	border:1px solid #eee;
+	padding: 25px;
+}
+table tr td span {
+    text-transform: capitalize;
+}
+.lable-name label {
+    color: #000 !important;
+    font-size: 14px;
+    line-height: 2rem;
+ 
+}
