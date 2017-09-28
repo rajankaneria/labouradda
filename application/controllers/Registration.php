@@ -31,7 +31,6 @@ class Registration extends CI_Controller {
 			"addhar_card"=>$_POST['addhar_card'],
 			"labouradda_location"=>$_POST['location'],
 			"phone" => $phone
-
 		);		
 		
 
