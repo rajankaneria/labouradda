@@ -1,0 +1,24 @@
+.registration-area{
+	width: 50%;
+	background: #fff;
+	padding: 25px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+.file-btn{
+	background: transparent;
+	border: 1px solid #000;
+	color: #000;
+	width: 100%;
+}
+.file-btn:hover{
+	background: #000;
+	color: #fff;
+
+}
+@media(max-width: 798px){
+	.registration-area{
+		width: 90%;
+
+	}
+}
