@@ -25,7 +25,7 @@ $(function(){
 		var baseUrl=$("#base_url").val();
 		$("#viewModal").modal('open');
 		var regId=$(this).data('regid');
-		$.post(baseUrl+"Registration/singleView/"+regId,function(data){
+		$.post(baseUrl+"Admin/singleView/"+regId,function(data){
 			$("#viewModal .modal-content").html(data);
 		});
 	});
