@@ -17,7 +17,6 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
 
-
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
      
@@ -33,10 +32,6 @@
                 $('html, body').animate({
                     scrollTop: $("#our_partner").offset().top
                 }, 2000);
-            });
-
-            tinymce.init({
-                selector: '#content'
             });
         });
     </script>

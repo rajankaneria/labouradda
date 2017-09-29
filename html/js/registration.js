@@ -5,6 +5,15 @@ $(function(){
 		var errorFlag = 0;
 
 		if($("#full_name").val() == ""){ errorFlag = 1; }
+		if($("#addhar_card").val() == ""){ errorFlag = 1; }
+		if (!($('#smart_phone').is(':checked'))) { errorFlag = 1  }
+		//if (!($('#basic_phone').is(':checked'))) { errorFlag = 1  alert("Please basic Phone"); } 
+
+		if($("#location").val() == ""){ errorFlag = 1; alert("Please select an option!"); }
+            
+            
+       
+
 
 
 

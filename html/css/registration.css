@@ -16,10 +16,39 @@
 	color: #fff;
 
 }
+.card-panel{
+	padding: 25px 0px;
+}
+.page-header{
+	padding: 0px 25px;
+}
+
+thead tr th:first-child {
+    padding-left: 25px !important;
+}
+tbody tr td:first-child {
+    padding-left: 25px;
+}
+table.highlight>tbody>tr:hover {
+    background-color: #000000;
+    color: #fff;
+    border-radius: 0px;
+    cursor: pointer;
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+}
+td{
+	border-radius: 0px;
+}
 @media(max-width: 798px){
 	.registration-area{
 		width: 90%;
 
+	}
+	.registration-info-area{
+		padding: 0px !important;
 	}
 }
 

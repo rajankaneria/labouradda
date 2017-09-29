@@ -13,7 +13,7 @@ class Registration extends CI_Controller {
 			"jsFiles" => array("registration.js")
 		);
 		$viewData = array(
-			"viewName" => "Registration",
+			"viewName" => "registration",
             "viewData" => array(),
 			"headerData" => $headerData,
 			"footerData" => $footerData	
@@ -31,6 +31,7 @@ class Registration extends CI_Controller {
 			"addhar_card"=>$_POST['addhar_card'],
 			"labouradda_location"=>$_POST['location'],
 			"phone" => $phone
+
 		);		
 		
 
@@ -55,9 +56,8 @@ class Registration extends CI_Controller {
 		// update the name of the images in the database
 		$this->blog_model->updateRegister($updateData,$regId);
 
-
 		//set configuration for the upload library
-		$config['upload_path'] = 'C:\wamp\www\labouradda\html\images\register';
+		$config['upload_path'] = './html/images/register';
 	    $config['allowed_types'] = 'gif|jpg|png';
 	    $config['overwrite'] = TRUE;
 	    $config['encrypt_name'] = FALSE;
@@ -78,7 +78,26 @@ class Registration extends CI_Controller {
 		//set name in the config file for the labourer image
 	    $config['file_name'] = $regId."_labourer";
 	    $this->upload->initialize($config);
-	    $this->upload->do_upload('labourer_photo');	    
-	}
+	    //$this->upload->do_upload('labourer_photo');
 
+	    if (!$this->upload->do_upload('labourer_photo'))
+		{
+		    $data['error'] = $this->upload->display_errors();
+		    $data['include'] = 'pages/classic-register';
+		} 
+		else {
+			    $data['upload_data'] = $this->upload->data();
+			    // use custom function to determine if filetype is allowed
+			    if (allow_file_type($data['upload_data']['file_ext'])) 
+			    {
+			        $filename = $data['upload_data']['file_name'];
+			    }
+			    else
+			    {
+			        show_error('File type is not allowed!');
+			    }
+			}
+
+	    
+	}
 }

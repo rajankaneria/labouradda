@@ -3,6 +3,14 @@
 		$(".button-collapse").sideNav();
 	});
 </script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=286419034707449";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <style type="text/css">
 	strong{font-weight: normal; !important;}
 	p{text-align: justify !important;     font-size: 13px; }
@@ -151,7 +159,7 @@ Labouradda- aims at resolving issues like communication-gap, unavailability and 
 					<div class="side-bar-card-title">Latest Blogs</div>
 					<div class="card-main-content">
 						
-						<div class="latest-blog-item">
+						<div class="latest-blog-item" onclick='window.location.href="<?php echo base_url(); ?>blog"' style="cursor: pointer;">
 							<div class="latest-blog-image-container"><div class="blog-image-overlay"></div><img alt="C:\Users\SEEMA SEN\Downloads\IMG_1702.JPG" src="https://lh3.googleusercontent.com/oRlZh2CLUzQ21q9Qjxvg2TH2ZOHzcGUTBTnmXxYs1-xvKZ2GtAS0zE6xYnFAKHWUIOV9ZGFmNVFH_udNbwTAWWr9iMKSGPtfnmh_ydT9hnr-2WGeOMG9XzMHL7TRZpjSR5tNqmpEk3Plv2QtXw" style="width: 100%;"></div>
 							<div class="latest-blog-title">Labouradda: Inception and Design</div>
 						</div>

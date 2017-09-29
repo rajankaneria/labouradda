@@ -24,7 +24,7 @@
 -->
       <div class="input-field col s12">
         <input type="text" value="" id="addhar_card" name="addhar_card" />
-        <label for="addhar_card">Adhhar Card Number</label>
+        <label for="addhar_card">Aadhar Card Number</label>
       </div>
            
       <div class="input-field col s12">       
@@ -39,7 +39,8 @@
            
       <div class="input-field col s6">
         <input type="file" id="back_photo" name="back_photo"  style="display: none;" />
-        <a href="#" onclick="$('input#back_photo').click()" class="btn file-btn">Back Photo</a>
+      <a href="#" onclick="$('input#back_photo').click()" class="btn file-btn">Back Photo</a>
+
         <!-- <label for="addhar_photo">Adhhar Card Photo</label> -->
       </div>
       
@@ -50,11 +51,11 @@
       </div>
       
       <div class="input-field col s12">
-        <select name="location">           
+        <select name="location" id="location">           
           <option value="">Select Location</option>
-          <option value="college_chauhara">Engineering College Chauhara</option>
-          <option value="goyal_chauhara">Goyal Chauhara</option>
-          <option value="tedhi_puliya">Tedhi Puliya</option>         
+          <option value="Engineering College Chauhara">Engineering College Chauhara</option>
+          <option value="Goyal Chauhara">Goyal Chauhara</option>
+          <option value="Tedhi Puliya">Tedhi Puliya</option>         
         </select>
       </div>
       <div class="col s12"> 
@@ -63,7 +64,7 @@
           <label for="smart_phone">Smart Phone</label>
        
           <input type="checkbox" id="basic_phone" name="phone[]" value="Basic Phone" />
-          <label for="basic_phone">Basic Phone</label>
+          <label for="basic_phone" style="margin-left: 15px;">Basic Phone</label>
       </div>       
       </div>
         <div class="input-field col s12">

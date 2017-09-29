@@ -38,7 +38,8 @@ class Admin extends CI_Controller {
 		{
 			header("Location:".base_url()."login");
 		}
-
+		header("location: ".base_url()."admin/registeredData");
+		exit();
 		$this->load->model("blog_model");
 		$blogs=$this->blog_model->allBlog();
 
@@ -106,7 +107,7 @@ class Admin extends CI_Controller {
 			"headerData" => $headerData,
 			"footerData" => $footerData	
 		);
-		$this->load->view('admin-template',$viewData);
+		$this->load->view('dashboard-template',$viewData);
 	}
 	public function singleView($regID){
 		$this->load->model("blog_model");

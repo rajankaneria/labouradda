@@ -6,10 +6,6 @@ class Dashboard extends CI_Controller {
 	
 	public function index()
 	{		
-		if(!$this->session->userdata("username"))
-		{
-			header("Location:".base_url()."login");
-		}
 		$headerData = array(
 			"pageTitle" => "Dashboard",
 			"stylesheet" => array("dashboard.css")
@@ -24,11 +20,5 @@ class Dashboard extends CI_Controller {
 			"footerData" => $footerData	
 		);
 		$this->load->view('template',$viewData);
-	}
-	public function logout()
-	{
-		$this->session->unset_userdata("username");
-		$this->session->sess_destroy();
-		header("Location:".base_url());
 	}
 }
