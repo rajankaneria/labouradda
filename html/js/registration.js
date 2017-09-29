@@ -39,14 +39,15 @@ $(function(){
 					alert("Your Registration are done... Thank you..");
 					//window.location.href="#!";
 				}
-
+				
 			});
 			$("#registerForm input").val("");
 			$("#register").val("Register");	
+			 window.location.reload();
+
 		}else{
 			alert("All Fields are required");
-		}
-		
+		}		
 
 
 	});
