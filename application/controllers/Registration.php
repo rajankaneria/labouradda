@@ -62,7 +62,8 @@ class Registration extends CI_Controller {
 	    $config['overwrite'] = TRUE;
 	    $config['encrypt_name'] = FALSE;
 	    $config['remove_spaces'] = TRUE;
-	    
+
+		    
 	    //set name in the config file for the frontAddhar image
 	    $config['file_name'] = $regId."_frontAddhar";
 	    $this->load->library('upload', $config);
@@ -78,9 +79,13 @@ class Registration extends CI_Controller {
 		//set name in the config file for the labourer image
 	    $config['file_name'] = $regId."_labourer";
 	    $this->upload->initialize($config);
-	    //$this->upload->do_upload('labourer_photo');
+	    $this->upload->do_upload('labourer_photo');
+	    
+		}
+		
 
-	    if (!$this->upload->do_upload('labourer_photo'))
+
+	   /* if (!$this->upload->do_upload('labourer_photo'))
 		{
 		    $data['error'] = $this->upload->display_errors();
 		    $data['include'] = 'pages/classic-register';
@@ -97,7 +102,7 @@ class Registration extends CI_Controller {
 			        show_error('File type is not allowed!');
 			    }
 			}
-
+*/
 	    
 	}
-}
+

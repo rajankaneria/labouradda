@@ -9,12 +9,22 @@ $(function(){
 		if (!($('#smart_phone').is(':checked'))) { errorFlag = 1  }
 		//if (!($('#basic_phone').is(':checked'))) { errorFlag = 1  alert("Please basic Phone"); } 
 
-		if($("#location").val() == ""){ errorFlag = 1; alert("Please select an option!"); }
-            
-            
-       
+		if($("#location").val() == ""){ errorFlag = 1;  }
+	            
+        var file = $('#addhar_photo')[0].files[0]
+		if (!file){
+		  errorFlag = 1;
+		}
 
+		var file = $('#back_photo')[0].files[0]
+		if (!file){
+		  errorFlag = 1;
+		}
 
+		var file = $('#labourer_photo')[0].files[0]
+		if (!file){
+		  errorFlag = 1;
+		}
 
 
 		if(errorFlag == 0){
