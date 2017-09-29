@@ -31,7 +31,6 @@ class Registration extends CI_Controller {
 			"addhar_card"=>$_POST['addhar_card'],
 			"labouradda_location"=>$_POST['location'],
 			"phone" => $phone
-
 		);		
 		
 
@@ -65,8 +64,7 @@ class Registration extends CI_Controller {
 		//set name in the config file for the blog image
 	    $config['file_name'] = $regId."_labourer";
 	    $this->upload->initialize($config);
-	    $this->upload->do_upload('labourer_photo');
-
-	    
+	    $this->upload->do_upload('labourer_photo');	    
 	}
+
 }

@@ -32,7 +32,6 @@ class Admin extends CI_Controller {
 		$pass= $this->admin_model->login($res);
 		echo json_encode($pass);
 	}
-
 	public function dashboard()
 	{		
 		if(!$this->session->userdata("username"))
@@ -89,6 +88,30 @@ class Admin extends CI_Controller {
 		$this->session->unset_userdata("username");
 		$this->session->sess_destroy();
 		header("Location:".base_url()."admin");
+	}
+	
+	public function registeredData(){
+		$this->load->model("blog_model");
+		$allRegisterData=$this->blog_model->allRegisterData();
+		$headerData = array(
+			"pageTitle" => "Registration",
+			"stylesheet" => array("dashboard.css","registration.css")
+		);
+		$footerData = array(
+			"jsFiles" => array("registration.js")
+		);
+		$viewData = array(
+			"viewName" => "registration_info",
+            "viewData" => array("allRegisterData"=>$allRegisterData),
+			"headerData" => $headerData,
+			"footerData" => $footerData	
+		);
+		$this->load->view('admin-template',$viewData);
+	}
+	public function singleView($regID){
+		$this->load->model("blog_model");
+		$data=$this->blog_model->singleViewData($regID);
+		$this->load->view("full_register_info",$data);
 	}
 
 }
