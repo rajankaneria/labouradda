@@ -39,12 +39,19 @@ class Registration extends CI_Controller {
 
 		
 		//Define the file names with blog id with same extension which has been uploaded
-		$addhar_photo = $regId."_addhar.".pathinfo($_FILES['addhar_photo']['name'], PATHINFO_EXTENSION);
+		$addhar_photo = $regId."_frontAddhar.".pathinfo($_FILES['addhar_photo']['name'], PATHINFO_EXTENSION);
+
+		$back_photo = $regId."_backAddhar.".pathinfo($_FILES['back_photo']['name'], PATHINFO_EXTENSION);
+
+
 		$labourer_photo = $regId."_labourer.".pathinfo($_FILES['labourer_photo']['name'], PATHINFO_EXTENSION);
 		$updateData = array(
 			"addhar_photo" => $addhar_photo,
-			"labourer_photo" => $labourer_photo
+			"labourer_photo" => $labourer_photo,
+			"back_photo"=>$back_photo
 		);
+
+		
 		// update the name of the images in the database
 		$this->blog_model->updateRegister($updateData,$regId);
 
@@ -56,12 +63,19 @@ class Registration extends CI_Controller {
 	    $config['encrypt_name'] = FALSE;
 	    $config['remove_spaces'] = TRUE;
 	    
-	    //set name in the config file for the feature image
-	    $config['file_name'] = $regId."_addhar";
+	    //set name in the config file for the frontAddhar image
+	    $config['file_name'] = $regId."_frontAddhar";
 	    $this->load->library('upload', $config);
 	    $this->upload->do_upload('addhar_photo');
 
-		//set name in the config file for the blog image
+	    //set name in the config file for the backAddhar image
+	    $config['file_name'] = $regId."_backAddhar";
+	    $this->upload->initialize($config);
+	    $this->upload->do_upload('back_photo');	    
+
+
+
+		//set name in the config file for the labourer image
 	    $config['file_name'] = $regId."_labourer";
 	    $this->upload->initialize($config);
 	    $this->upload->do_upload('labourer_photo');	    

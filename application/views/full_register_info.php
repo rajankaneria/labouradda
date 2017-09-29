@@ -17,10 +17,17 @@
           <tr><td><b>Labouradda Location :</b>&nbsp; <?php echo $labouradda_location; ?></td></tr>
           <div class="row">
           <td class="col s12 m6">
-            <div class="lable-name"><label><b>Addhar Photo :</b></label></div>
+             <div class="lable-name"><label><b>Addhar Front Photo :</b></label></div>
             <div>
             &nbsp; <img src="<?php echo base_url() ?>html/images/register/<?php echo $addhar_photo; ?>">
             </div>
+
+
+            <div class="lable-name"><label><b>Addhar Back Photo :</b></label></div>
+            <div>
+            &nbsp; <img src="<?php echo base_url() ?>html/images/register/<?php echo $back_photo; ?>">
+            </div>           
+
           </td>
           <td class="col s12 m6">
             <div class="lable-name"><label><b>Labourer Photo :</b></label></div>

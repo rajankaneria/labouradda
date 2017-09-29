@@ -38,6 +38,8 @@
             });
         });
     </script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+    
 
 </head>
 <body class="grey lighten-2">

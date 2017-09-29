@@ -2,21 +2,32 @@ var baseUrl
 $(function(){
 	$("#register").on("click",function(){
 		baseUrl=$("#base_url").val();
-		var formdata=new FormData($("#registerForm")[0]);
-		$.ajax({
-			url:baseUrl+"Registration/register/",
-			data:formdata,
-			type:"post",
-			processData:false,
-			contentType:false,
-			success:function(result){
-				alert("Your Registration are done... Thank you..");
-				//window.location.href="#!";
-			}
+		var errorFlag = 0;
 
-		});
-		$("#registerForm input").val("");
-		$("#register").val("Register");
+		if($("#full_name").val() == ""){ errorFlag = 1; }
+
+
+
+		if(errorFlag == 0){
+			var formdata=new FormData($("#registerForm")[0]);
+			$.ajax({
+				url:baseUrl+"Registration/register/",
+				data:formdata,
+				type:"post",
+				processData:false,
+				contentType:false,
+				success:function(result){
+					alert("Your Registration are done... Thank you..");
+					//window.location.href="#!";
+				}
+
+			});
+			$("#registerForm input").val("");
+			$("#register").val("Register");	
+		}else{
+			alert("All Fields are required");
+		}
+		
 
 
 	});
@@ -29,7 +40,6 @@ $(function(){
 			$("#viewModal .modal-content").html(data);
 		});
 	});
-
 
 
 

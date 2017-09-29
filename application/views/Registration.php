@@ -27,9 +27,19 @@
         <label for="addhar_card">Adhhar Card Number</label>
       </div>
            
+      <div class="input-field col s12">       
+      <label for="addhar_photo">Adhhar Card Photo</label> 
+      </div></div><br/>
+
       <div class="input-field col s6">
         <input type="file" id="addhar_photo" name="addhar_photo"  style="display: none;" />
-        <a href="#" onclick="$('input#addhar_photo').click()" class="btn file-btn">Adhhar Card Photo</a>
+        <a href="#" onclick="$('input#addhar_photo').click()" class="btn file-btn">Front Photo</a>
+        <!-- <label for="addhar_photo">Adhhar Card Photo</label> -->
+      </div>
+           
+      <div class="input-field col s6">
+        <input type="file" id="back_photo" name="back_photo"  style="display: none;" />
+        <a href="#" onclick="$('input#back_photo').click()" class="btn file-btn">Back Photo</a>
         <!-- <label for="addhar_photo">Adhhar Card Photo</label> -->
       </div>
       
