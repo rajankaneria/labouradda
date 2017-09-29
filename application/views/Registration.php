@@ -27,29 +27,33 @@
         <label for="addhar_card">Aadhar Card Number</label>
       </div>
            
-      <div class="input-field col s12">       
+      <!-- <div class="input-field col s12">       
       <label for="addhar_photo">Adhhar Card Photo</label> 
-      </div></div><br/>
+      </div></div><br/> -->
+      <div class="col s6 row">
+        <div class="col s12" style="padding: 0px;"><label for="addhar_photo"><h6>Adhhar Card Photo</h6></label></div>
+        <div class="input-field col s6">
+          <input type="file" id="addhar_photo" name="addhar_photo"  style="display: none;" />
+          <a href="#" onclick="$('input#addhar_photo').click()" class="btn file-btn">Front</a>
+          <!-- <label for="addhar_photo">Adhhar Card Photo</label> -->
+        </div>
+             
+        <div class="input-field col s6">
+          <input type="file" id="back_photo" name="back_photo"  style="display: none;" />
+        <a href="#" onclick="$('input#back_photo').click()" class="btn file-btn">Back</a>
 
-      <div class="input-field col s6">
-        <input type="file" id="addhar_photo" name="addhar_photo"  style="display: none;" />
-        <a href="#" onclick="$('input#addhar_photo').click()" class="btn file-btn">Front Photo</a>
-        <!-- <label for="addhar_photo">Adhhar Card Photo</label> -->
+          <!-- <label for="addhar_photo">Adhhar Card Photo</label> -->
+        </div>
       </div>
-           
-      <div class="input-field col s6">
-        <input type="file" id="back_photo" name="back_photo"  style="display: none;" />
-      <a href="#" onclick="$('input#back_photo').click()" class="btn file-btn">Back Photo</a>
-
-        <!-- <label for="addhar_photo">Adhhar Card Photo</label> -->
+      <div class="col s6">
+        <div class="col s12" style="padding: 0px;"><label for="addhar_photo"><h6>Labourer Photo</h6></label>
+        <div class="input-field col s12">
+          <input type="file" id="labourer_photo" name="labourer_photo" style="display: none;" />
+          <a href="#" onclick="$('input#labourer_photo').click()" class="btn file-btn">Labourer Photo</a>
+          <!-- <label for="labourer_photo">Labourer Photo</label> -->
+        </div>
       </div>
-      
-      <div class="input-field col s6">
-        <input type="file" id="labourer_photo" name="labourer_photo" style="display: none;" />
-        <a href="#" onclick="$('input#labourer_photo').click()" class="btn file-btn">Labourer Photo</a>
-        <!-- <label for="labourer_photo">Labourer Photo</label> -->
-      </div>
-      
+     </div>
       <div class="input-field col s12">
         <select name="location" id="location">           
           <option value="">Select Location</option>
@@ -61,10 +65,10 @@
       <div class="col s12"> 
 
           <input type="checkbox" id="smart_phone" name="phone[]" value="Smart Phone" />
-          <label for="smart_phone">Smart Phone</label>
+          <label for="smart_phone" style="padding-right: 15px;">Smart Phone</label>
        
           <input type="checkbox" id="basic_phone" name="phone[]" value="Basic Phone" />
-          <label for="basic_phone" style="margin-left: 15px;">Basic Phone</label>
+          <label for="basic_phone" >Basic Phone</label>
       </div>       
       </div>
         <div class="input-field col s12">
