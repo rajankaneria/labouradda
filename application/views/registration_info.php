@@ -7,7 +7,7 @@
       <!-- <div class="page-button"><a class="waves-effect waves-light btn" id="addBlogBtn">Add</a></div> -->
   </div>
   <div class="page-content">
-    <table class="responsive-table">
+    <table class="responsive-table highlight">
       <thead>
           <tr>
               <th>Order</th>
