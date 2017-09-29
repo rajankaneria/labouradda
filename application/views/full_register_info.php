@@ -19,12 +19,12 @@
           <td class="col s12 m6">
             <div class="lable-name"><label><b>Addhar Photo :</b></label></div>
             <div>
-            &nbsp; <img src="<?php echo base_url() ?>html/images/register/<?php echo $addhar_photo; ?>">
+            &nbsp; <img class="responsive-img" src="<?php echo base_url() ?>html/images/register/<?php echo $addhar_photo; ?>">
             </div>
           </td>
           <td class="col s12 m6">
             <div class="lable-name"><label><b>Labourer Photo :</b></label></div>
-            &nbsp; <img src="<?php echo base_url() ?>html/images/register/<?php echo $labourer_photo; ?>">
+            &nbsp; <img class="responsive-img" src="<?php echo base_url() ?>html/images/register/<?php echo $labourer_photo; ?>">
           </td>      
         </tr>       
                   

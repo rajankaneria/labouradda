@@ -6,68 +6,47 @@ class Blog extends CI_Controller
 
 	public function index($blogID = 0)
 	{
-		$this->load->model("blog_model");
-
-		$headerData = array(
-			"pageTitle" => "Blog",
-			"stylesheet" => array("blog.css")
-		);
-
-
+		/*$this->load->model("blog_model");
 		if($blogID == 0){
 			//get all blogs
 			$blogData = $this->blog_model->allBlog();
 			$blogView = "multiBlog";
-			$template = "template";
-			$viewDataArray = array("blogData" => $blogData);
 		}else{
 			//get specific blog
 			$blogData = $this->blog_model->blogDetails($blogID);
 			$blogView = "singleBlog";
-			$template = "blog-template";
-			$blogTitle = $blogData["title"];
-			$blogDescription = $blogData["content"];
-			$blogURL = "http://labouradda.net/blog/id/".$blogData["id"];
-			$blogImage = "https://lh3.googleusercontent.com/oRlZh2CLUzQ21q9Qjxvg2TH2ZOHzcGUTBTnmXxYs1-xvKZ2GtAS0zE6xYnFAKHWUIOV9ZGFmNVFH_udNbwTAWWr9iMKSGPtfnmh_ydT9hnr-2WGeOMG9XzMHL7TRZpjSR5tNqmpEk3Plv2QtXw";
-			$blogRow = array(
-					"url" => $blogURL,
-					"content" => $blogDescription,
-					"title" => $blogTitle,
-					"image" => $blogImage
-			);
-			$shareContainer = $this->load->view("share-layout",$blogRow,TRUE);
-			$headerData["blogRow"] = $blogRow;
-			$blogData["url"] = $blogURL;
-			$viewDataArray = array("blogData" => $blogData,"shareContainer"=>$shareContainer);
 		}		
+
+
+		$headerData = array(
+			"pageTitle" => "Blog",
+			
+			"stylesheet" => array("blog.css")
+		);
 		$footerData = array(
 			"jsFiles" => array()
 		);
 		$viewData = array(
 			"viewName" => $blogView,
-            "viewData" => $viewDataArray,
+            "viewData" => array("blogData" => $blogData),
 			"headerData" => $headerData,
 			"footerData" => $footerData	
 		);
-		$this->load->view($template,$viewData);
+		$this->load->view('template',$viewData);*/
 
 		//$this->load->model("blog_model");
-		//$blogView = "staticBlog";
-		
+		$blogView = "staticBlog";
 		/*
 		if($blogID == 0){
 			//get all blogs
-			$blogData = $this->blog_model->allBlog();
+			//$blogData = $this->blog_model->allBlog();
 			$blogView = "multiBlog";
-			$template = "template";
 		}else{
 			//get specific blog
-			$blogData = $this->blog_model->blogDetails($blogID);
+			//$blogData = $this->blog_model->blogDetails($blogID);
 			$blogView = "singleBlog";
-			$template = "blog-template";
-		}
-		*/	
-		/*
+		}*/		
+
 
 		$blogTitle = "Labouradda: Inception and Design";
 		$blogDescription = "The inspiration of devising a digital crossroad where demand (consumer) makes direct communication with the supply (manpower) came into being as an urge to find a solution to help an undervalued and humongous section of our society. One morning at an ordinary ‘labour mandi’ is what it took to motivate us to hustle for a platform where the dynamics of labourers and customers is simplified and put into order.";
@@ -82,13 +61,10 @@ class Blog extends CI_Controller
 				"image" => $blogImage
 		);
 		$shareContainer = $this->load->view("share-layout",$blogRow,TRUE);
-		*/
-		/*
-		$shareContainer = "";
 		$headerData = array(
 			"pageTitle" => "Blog",
 			"stylesheet" => array("blog.css"),
-			"blogRow" => $blogData
+			"blogRow" => $blogRow
 		);
 		$footerData = array(
 			"jsFiles" => array()
@@ -101,11 +77,10 @@ class Blog extends CI_Controller
 			"footerData" => $footerData	
 		);
 		$this->load->view('blog-template',$viewData);
-		*/
 	}
 
 	public function id($blogID){
-		$this->index($blogID); 
+		$this->index($blogID);
 	}
 
 	public function addBlog()
@@ -122,7 +97,6 @@ class Blog extends CI_Controller
 		//add blog with the text data and get the blog id
 		$blogID = $this->blog_model->addBlog($result);
 
-		/*
 		//Define the file names with blog id with same extension which has been uploaded
 		$featureImage = $blogID."_feature.".pathinfo($_FILES['feature-image']['name'], PATHINFO_EXTENSION);
 		$blogImage = $blogID."_blog.".pathinfo($_FILES['blog-image']['name'], PATHINFO_EXTENSION);
@@ -150,46 +124,8 @@ class Blog extends CI_Controller
 	    $config['file_name'] = $blogID."_blog";
 	    $this->upload->initialize($config);
 	    $this->upload->do_upload('blog-image');
-		*/
+
 	}
-
-	public function addBlogImage(){
-
-		$this->load->model("blog_model");
-
-		//get text data which has been bosted
-		$blogID = $_POST['blog_id'];
-		$imageFileName = $blogID."_".time()."_blog";
-		$blogImage = $imageFileName.".".pathinfo($_FILES['blog-image']['name'], PATHINFO_EXTENSION);
-		$result=array(
-			"blog_id"=>$blogID,
-			"image_caption"=>$_POST['image_caption'],
-			"image_name"=>$blogImage
-		);
-
-		$this->blog_model->addBlogImage($result);
-
-		//set configuration for the upload library
-		$config['upload_path'] = 'C:\xampp\htdocs\labouradda\html\images\blog';
-	    $config['allowed_types'] = 'gif|jpg|png';
-	    $config['overwrite'] = TRUE;
-	    $config['encrypt_name'] = FALSE;
-	    $config['remove_spaces'] = TRUE;
-	    
-	    //set name in the config file for the blog image
-	    $config['file_name'] = $imageFileName;
-	    $this->load->library('upload', $config);
-	    $this->upload->do_upload('blog-image');
-	}
-
-	public function getBlogImages($blogID){
-		$this->load->model("blog_model");
-		$imageList = $this->blog_model->blogImages($blogID);
-		foreach ($imageList as $key => $imageRow) {
-			$this->load->view("admin-blog-image-frame",$imageRow);
-		}
-	}
-
 	public function updateBlog()
 	{
 		$blogID=$_POST['blogUpdateID'];
@@ -197,24 +133,26 @@ class Blog extends CI_Controller
 		$this->load->model("blog_model");
 
 
-		/*
+
 		//Define the file names with blog id with same extension which has been uploaded
 		$featureImage = $blogID."_feature.".pathinfo($_FILES['feature-image']['name'], PATHINFO_EXTENSION);
 		$blogImage = $blogID."_blog.".pathinfo($_FILES['blog-image']['name'], PATHINFO_EXTENSION);
-		*/
+
 
 		//get text data which has been posted
 		$result=array(
 			"title"=>$_POST['title'],
 			"author"=>$_POST['author'],
-			"content"=>$_POST['updatecontent']
+			"content"=>$_POST['content'],
+			"blog-image" => $blogImage,
+			"feature-image" => $featureImage
 		);
 
 		//add blog with the text data and get the blog id
 		$this->blog_model->updateBlog($result,$blogID);
 
 
-		/*
+
 		//set configuration for the upload library
 		$config['upload_path'] = 'C:\xampp\htdocs\labouradda\html\images\blog';
 	    $config['allowed_types'] = 'gif|jpg|png';
@@ -230,8 +168,7 @@ class Blog extends CI_Controller
 		//set name in the config file for the blog image
 	    $config['file_name'] = $blogID."_blog";
 	    $this->upload->initialize($config);
-	    $this->upload->do_upload('blog-image');   
-	    */ 
+	    $this->upload->do_upload('blog-image');    
 
 	}
 	public function deleteBlog($deleteID)
@@ -256,19 +193,13 @@ class Blog extends CI_Controller
 	public function getUpdateData($blogID){
 		$this->load->model("blog_model");
 		$blogRow=$this->blog_model->blogDetails($blogID);
-		//$this->load->view("update_blog",array("blogdata"=>$blogRow));
-		echo json_encode($blogRow);
+		$this->load->view("update_blog",array("blogdata"=>$blogRow));
 	}
 
 	public function getViewData($blogID){
 		$this->load->model("blog_model");
 		$blogRow=$this->blog_model->blogDetails($blogID);
 		$this->load->view("viewblog",array("blogdata"=>$blogRow));
-	}
-
-	public function deleteImage($imageID){
-		$this->load->model("blog_model");
-		$this->blog_model->deleteImage($imageID);
 	}
 	
 }

@@ -8,7 +8,7 @@
     <title>Labouradda | <?php echo $blogRow["title"]; ?></title>
     <!-- CSS-->
 
-    <!-- <link rel="icon" type="image/x-icon" href="<?php echo base_url(); ?>favicon.png"> -->
+        <!-- <link rel="icon" type="image/x-icon" href="<?php echo base_url(); ?>favicon.png"> -->
     <link rel="icon" type="image/png" href="<?php echo base_url(); ?>favicon.png" />
 
     <!-- Compiled and minified CSS -->
@@ -34,7 +34,7 @@
     <meta property="og:url"           content="<?php echo $blogRow["url"]; ?>" />
     <meta property="og:type"          content="website" />
     <meta property="og:title"         content="<?php echo $blogRow["title"]; ?>" />
-    <meta property="og:description"   content="<?php /*echo $blogRow["content"];*/ ?>" />
+    <meta property="og:description"   content="<?php echo $blogRow["content"]; ?>" />
     <meta property="og:image"         content="<?php echo $blogRow["image"]; ?>" />
 
 

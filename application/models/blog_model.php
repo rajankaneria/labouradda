@@ -58,7 +58,7 @@ class Blog_model extends CI_Model {
 		$this->db->update("register",$data);
 	}
 	public function allRegisterData(){
-		$query=$this->db->query("select * from register");
+		$query=$this->db->query("select * from register where full_name!=''");
 		$output=$query->result_array();
 		return $output;
 	}
