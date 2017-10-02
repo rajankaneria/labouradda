@@ -43,12 +43,11 @@ $(function(){
 			});
 			$("#registerForm input").val("");
 			$("#register").val("Register");	
-			 window.location.reload();
+			 //window.location.reload();
 
 		}else{
 			alert("All Fields are required");
-		}		
-
+		}
 
 	});
 

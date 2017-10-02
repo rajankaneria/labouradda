@@ -57,7 +57,10 @@ class Registration extends CI_Controller {
 		$this->blog_model->updateRegister($updateData,$regId);
 
 		//set configuration for the upload library
-		$config['upload_path'] = './html/images/register';
+		//$uploadPath = "./html/images/register";
+		$uploadPath = "c:/wamp/www/labouradda/html/images/register";
+		$config['max_size'] = '100';
+		$config['upload_path'] = $uploadPath;
 	    $config['allowed_types'] = 'gif|jpg|png';
 	    $config['overwrite'] = TRUE;
 	    $config['encrypt_name'] = FALSE;
@@ -80,6 +83,9 @@ class Registration extends CI_Controller {
 	    $config['file_name'] = $regId."_labourer";
 	    $this->upload->initialize($config);
 	    $this->upload->do_upload('labourer_photo');
+
+
+	    $this->upload->display_errors();
 	    
 		}
 		

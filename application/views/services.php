@@ -4,8 +4,11 @@
 
 <div class="nav-top service-nav-top"></div>
 <div class="container service-container">
+	<!--
 	<div class="c-title">Services we provide</div>
 	<p class="c-paragraph">Book labourers for the following services</p>
+	-->
+	<div class="c-title">HIRE FOR FOLLOWING SERVICES</div>
 </div>
 
 <div class="box service-box-mobile hide-on-large-only">
@@ -99,10 +102,27 @@ Customers can hire a labourer for the following time durations:</p>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/loader%20unloader-yellow.png" /></div>
             <div class="offering-title">Loaders & Transporters</div>
             <div class="offering-description row">
-            
+				<!--
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Three Wheelers with Labourers.png" class="img-bx" /><div class="offering-title">3 Wheelers</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Four Wheelers without Labourers.png" class="img-bx" /><div class="offering-title">Four wheelers</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Labourers for Packing & Unpacking.png" class="img-bx" /><div class="offering-title">Truck</div></center></div>
+				-->
+				
+				<p>Hiring loaders and transporters to help you with packing and moving has never been this easy. Labouradda brings its customers a hassle free way of connecting with loaders and transporters in their nearby location to meet their requirements. </p>
+
+				<p>Customers can hire for different transport vehicles with loaders to best meet their needs. The types of vehicles a customer can hire include:</p> 
+
+
+				<li>3 wheelers</li>
+				<li>4 wheelers</li>
+				<li>Trucks</li>
+
+
+
+				<p>Through Labouradda’s website or app, customers can make the booking a day in advance by simply enlisting their home address and the date when they want the loaders and transporters to report to the job. Labouradda will notify the nearest loaders and transporters to the customer’s current location and connect the customers with them. The customer can freely discuss their requirements with the loaders and transporters as per their convenience before hiring.  </p>
+
+				<p><em>* The availability of labour is subject to availability (in terms of time and location). The cost estimate will be determined by the labour themselves after analyzing the magnitude of work via a SMS or call.</em></p>
+				
             </div>
         </div>
 
@@ -113,7 +133,7 @@ Customers can hire a labourer for the following time durations:</p>
             <div class="offering-title">Repair & Maintenance</div>
             <div class="offering-description row">
             
-                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Plumbers.png" class="img-bx" /><div class="offering-title">Plumbers</div></center></div>
+                <?php /*<div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Plumbers.png" class="img-bx" /><div class="offering-title">Plumbers</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Carpenters.png" class="img-bx" /><div class="offering-title">Carpenters</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Painters.png" class="img-bx" /><div class="offering-title">Painters</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Electricians.png" class="img-bx" /><div class="offering-title">Electricians</div></center></div>
@@ -121,6 +141,23 @@ Customers can hire a labourer for the following time durations:</p>
                 <!-- <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Fabricator.png" class="img-bx" /><div class="offering-title">Fabricator</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Car Repair & Maintenance.png" class="img-bx" /><div class="offering-title">Car Mechanics</div></center></div> -->
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/A-C Repair & Maintenance.png" class="img-bx" /><div class="offering-title">A/c Mechanics</div></center></div>
+				*/ ?>
+				<p>Getting a skilled repair and maintenance person to help you with your household or commercial requirements on time has always been task. Labouradda brings forth its customers a unique service wherein they can hire of the kind of skilled repairmen and maintenance person, a day in advance they want the service and interact with them directly and discuss their requirements without any interference from the third party.</p>
+
+				<p>The repair and maintenance help you can hire for through Labouradda are:</p>  
+				<li><strong>Plumbers:</strong> Hire for skilled plumbers to help you with installing new fixtures or repair and maintenance work by just enlisting your requirement through our website or app. </li>
+				<li><strong>Carpenters:</strong> Hire for skilled carpenters for various services including working on new furniture or repairing old furniture through our website or app. </li>
+				<li><strong>Painters:</strong> Hire for skilled painters to refurbish your home/office or painting new construction through our website or app. </li>
+				<li><strong>Electricians:</strong> Hire for skilled electricians near your location for new installations, repair and maintenance purpose through our website or app. </li>
+				<li><strong>Masons:</strong> Hire for skilled masons near you to meet your construction requirements through our website or app.</li>   
+				<li><strong>Fabricator:</strong> Hire for skilled fabricators near you and connect directly to them about your requirements through our website or app. </li>
+				<li><strong>Car Mechanics:</strong> Hire for skilled car mechanics and car garages near your location and get the required repair and maintenance done by simply logging in through our website or app.   </li>
+				<li><strong>A/C Mechanics:</strong> Hire for skilled a/c repair and maintenance person to help you with your requirement through Labouradda website or app. </li>
+
+				<p>Customers can hire for the mentioned services by enlisting their location and the type of service they require- a day in advance and connect directly to the skilled labourer and discuss their requirements and the cost of service before the hiring is finalised.</p>   
+
+				<p><em>* The availability of labour is subject to availability (in terms of time and location). The cost estimate will be determined by the labour themselves after analyzing the magnitude of work via a SMS or call.</em></p>
+			
             </div>
         </div>
 
@@ -249,9 +286,20 @@ Customers can hire a labourer for the following time durations:</p>
             <div class="offering-title">Loaders & Transporters</div>
             <div class="offering-description row">
             <a href="#bookNowModal" class="modal-trigger"><button class="btn right black btn-book">Book Now</button></a>
-                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Three Wheelers with Labourers.png" class="img-bx" /><div class="offering-title">3 Wheelers</div></center></div>
-                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Four Wheelers without Labourers.png" class="img-bx" /><div class="offering-title">Four wheelers</div></center></div>
-                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Labourers for Packing & Unpacking.png" class="img-bx" /><div class="offering-title">Truck</div></center></div>
+                <p>Hiring loaders and transporters to help you with packing and moving has never been this easy. Labouradda brings its customers a hassle free way of connecting with loaders and transporters in their nearby location to meet their requirements. </p>
+
+				<p>Customers can hire for different transport vehicles with loaders to best meet their needs. The types of vehicles a customer can hire include:</p> 
+
+
+				<li>3 wheelers</li>
+				<li>4 wheelers</li>
+				<li>Trucks</li>
+
+
+
+				<p>Through Labouradda’s website or app, customers can make the booking a day in advance by simply enlisting their home address and the date when they want the loaders and transporters to report to the job. Labouradda will notify the nearest loaders and transporters to the customer’s current location and connect the customers with them. The customer can freely discuss their requirements with the loaders and transporters as per their convenience before hiring.  </p>
+
+				<p><em>* The availability of labour is subject to availability (in terms of time and location). The cost estimate will be determined by the labour themselves after analyzing the magnitude of work via a SMS or call.</em></p>
             </div>
         </div>
 
@@ -262,7 +310,7 @@ Customers can hire a labourer for the following time durations:</p>
             <div class="offering-title">Repair & Maintenance</div>
             <div class="offering-description row">
             <a href="#bookNowModal" class="modal-trigger"><button class="btn right black btn-book">Book Now</button></a>
-                <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Plumbers.png" class="img-bx" /><div class="offering-title">Plumbers</div></center></div>
+                <?php /*<div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Plumbers.png" class="img-bx" /><div class="offering-title">Plumbers</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Carpenters.png" class="img-bx" /><div class="offering-title">Carpenters</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Painters.png" class="img-bx" /><div class="offering-title">Painters</div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Electricians.png" class="img-bx" /><div class="offering-title">Electricians</div></center></div>
@@ -270,6 +318,22 @@ Customers can hire a labourer for the following time durations:</p>
                 <!-- <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Fabricator.png" class="img-bx" /><div class="offering-title">Fabricator</div></center></div> -->
                 <!-- <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Car Repair & Maintenance.png" class="img-bx" /><div class="offering-title">Car Mechanics</div></center></div> -->
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/A-C Repair & Maintenance.png" class="img-bx" /><div class="offering-title">A/c Mechanics</div></center></div>
+				*/ ?>
+				<p>Getting a skilled repair and maintenance person to help you with your household or commercial requirements on time has always been task. Labouradda brings forth its customers a unique service wherein they can hire of the kind of skilled repairmen and maintenance person, a day in advance they want the service and interact with them directly and discuss their requirements without any interference from the third party.</p>
+
+				<p>The repair and maintenance help you can hire for through Labouradda are:</p>  
+				<li><strong>Plumbers:</strong> Hire for skilled plumbers to help you with installing new fixtures or repair and maintenance work by just enlisting your requirement through our website or app. </li>
+				<li><strong>Carpenters:</strong> Hire for skilled carpenters for various services including working on new furniture or repairing old furniture through our website or app. </li>
+				<li><strong>Painters:</strong> Hire for skilled painters to refurbish your home/office or painting new construction through our website or app. </li>
+				<li><strong>Electricians:</strong> Hire for skilled electricians near your location for new installations, repair and maintenance purpose through our website or app. </li>
+				<li><strong>Masons:</strong> Hire for skilled masons near you to meet your construction requirements through our website or app.</li>   
+				<li><strong>Fabricator:</strong> Hire for skilled fabricators near you and connect directly to them about your requirements through our website or app. </li>
+				<li><strong>Car Mechanics:</strong> Hire for skilled car mechanics and car garages near your location and get the required repair and maintenance done by simply logging in through our website or app.   </li>
+				<li><strong>A/C Mechanics:</strong> Hire for skilled a/c repair and maintenance person to help you with your requirement through Labouradda website or app. </li>
+
+				<p>Customers can hire for the mentioned services by enlisting their location and the type of service they require- a day in advance and connect directly to the skilled labourer and discuss their requirements and the cost of service before the hiring is finalised.</p>   
+
+				<p><em>* The availability of labour is subject to availability (in terms of time and location). The cost estimate will be determined by the labour themselves after analyzing the magnitude of work via a SMS or call.</em></p>
             </div>
         </div>
         

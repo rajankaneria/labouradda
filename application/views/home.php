@@ -257,6 +257,18 @@
 <div class="row"><div class="pad-20"></div>
   <div class="container">
 
+     <div class="col m4">
+      <div class="abt-box" style="min-height: auto !important;">
+                  <span class="fa-stack fa-2x about-us-icons">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-phone fa-stack-1x" style="color: #E0E0E0;"></i>
+                    </span>
+                    <!-- <img src="images/about-02.jpg" class="img-responsive" alt=".."> -->
+                    <h4>Connect with nearest Labourers</h4>
+                    <div class="border"></div>
+                    <!-- <p>Duis aute irure dolor in reprehen derit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Lorem reprehenderit</p> -->
+                </div>
+    </div>
 
     <div class="col m4">
       <div class="abt-box" style="min-height: auto !important;">
@@ -274,18 +286,7 @@
     </div>
 
 
-    <div class="col m4">
-      <div class="abt-box" style="min-height: auto !important;">
-                  <span class="fa-stack fa-2x about-us-icons">
-                      <i class="fa fa-circle fa-stack-2x"></i>
-                      <i class="fa fa-phone fa-stack-1x" style="color: #E0E0E0;"></i>
-                    </span>
-                    <!-- <img src="images/about-02.jpg" class="img-responsive" alt=".."> -->
-                    <h4>Speak Directly to the Labourers </h4>
-                    <div class="border"></div>
-                    <!-- <p>Duis aute irure dolor in reprehen derit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Lorem reprehenderit</p> -->
-                </div>
-    </div>
+ 
 
 
 
@@ -303,7 +304,40 @@
       </div>
     </div>
   </div>
-<div class="parallax-container z-depth-1 black" id="appSection">
+
+<div class="parallax-container z-depth-1" id="our_partner">
+    <div class="parallax"><img src="<?php echo base_url(); ?>html/images/paralax.jpg"></div>
+    <div class="section-title">Powered by</div>
+
+    <div class="row" style="width:90%;">
+      
+      <div class="col m3 partner-logo">
+        <div class="center">
+          <center><img style="margin-top:14px;" src="<?php echo base_url(); ?>html/images/knowlarity logo.png"></center>
+        </div>
+      </div>
+      <div class="col m3 partner-logo">
+        <div class="center">
+          <center><img style="margin-top:14px;" src="<?php echo base_url(); ?>html/images/Magnum.png"></center>
+        </div>
+      </div>
+      <div class="col m3 partner-logo">
+        <div class="center">
+          <img style="margin-top:14px; width:80%;" src="<?php echo base_url(); ?>html/images/intelliworkz-logo.jpg">
+        </div>
+      </div>
+      <div class="col m3 partner-logo">
+        <div class="center">
+          <img style="margin-top:14px;" src="<?php echo base_url(); ?>html/images/airtel-payments-bank.jpg">
+        </div>
+      </div>
+    </div>
+  
+</div>
+
+
+
+<div class="parallax-container z-depth-1 black" id="appSection" style="margin-top:0px;">
   <div class="row">
     <div class="col s12 m8">
 
@@ -313,6 +347,14 @@
         <div class="row">
 
 
+		   <div class="col s4 m4 app-content-icon center-align">
+            <span class="fa-stack fa-2x about-us-icons">
+              <i class="fa fa-circle fa-stack-2x" style="color: #fff;"></i>
+              <i class="fa fa-phone fa-stack-1x"></i>
+            </span>
+            <div class="app-icon-text">Connect with nearest Labourers</div>
+          </div>
+		
           <div class="col s4 m4 app-content-icon center-align">
             <span class="fa-stack fa-2x about-us-icons">
               <i class="fa fa-certificate fa-stack-2x" style="color: #fff;"></i>
@@ -321,13 +363,7 @@
             <div class="app-icon-text">Adhaar Card Verified Labourers</div>
           </div>
           
-          <div class="col s4 m4 app-content-icon center-align">
-            <span class="fa-stack fa-2x about-us-icons">
-              <i class="fa fa-circle fa-stack-2x" style="color: #fff;"></i>
-              <i class="fa fa-phone fa-stack-1x"></i>
-            </span>
-            <div class="app-icon-text">Speak Directly to the Labourers</div>
-          </div>
+
 
           <div class="col s4 m4 app-content-icon center-align">
             <span class="fa-stack fa-2x about-us-icons">
@@ -363,32 +399,3 @@
 <script type="text/javascript">
   $('.parallax').parallax();
 </script>
-<div class="parallax-container z-depth-1" id="our_partner">
-    <div class="parallax"><img src="<?php echo base_url(); ?>html/images/paralax.jpg"></div>
-    <div class="section-title">Powered by</div>
-    <div class="container">
-    <div class="row">
-      
-      <div class="col m3 partner-logo">
-        <div class="center">
-          <center><img style="margin-top:14px;" src="<?php echo base_url(); ?>html/images/knowlarity logo.png"></center>
-        </div>
-      </div>
-      <div class="col m3 partner-logo">
-        <div class="center">
-          <center><img style="margin-top:14px;" src="<?php echo base_url(); ?>html/images/Magnum.png"></center>
-        </div>
-      </div>
-      <div class="col m3 partner-logo">
-        <div class="center">
-          <img style="margin-top:14px;" src="<?php echo base_url(); ?>html/images/intelliworkz-logo.jpg">
-        </div>
-      </div>
-      <div class="col m3 partner-logo">
-        <div class="center">
-          <img style="margin-top:14px;" src="<?php echo base_url(); ?>html/images/airtel-payments-bank.jpg">
-        </div>
-      </div>
-    </div>
-    </div>
-</div>
