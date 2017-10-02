@@ -7,36 +7,50 @@
       <!-- <div class="page-button"><a class="waves-effect waves-light btn" id="addBlogBtn">Add</a></div> -->
   </div>
   <div class="info-conten">
-    <table>      
-        <tbody> 
-        <tr>
-          <td><b>Name :</b>&nbsp;<span> <?php echo $full_name; ?></span></td>
-        </tr>        
-        <tr><td><b>Addhar Card :</b> &nbsp; <?php echo $addhar_card; ?></td></tr>          
-           <tr><td><b>Phone :</b>&nbsp; <?php echo $phone; ?></td></tr>
-          <tr><td><b>Labouradda Location :</b>&nbsp; <?php echo $labouradda_location; ?></td></tr>
-          <tr class="row">
-          <td class="col s12 m6">
-             <div class="lable-name"><label><b>Addhar Front Photo :</b></label></div>
-            <div>
-            &nbsp; <img class="responsive-img" src="<?php echo base_url() ?>html/images/register/<?php echo $addhar_photo; ?>">
-            </div>
+
+    <div class="labour-registration-form">
+      
+      <div class="registration-detail row">
+        <div class="col s12 m6">
+          <div class="registration-label">Name</div>
+          <div class="registration-value"><?php echo $full_name; ?></div>
+        </div>
+        <div class="col s12 m6">
+          <div class="registration-label">Location</div>
+          <div class="registration-value"><?php echo $labouradda_location; ?></div>
+        </div>
+      </div>
+
+      <div class="registration-detail row">
+        <div class="col s12 m6">
+          <div class="registration-label">Phone</div>
+          <div class="registration-value"><?php echo $phone; ?></div>
+        </div>
+        <div class="col s12 m6">
+          <div class="registration-label">Aadhar Card</div>
+          <div class="registration-value"><?php echo $addhar_card; ?></div>
+        </div>
+      </div>
 
 
-            <div class="lable-name"><label><b>Addhar Back Photo :</b></label></div>
-            <div>
-            &nbsp; <img src="<?php echo base_url() ?>html/images/register/<?php echo $back_photo; ?>">
-            </div>           
 
-          </td>
-          <td class="col s12 m6">
-            <div class="lable-name"><label><b>Labourer Photo :</b></label></div>
-            &nbsp; <img class="responsive-img" src="<?php echo base_url() ?>html/images/register/<?php echo $labourer_photo; ?>">
-          </td>      
-        </tr>       
-                  
-        </tbody>
-    </table>
+      <div class="registration-detail row">
+        <div class="register-image-container col s12 m4">
+          <div class="lable-name"><label><b>Labourer</b></label></div>
+          <img class="responsive-img materialboxed" src="<?php echo base_url() ?>html/images/labour_registration/<?php echo $labourer_photo; ?>">
+        </div>
+        <div class="register-image-container col s12 m4">
+          <div class="lable-name"><label><b>Addhar Front</b></label></div>
+          <img class="responsive-img materialboxed" src="<?php echo base_url() ?>html/images/labour_registration/<?php echo $addhar_photo; ?>">
+        </div>
+        <div class="register-image-container col s12 m4">
+          <div class="lable-name"><label><b>Addhar Back</b></label></div>
+          <img class="responsive-img materialboxed" src="<?php echo base_url() ?>html/images/labour_registration/<?php echo $back_photo; ?>">
+        </div>
+      </div>
+
+
+    </div>
   </div>
 
   </div>  

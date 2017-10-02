@@ -21,7 +21,9 @@ class Registration extends CI_Controller {
 		$this->load->view('template',$viewData);
 	}
 	public function register(){	
-		
+		ini_set('display_errors', 1);
+		ini_set('display_startup_errors', 1);
+		error_reporting(E_ALL);
 		$this->load->model("blog_model");
 
 		//get text data which has been bosted
@@ -57,9 +59,9 @@ class Registration extends CI_Controller {
 		$this->blog_model->updateRegister($updateData,$regId);
 
 		//set configuration for the upload library
-		//$uploadPath = "./html/images/register";
-		$uploadPath = "c:/wamp/www/labouradda/html/images/register";
-		$config['max_size'] = '100';
+		$uploadPath = "./html/images/labour_registration";
+		//$uploadPath = "c:\wamp\www\labouradda\html\images\labour_registration";
+		/*$config['max_size'] = '100';*/
 		$config['upload_path'] = $uploadPath;
 	    $config['allowed_types'] = 'gif|jpg|png';
 	    $config['overwrite'] = TRUE;
@@ -71,12 +73,12 @@ class Registration extends CI_Controller {
 	    $config['file_name'] = $regId."_frontAddhar";
 	    $this->load->library('upload', $config);
 	    $this->upload->do_upload('addhar_photo');
-
+$this->upload->display_errors();
 	    //set name in the config file for the backAddhar image
 	    $config['file_name'] = $regId."_backAddhar";
 	    $this->upload->initialize($config);
 	    $this->upload->do_upload('back_photo');	    
-
+$this->upload->display_errors();
 
 
 		//set name in the config file for the labourer image

@@ -29,6 +29,7 @@ $(function(){
 
 		if(errorFlag == 0){
 			var formdata=new FormData($("#registerForm")[0]);
+			$("#register").val("Processing...");
 			$.ajax({
 				url:baseUrl+"Registration/register/",
 				data:formdata,
@@ -37,13 +38,14 @@ $(function(){
 				contentType:false,
 				success:function(result){
 					alert("Your Registration are done... Thank you..");
-					//window.location.href="#!";
+					//$("#register").val("");
+					$("#registerForm input").val("");
+					$("#register").val("Register");	
+					window.location.reload();
 				}
 				
 			});
-			$("#registerForm input").val("");
-			$("#register").val("Register");	
-			 //window.location.reload();
+			
 
 		}else{
 			alert("All Fields are required");
@@ -57,6 +59,7 @@ $(function(){
 		var regId=$(this).data('regid');
 		$.post(baseUrl+"Admin/singleView/"+regId,function(data){
 			$("#viewModal .modal-content").html(data);
+			$('.materialboxed').materialbox();
 		});
 	});
 

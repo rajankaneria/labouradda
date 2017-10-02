@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="msapplication-tap-highlight" content="no">
-    <title>Labouradda | <?php echo $blogRow["title"]; ?></title>
+    <title>Labouradda | <?php if(isset($blogRow)){ echo $blogRow["title"]; }else{ echo "Blogs"; } ?></title>
     <!-- CSS-->
 
         <!-- <link rel="icon" type="image/x-icon" href="<?php echo base_url(); ?>favicon.png"> -->
@@ -30,13 +30,13 @@
     <script src="https://use.fontawesome.com/4c9f41dc36.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-
+    <?php if(isset($blogRow)){ ?>
     <meta property="og:url"           content="<?php echo $blogRow["url"]; ?>" />
     <meta property="og:type"          content="website" />
     <meta property="og:title"         content="<?php echo $blogRow["title"]; ?>" />
     <meta property="og:description"   content="<?php echo $blogRow["content"]; ?>" />
     <meta property="og:image"         content="<?php echo $blogRow["image"]; ?>" />
-
+    <?php } ?>
 
 
   <script>

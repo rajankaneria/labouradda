@@ -34,13 +34,13 @@
         <div class="col s12" style="padding: 0px;"><label for="addhar_photo"><h6>Adhhar Card Photo</h6></label></div>
         <div class="input-field col s6">
           <input type="file" id="addhar_photo" name="addhar_photo"  style="display: none;" />
-          <a href="#" onclick="$('input#addhar_photo').click()" class="btn file-btn">Front</a>
+          <a href="#!" onclick="$('input#addhar_photo').click()" class="btn file-btn">Front</a>
           <!-- <label for="addhar_photo">Adhhar Card Photo</label> -->
         </div>
              
         <div class="input-field col s6">
           <input type="file" id="back_photo" name="back_photo"  style="display: none;" />
-        <a href="#" onclick="$('input#back_photo').click()" class="btn file-btn">Back</a>
+        <a href="#!" onclick="$('input#back_photo').click()" class="btn file-btn">Back</a>
 
           <!-- <label for="addhar_photo">Adhhar Card Photo</label> -->
         </div>
@@ -49,7 +49,7 @@
         <div class="col s12" style="padding: 0px;"><label for="addhar_photo"><h6>Labourer Photo</h6></label>
         <div class="input-field col s12">
           <input type="file" id="labourer_photo" name="labourer_photo" style="display: none;" />
-          <a href="#" onclick="$('input#labourer_photo').click()" class="btn file-btn">Labourer Photo</a>
+          <a href="#!" onclick="$('input#labourer_photo').click()" class="btn file-btn">Labourer Photo</a>
           <!-- <label for="labourer_photo">Labourer Photo</label> -->
         </div>
       </div>
