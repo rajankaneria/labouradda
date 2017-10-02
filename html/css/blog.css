@@ -171,3 +171,56 @@ h5.post-title {
     padding: 0 !important;
 }
 
+
+.multiblog .blog-box-image img {
+  display: block;
+}
+.multiblog .blog-details {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0,0,0,0.8);
+  width: 100%;
+  padding: 14px;
+}
+.multiblog .card-panel.blog-box-panel {
+  padding: 0px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.multiblog .blog-box-container {
+  position: relative;
+}
+
+.multiblog .blog-title {
+  color: #fff;
+}
+.multiblog .blog-box-container {
+    height: 290px;
+}
+
+.multiblog .blog-title {
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+}
+.multiblog .blog-author {
+    float: right;
+    color: #636363;
+    margin-right: 0px;
+}
+.multiblog .blog-author span {
+    color: #c9c9c9;
+}
+.multiblog .blog-date {
+    float: left;
+    color: #747474;
+    font-size: 12px;
+}
+
+.multiblog.latest-blog-item {
+    margin-bottom: 15px;
+}
+.multiblog.latest-blog-item img {
+    display: block;
+}

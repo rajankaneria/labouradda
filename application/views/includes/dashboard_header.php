@@ -66,7 +66,7 @@
            <li class="sidebar-brand"><a id="menu-toggle" href="#">Menu<span id="main_icon" class="glyphicon glyphicon-align-justify"></span></a></li>
       </ul>
         <ul class="sidebar-nav" id="sidebar">     
-          <!--<li><a href="<?php echo base_url(); ?>admin/dashboard">Blog<span class="sub_icon glyphicon glyphicon-link"></span></a></li> -->
+          <li><a href="<?php echo base_url(); ?>admin/dashboard">Blog<span class="sub_icon glyphicon glyphicon-link"></span></a></li>
            <li><a href="<?php echo base_url(); ?>admin/registeredData">Registration<span class="sub_icon glyphicon glyphicon-link"></span></a></li>
           <!--<li><a href="<?php echo base_url(); ?>admin/banner">Blog Images<span class="sub_icon glyphicon glyphicon-link"></span></a></li>-->
         </ul>

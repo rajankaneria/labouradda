@@ -24,6 +24,7 @@ class Blog_model extends CI_Model {
 	{
 		$query = $this->db->query("select * from blog where id='$blogid'");
 		$output = $query->row_array();
+		$output["blogImages"] = $this->blogImages($output["id"]);
 		return $output;
 	}
 
@@ -31,6 +32,9 @@ class Blog_model extends CI_Model {
 	{
 		$query = $this->db->query("select * from blog");
 		$output = $query->result_array();
+		foreach ($output as $key => $blogRow) {
+			$output[$key]["blogImages"] = $this->blogImages($blogRow["id"]);
+		}
 		return $output;	
 	}
 

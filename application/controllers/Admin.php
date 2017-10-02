@@ -5,7 +5,7 @@ class Admin extends CI_Controller {
 
 	
 	public function index()
-	{		
+	{
 		if($this->session->userdata("usernanme"))
 		{
 			header("location:".base_url()."Dashboard");
@@ -38,8 +38,7 @@ class Admin extends CI_Controller {
 		{
 			header("Location:".base_url()."login");
 		}
-		header("location: ".base_url()."admin/registeredData");
-		exit();
+		
 		$this->load->model("blog_model");
 		$blogs=$this->blog_model->allBlog();
 
