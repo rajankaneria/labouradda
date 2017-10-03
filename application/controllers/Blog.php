@@ -112,7 +112,7 @@ class Blog extends CI_Controller
 		$blogList = $this->blog_model->allBlog();
 		$blogRow = array(
 				"url" => base_url()."blog/id/".$blogData["id"],
-				"content" => substr(strip_tags($blogData["content"]),300)."...",
+				"content" => substr(strip_tags($blogData["content"]),0,350)."...",
 				"title" => $blogData["title"],
 				"image" => base_url()."html/images/blog/".$blogData["blogImages"][0]['image_name']
 		);
@@ -121,7 +121,8 @@ class Blog extends CI_Controller
 
 		$headerData = array(
 			"pageTitle" => "Blog",
-			"stylesheet" => array("blog.css")
+			"stylesheet" => array("blog.css"),
+			"blogRow"=>$blogRow
 		);
 		$footerData = array(
 			"jsFiles" => array()

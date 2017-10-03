@@ -224,3 +224,8 @@ h5.post-title {
 .multiblog.latest-blog-item img {
     display: block;
 }
+.carousel.carousel-slider.center.initialized {
+    margin: 40px !important;
+    width: calc(100% - 80px) !important;
+    margin-top: 20px !important;
+}
