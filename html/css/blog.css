@@ -2,7 +2,7 @@
     margin-top: 65px;
 }
 .blog-title {
-    font-size: 25px;
+    font-size: 34px;
 }
 .blog-feature-image img {
     width: 100%;
@@ -229,3 +229,25 @@ h5.post-title {
     width: calc(100% - 80px) !important;
     margin-top: 20px !important;
 }
+
+
+
+@media(max-width: 768px){
+    .carousel.carousel-slider.center.initialized{
+        margin: 0 auto !important;
+        width: 100% !important;
+        margin-top: 20px !important;
+    }
+    .blog-title {
+        font-size: 26px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+    .blog-author{
+        margin-left: 0px;
+    }
+    .row.social-plugin-container{
+        margin-left: 0px;
+    }
+}
+

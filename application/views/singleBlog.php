@@ -39,7 +39,7 @@ h3 {
 
 			 	<div class="carousel carousel-slider center" data-indicators="true">
 				 	<?php foreach($blogRow["blogImages"] as $key=>$imageRow){ ?>
-				    <div class="carousel-item red white-text">
+				    <div class="carousel-item black white-text">
 				      <img class="responsive-img" src="<?php echo base_url(); ?>html/images/blog/<?php echo $imageRow['image_name']; ?>" />
 				      <div class="image-caption"><?php echo $imageRow['image_caption']; ?></div>
 				    </div>
