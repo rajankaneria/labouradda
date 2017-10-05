@@ -85,9 +85,9 @@
       </ul>
         <!-- Dropdown Structure -->
         <ul id="dropdown1" class="dropdown-content">
-          <li><a href="#bookNowModal" class="modal-trigger">Sign in</a></li>
+          <li><a href="http://labouradda.qerp.in/adda/" target="_blank" class="">Sign in</a></li>
           <li class="divider"></li>
-          <li><a href="#bookNowModal" class="modal-trigger">Sign up</a></li>
+          <li><a  href="http://labouradda.qerp.in/adda/" target="_blank" class="">Sign up</a></li>
         </ul>
       <ul id="nav-mobile" class="side-nav">
         <li class="<?php if(strtolower($this->uri->segment(1)) == 'home'){ ?>me<?php  } ?>">
@@ -115,10 +115,10 @@
             <a href="<?php echo base_url(); ?>contact">Contact us</a>
         </li>
         <li>
-            <a href="http://103.48.64.131/adda">Sign in</a>
+            <a href="http://labouradda.qerp.in/adda/" target="_blank">Sign in</a>
         </li>
         <li>
-            <a href="http://103.48.64.131/adda">Sign up</a>
+            <a href="http://labouradda.qerp.in/adda/" target="_blank">Sign up</a>
         </li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>

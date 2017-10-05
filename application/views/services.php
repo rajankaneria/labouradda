@@ -204,7 +204,7 @@ Customers can hire a labourer for the following time durations:</p>
             <div class="offering-icon yellow-icon"><img src="<?php echo base_url(); ?>html/images/MorethanoneLabourformorethanoneday-yellow.png" /></div>
             <div class="offering-title">Daily wage Labourers</div>
             <div class="offering-description row">
-            <a href="#bookNowModal" class="modal-trigger"><button class="btn right black btn-book">Book Now</button></a>
+            <a href="http://labouradda.qerp.in/adda/" target="_blank" class=""><button class="btn right black btn-book">Book Now</button></a>
                 <!--<div class="col m2"><center>
                 <img src="<?php echo base_url(); ?>html/images/Construction & Maintenance.png" class="img-bx" /><div class="offering-title">Construction and maintenance </div></center></div>
                 <div class="col m2"><center><img src="<?php echo base_url(); ?>html/images/Farming.png" class="img-bx" /><div class="offering-title">Farming </div></center></div>-->
