@@ -6,55 +6,13 @@ class Blog extends CI_Controller
 
 	public function index($blogID = 0)
 	{
+		/*
 		$this->load->model("blog_model");
-		/*
-		if($blogID == 0){
-			//get all blogs
-			$blogData = $this->blog_model->allBlog();
-			$blogView = "multiBlog";
-		}else{
-			//get specific blog
-			$blogData = $this->blog_model->blogDetails($blogID);
-			$blogView = "singleBlog";
-		}		
-
-
-		$headerData = array(
-			"pageTitle" => "Blog",
-			
-			"stylesheet" => array("blog.css")
-		);
-		$footerData = array(
-			"jsFiles" => array()
-		);
-		$viewData = array(
-			"viewName" => $blogView,
-            "viewData" => array("blogData" => $blogData),
-			"headerData" => $headerData,
-			"footerData" => $footerData	
-		);
-		$this->load->view('template',$viewData);*/
-
-		//$this->load->model("blog_model");
 		$blogView = "staticBlog";
-		/*
-		if($blogID == 0){
-			//get all blogs
-			//$blogData = $this->blog_model->allBlog();
-			$blogView = "multiBlog";
-		}else{
-			//get specific blog
-			//$blogData = $this->blog_model->blogDetails($blogID);
-			$blogView = "singleBlog";
-		}*/		
-
-
 		$blogTitle = "Labouradda: Inception and Design";
 		$blogDescription = "The inspiration of devising a digital crossroad where demand (consumer) makes direct communication with the supply (manpower) came into being as an urge to find a solution to help an undervalued and humongous section of our society. One morning at an ordinary ‘labour mandi’ is what it took to motivate us to hustle for a platform where the dynamics of labourers and customers is simplified and put into order.";
 		$blogURL = "http://labouradda.net/blog";
 		$blogImage = "https://lh3.googleusercontent.com/oRlZh2CLUzQ21q9Qjxvg2TH2ZOHzcGUTBTnmXxYs1-xvKZ2GtAS0zE6xYnFAKHWUIOV9ZGFmNVFH_udNbwTAWWr9iMKSGPtfnmh_ydT9hnr-2WGeOMG9XzMHL7TRZpjSR5tNqmpEk3Plv2QtXw";
-
-
 		$blogRow = array(
 				"url" => $blogURL,
 				"content" => $blogDescription,
@@ -77,6 +35,8 @@ class Blog extends CI_Controller
 			"footerData" => $footerData	
 		);
 		$this->load->view('blog-template',$viewData);
+		*/
+		$this->blogList();
 	}
 
 
