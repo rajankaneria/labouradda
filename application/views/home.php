@@ -46,6 +46,9 @@
     <div class="carousel-item amber white-text" href="#five!">
       <img onclick="window.location.href='<?php echo base_url(); ?>services/Daily_wage_Labourers'" src="<?php echo base_url(); ?>html/images/slider-5.jpg" />
     </div>
+    
+
+   
 
 
     <!--
@@ -323,7 +326,7 @@
       </div>
       <div class="col m3 partner-logo">
         <div class="center">
-          <img style="margin-top:14px; width:80%;" src="<?php echo base_url(); ?>html/images/intelliworkz-logo.jpg">
+          <img style="margin-top:14px; width:80%;" src="<?php echo base_url(); ?>html/images/intelliworkz-logo.png">
         </div>
       </div>
       <div class="col m3 partner-logo">
@@ -336,7 +339,25 @@
 </div>
 
 
+<div class="parallax-container z-depth-1 black" id="appSectionNew" style="margin-top:0px;">
+  <div class="row" style="margin-bottom:0px;">
+    <div class="col s12 m8">
+      <div class="app-banner-title">Hiring a labour for your work is just a click away...!</div>
+      <div class="app-banner-subtitle">Download the app to get your home or office cleaned by a trustworthy and verified labour.</div>
+      <div class="row app-store-images" >
+        <div class="col s6 m6"><div class="app-store-link-container"><a href="https://play.google.com/store/apps/details?id=qis.com.labouradda&hl=en" target="_blank"><img src="<?php echo base_url(); ?>html/images/Googleplayicon.png" /></div></div>
+        <div class="col s6 m6"><div class="qrcode-container"><img src="<?php echo base_url(); ?>html/images/QRCode.png" /></div></div>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="app-image-container">
+        <img src="<?php echo base_url(); ?>html/images/phone.png" />
+      </div>
+    </div>
+  </div>
+</div>
 
+<?php /*
 <div class="parallax-container z-depth-1 black" id="appSection" style="margin-top:0px;">
   <div class="row">
     <div class="col s12 m8">
@@ -396,6 +417,7 @@
     </div>
   </div>
 </div>
+*/ ?>
 <script type="text/javascript">
   $('.parallax').parallax();
 </script>

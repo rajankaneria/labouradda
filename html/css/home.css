@@ -358,3 +358,57 @@ body .row.home-services .offering-container {
     padding-top:0px;
     padding-bottom: 0px;
 }
+
+
+
+.app-store-link-container {
+  text-align: center;
+}
+.app-store-link-container img {
+  max-width: 170px;
+margin-top: 30px;
+}
+.qrcode-container {
+  text-align: center;
+}
+.qrcode-container img {
+  max-width: 100px;
+}
+#appSectionNew {
+  padding-top: 100px;
+}
+.app-banner-title {
+      color: #fff;
+    font-size: 42px;
+    margin-left: 50px;
+    max-width: 580px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+.app-banner-subtitle {
+  color: #fff;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  max-width: 478px;
+}
+
+
+.row.app-store-images {
+    width: 60%;
+    float: left;
+}
+
+
+.app-image-container img {
+  width: 300px;
+  display: block;
+}
+
+#appSectionNew {
+    padding-bottom: 0px;
+}
+
+#appSectionNew {
+    padding-bottom: 0px;
+}
