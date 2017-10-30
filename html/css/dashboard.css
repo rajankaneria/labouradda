@@ -293,3 +293,9 @@ input:-webkit-autofill {
     display: block;
     float: none !important;
 }
+
+.no-section-message {
+    text-align: center;
+    padding: 100px;
+    color: #a2a2a2;
+}

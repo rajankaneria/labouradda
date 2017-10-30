@@ -53,6 +53,25 @@ h3 {
 
 				
 				<div class="blog-content"><?php echo $blogRow["content"]; ?></div>
+
+
+				<?php foreach($sectionData as $sectionKey => $sectionRow){ ?>
+				<div class="section-subtitle"><?php echo $sectionRow["title"]; ?></div>
+				<div class="section-content"><?php echo $sectionRow["content"]; ?></div>
+
+
+				<div class="carousel carousel-slider center" data-indicators="true">
+				 	<?php foreach($sectionRow["sectionImages"] as $key=>$imageRow){ ?>
+				    <div class="carousel-item black white-text">
+				      <img class="responsive-img" src="<?php echo base_url(); ?>html/images/blog/<?php echo $imageRow['image_name']; ?>" />
+				      <div class="image-caption"><?php echo $imageRow['image_caption']; ?></div>
+				    </div>
+				    <?php } ?>
+			  	</div>
+
+				<?php } ?>
+				
+
 			</div>
 			<div class="fb-comments" data-href="http://labouradda.net/blog/id/<?php $blogData['id'] ?>" data-width="100%" data-numposts="5"></div>
 		</div>

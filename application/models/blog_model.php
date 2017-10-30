@@ -72,6 +72,27 @@ class Blog_model extends CI_Model {
 		return $output;
 	}
 
+	public function getBlogSections($blogID){
+		$query = $this->db->query("select * from blog_section where blog_id='$blogID'");
+		$output=$query->result_array();
+		foreach ($output as $key => $sectionRow) {
+			$output[$key]["sectionImages"] = $this->getSectionImages($sectionRow["id"]);
+		}
+		return $output;
+	}
+
+	public function getSectionRow($sectionID){
+		$query = $this->db->query("select * from blog_section where id='$sectionID'");
+		$output=$query->row_array();
+		return $output;
+	}
+
+	public function getSectionImages($sectionID){
+		$query = $this->db->query("select * from section_image where section_id='$sectionID'");
+		$output=$query->result_array();
+		return $output;
+	}
+
 
 }
 ?>

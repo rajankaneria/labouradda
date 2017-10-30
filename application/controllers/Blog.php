@@ -78,6 +78,7 @@ class Blog extends CI_Controller
 		);
 		$shareContainer = $this->load->view("share-layout",$blogRow,TRUE);
 
+		$sectionData = $this->blog_model->getBlogSections($blogID);
 
 		$headerData = array(
 			"pageTitle" => "Blog",
@@ -89,7 +90,7 @@ class Blog extends CI_Controller
 		);
 		$viewData = array(
 			"viewName" => "singleBlog",
-            "viewData" => array("blogList"=>$blogList,"blogData" => $blogData,"shareContainer"=>$shareContainer),
+            "viewData" => array("blogList"=>$blogList,"blogData" => $blogData,"sectionData"=>$sectionData,"shareContainer"=>$shareContainer),
 			"headerData" => $headerData,
 			"footerData" => $footerData	
 		);
@@ -203,6 +204,13 @@ class Blog extends CI_Controller
 	    $this->upload->do_upload('blog-image');
 	    $this->upload->display_errors();
 
+	}
+
+	public function getBlogSection($blogid){
+		$this->load->model("blog_model");
+		$sectionList = $this->blog_model->getBlogSections($blogid);
+		$blogRow = $this->blog_model->blogDetails($blogid);
+		$this->load->view("blogsection",array("sectionList"=>$sectionList,"blogRow"=>$blogRow));
 	}
 	
 }

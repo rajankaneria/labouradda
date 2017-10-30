@@ -158,16 +158,12 @@ $(function(){
         $(".blog-section-btn").on("click",function(){
 			$("#sectionModal").modal('open');
 			var blogID = $(this).data("blogid");
-			$.post(baseurl+"blog/getUpdateData/"+blogID,function(data){
-				data = $.parseJSON(data);
-				$("#editModal #title").val(data.title);
-				$("#editModal #author").val(data.author);
-				$("#editModal #blogUpdateID").val(data.id);
-				$("#editModal #updatecontent").html(data.content);
-				//tinyMCE.EditorManager.execCommand('mceRemoveControl',true, "updatecontent");
-				console.log()
-	            tinymce.get('updatecontent').setContent(data.content);
-				Materialize.updateTextFields();
+			$.post(baseurl+"blog/getBlogSection/"+blogID,function(data){
+				//data = $.parseJSON(data);
+				$("#sectionModal .modal-content").html(data);
+				$("#addSectionBtn").on("click",function(){
+					$("#addSectionModal").modal('open');
+				});
 			});
         });
 
@@ -182,7 +178,5 @@ $(function(){
          $(".section-delete-btn").on("click",function(){
 
         });
-
-
 
 });

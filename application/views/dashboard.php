@@ -175,3 +175,9 @@
 
 
  
+<div id="addSectionModal" class="modal">
+    <div class="modal-content">
+      <?php $this->load->view("addsection"); ?>
+    </div>
+  </div>
+</div>
