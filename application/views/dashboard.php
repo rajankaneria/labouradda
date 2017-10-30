@@ -25,6 +25,9 @@
 
 
             <td class="right-align blog-btn">
+
+<a  data-blogid="<?php echo $blogRow['id']; ?>" data-position="top" data-delay="50" data-tooltip="Add Blog Section"  class="btn-floating waves-effect waves-light blue-grey blog-section-btn tooltipped"><i class="fa fa-newspaper-o" aria-hidden="true"></i></a>
+
               <a  data-blogid="<?php echo $blogRow['id']; ?>" data-position="top" data-delay="50" data-tooltip="Add Blog Image"  class="btn-floating waves-effect waves-light blue-grey blog-image-btn tooltipped"><i class="fa fa-file-image-o" aria-hidden="true"></i></a>
             <!--<a data-blogid="<?php echo $blogRow['id']; ?>" data-position="top" data-delay="50" data-tooltip="Preview Blog"  class="btn-floating waves-effect waves-light blue-grey blog-view-btn tooltipped"><i class="fa fa-eye" aria-hidden="true"></i></a>-->
               
@@ -143,5 +146,32 @@
     </div>
   </div>
 </div>
+
+
+
+
+
+
+<div id="sectionModal" class="modal">
+    <div class="modal-content">
+      <?php $this->load->view("blogsection"); ?>
+    </div>
+  </div>
+</div>
+
+<div id="sectionEditModal" class="modal">
+    <div class="modal-content">
+      <?php $this->load->view("sectionedit"); ?>
+    </div>
+  </div>
+</div>
+
+<div id="sectionImageModal" class="modal">
+    <div class="modal-content">
+      <?php $this->load->view("sectionimage"); ?>
+    </div>
+  </div>
+</div>
+
 
  

@@ -155,5 +155,34 @@ $(function(){
         });
 
 
+        $(".blog-section-btn").on("click",function(){
+			$("#sectionModal").modal('open');
+			var blogID = $(this).data("blogid");
+			$.post(baseurl+"blog/getUpdateData/"+blogID,function(data){
+				data = $.parseJSON(data);
+				$("#editModal #title").val(data.title);
+				$("#editModal #author").val(data.author);
+				$("#editModal #blogUpdateID").val(data.id);
+				$("#editModal #updatecontent").html(data.content);
+				//tinyMCE.EditorManager.execCommand('mceRemoveControl',true, "updatecontent");
+				console.log()
+	            tinymce.get('updatecontent').setContent(data.content);
+				Materialize.updateTextFields();
+			});
+        });
+
+        $(".section-image-btn").on("click",function(){
+			$("#sectionImageModal").modal('open');
+        });
+
+        $(".section-edit-btn").on("click",function(){
+			$("#sectionEditModal").modal('open');
+        });
+
+         $(".section-delete-btn").on("click",function(){
+
+        });
+
+
 
 });
